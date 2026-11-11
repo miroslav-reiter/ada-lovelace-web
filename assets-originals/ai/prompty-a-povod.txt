@@ -1,4 +1,4 @@
-# Ada Lovelace — AI fotografie
+# Ada Lovelace - AI fotografie
 
 Vytvorené vstavaným nástrojom image_gen, 11. novembra 2026. Všetky tri zábery sú fiktívne a nezobrazujú historické udalosti.
 

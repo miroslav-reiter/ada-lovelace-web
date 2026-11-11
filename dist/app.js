@@ -25,12 +25,12 @@ $$('.filter').forEach(button => button.addEventListener('click', () => {
 const projects = {
   bernoulli: {
     title: 'Bernoulli.exe', kind: 'fact',
-    description: 'V poznámke G z roku 1843 Ada opísala postup na výpočet Bernoulliho čísel pomocou analytického stroja. Často sa uvádza ako prvý publikovaný počítačový program. Stroj však za jej života nebol dokončený. Názov „Bernoulli.exe“ je náš vtip — prípony súborov vtedy rozhodne neriešili.',
+    description: 'V poznámke G z roku 1843 Ada opísala postup na výpočet Bernoulliho čísel pomocou analytického stroja. Často sa uvádza ako prvý publikovaný počítačový program. Stroj však za jej života nebol dokončený. Názov „Bernoulli.exe“ je náš vtip - prípony súborov vtedy rozhodne neriešili.',
     extra: '<div class="dialog-callout">Malá ochutnávka veľkého nápadu<div class="number-demo"><label for="bernoulli-index">Vyberte číslo:</label><select id="bernoulli-index"><option value="2">B₂</option><option value="4">B₄</option><option value="6">B₆</option><option value="8">B₈</option><option value="10">B₁₀</option><option value="12">B₁₂</option></select><output id="bernoulli-result" for="bernoulli-index" aria-live="polite">1 / 6</output></div><small>Moderná ukážka vybraných hodnôt. Nejde o simuláciu pôvodného stroja ani Adinho algoritmu.</small></div>',
     source: sources.history, sourceLabel: 'Computer History Museum'
   },
   notes: {
-    title: 'Poznámky A — G', kind: 'fact',
+    title: 'Poznámky A - G', kind: 'fact',
     description: 'Ada preložila z francúzštiny článok Luigiho Menabreu o Babbageovom analytickom stroji. Pripojila vlastné poznámky A až G, ktoré vysvetľovali jeho možnosti. Uvažovala aj o práci s inými symbolmi než číslami, napríklad s hudbou.',
     extra: '<div class="dialog-callout">Redakčný preklad do dnešnej reči:<br>„Opravila som README. A mimochodom, opísala budúcnosť počítačov.“<small>Vymyslená hláška, nie Adin citát.</small></div>',
     source: sources.museum, sourceLabel: 'Science Museum Group'

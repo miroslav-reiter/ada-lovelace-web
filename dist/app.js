@@ -54,7 +54,7 @@ const projects = {
   undo: {
     title: 'Salónový Undo', kind: 'fiction',
     description: 'Vymyslené zariadenie na vrátenie poslednej spoločenskej katastrofy. Rozliali ste čaj na baróna? Ctrl + Z. Pochválili ste nesprávny klobúk? Ctrl + Z. Prezradili ste, čo si myslíte o jeho matematike? Tam už treba nový salón.',
-    extra: '<div class="dialog-callout" id="undo-message">„Váš klobúk vyzerá ako pokazený diferenciálny stroj.“</div><button class="button primary dialog-action" id="undo-demo">Zachrániť večierok · Ctrl + Z</button>'
+    extra: '<div class="dialog-callout" id="undo-message" role="status" aria-live="polite" aria-atomic="true">„Váš klobúk vyzerá ako pokazený diferenciálny stroj.“</div><button class="button primary dialog-action" id="undo-demo">Zachrániť večierok · Ctrl + Z</button>'
   }
 };
 

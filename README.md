@@ -2,7 +2,7 @@
 
 Recesistický slovenský web o Ade Lovelace: overené historické informácie, vedome vymyslené projekty a viktoriánsky humor s notebookom na pláži.
 
-**Web:** [Ada Lovelace - Kód, čaj a chaos](https://ada-lovelace-salon-1843.vita-academy-7121.chatgpt.site/)
+**Web:** [Ada Lovelace - Kód, čaj a chaos](https://ada-lovelace.vita-academy-7121.chatgpt.site/)
 
 Prístup na web sa riadi jeho nastaveniami v Sites. Tento repozitár obsahuje kompletné súbory poslednej publikovanej verzie vrátane všetkých obrázkov. Pôvodná história troch úprav zo Sites je zachovaná v obnoviteľnom Git archíve `docs/source-history.bundle`.
 
@@ -90,3 +90,7 @@ Archív `docs/source-history.bundle` obsahuje pôvodné Git commity zo Sites až
 ```sh
 git clone docs/source-history.bundle ada-lovelace-historia
 ```
+
+## Prístupnosť
+
+Zväčšené písmo, upravené kontrasty a ovládanie klávesnicou. Rozsah technického overenia a jeho limity sú v [kontrole prístupnosti](docs/PRISTUPNOST.md).

@@ -2,6 +2,17 @@
   'use strict';
   const find = selector => document.querySelector(selector);
   const all = selector => [...document.querySelectorAll(selector)];
+  // Keep Tab navigation inside an open dialog; Escape still closes it natively.
+  all('dialog').forEach(dialog => dialog.addEventListener('keydown', event => {
+    if (event.key !== 'Tab') return;
+    const controls = [...dialog.querySelectorAll('button:not([disabled]), a[href], select:not([disabled]), input:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+      .filter(element => element.getClientRects().length > 0 && !element.closest('[hidden]'));
+    if (!controls.length) return;
+    const first = controls[0];
+    const last = controls[controls.length - 1];
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  }));
   const menu = find('.menu-toggle');
   if (menu) menu.addEventListener('click', () => {
     const open = menu.getAttribute('aria-expanded') !== 'true';
@@ -77,7 +88,7 @@
           locked=true;
           responses.push(choice);
           const correct=choice===q.correct;
-          all('.answer-option').forEach((item,i) => {item.disabled=true;item.classList.toggle('correct',i===q.correct);});
+          all('.answer-option').forEach((item,i) => {item.setAttribute('aria-disabled','true');item.classList.toggle('correct',i===q.correct);});
           button.classList.add(correct?'chosen-correct':'chosen-wrong');
           find('#vq-score').textContent = `SKÓRE ${score()}`;
           find('#vq-progress').style.width = `${(index+1)/questions.length*100}%`;
@@ -90,6 +101,7 @@
           find('#vq-feedback').classList.add(correct?'positive':'negative');
           find('#vq-next').textContent = index===questions.length-1?'Ukázať výsledok →':'Ďalšia otázka →';
           find('#vq-next').hidden = false;
+          // Keep focus on the chosen answer; feedback is announced through the live region.
         });
         find('#vq-answers').append(button);
       });
@@ -151,6 +163,7 @@
       const fields={'cv-role-title':'title','cv-pitch':'pitch','cv-job-title':'jobTitle','cv-job-description':'job','cv-side-title':'sideTitle','cv-side-description':'side','cv-method':'method','cv-conditions':'conditions','cv-letter':'letter'};
       for(const [id,key] of Object.entries(fields)) find('#'+id).textContent=role[key];
       find('#cv-skills').replaceChildren(...role.skills.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));
+      find('#cv-announcement').textContent='Životopis aktualizovaný: '+role.title+'.';
     }));
     find('#print-cv').addEventListener('click',()=>window.print());
   }
@@ -170,7 +183,7 @@
     });
     find('#ada-show-output').addEventListener('click',()=>{find('#ada-output').textContent=examples[find('#ada-example').value].output;});
     find('#ada-copy').addEventListener('click',async()=>{
-      try {await navigator.clipboard.writeText(examples[find('#ada-example').value].code);find('#ada-copy').textContent='Kód skopírovaný ✓';}
+      try {await navigator.clipboard.writeText(examples[find('#ada-example').value].code);find('#ada-copy').textContent='Kód skopírovaný ✓';find('#page-toast').textContent='Kód bol skopírovaný do schránky.';}
       catch {find('#ada-copy').textContent='Označte a skopírujte kód ručne';const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(find('#ada-code'));selection.removeAllRanges();selection.addRange(range);}
     });
   }

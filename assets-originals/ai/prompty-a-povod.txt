@@ -1,0 +1,25 @@
+# Ada Lovelace — AI fotografie
+
+Vytvorené vstavaným nástrojom image_gen, 11. novembra 2026. Všetky tri zábery sú fiktívne a nezobrazujú historické udalosti.
+
+## ada-beach-parasol
+Súbor: ada-beach-parasol.png
+Webová verzia: dist/assets/gallery/ada-beach-parasol-ai.jpg
+
+Finálny prompt:
+Use case: photorealistic-natural. Asset: wide landscape 3:2 editorial photograph for a clearly fictional humorous Ada Lovelace website gallery. Create an imaginative modern photograph of adult Ada Lovelace as a Victorian mathematician in her late twenties, recognizable from her portraits: oval pale face, dark intelligent eyes, dark brown center-parted hair arranged in elaborate ringlets beside her face. She sits in a striped wooden deckchair on a beautiful sandy beach and genuinely types on a contemporary unbranded silver laptop on her lap. She wears a tasteful light ivory Victorian-inspired summer dress with lace cuffs, a coral silk neck ribbon, and a straw hat, under a large cream parasol. Calm teal sea, warm sun, a porcelain tea cup on a small wooden table, laptop with subtle code marks not legible text. Her amused determined expression is the humor: a nineteenth-century genius working remotely at the seaside. Natural anatomy and hands, documentary-quality skin and fabric detail, light film grain, warm paper tones, editorial travel photography, eye-level medium-wide composition, no other people, no logos, no words or watermark. This is intentional anachronistic fiction, not a reconstruction of a real event.
+
+## ada-beach-studio
+Súbor: ada-beach-studio.png
+Webová verzia: dist/assets/gallery/ada-beach-studio-ai.jpg
+
+Finálny prompt:
+Use case: photorealistic-natural. Asset: wide landscape 3:2 cinematic editorial photograph for a clearly labeled AI fiction gallery. Adult Ada Lovelace, late twenties, oval pale face, dark brown eyes, center-parted dark brown hair in Victorian side ringlets, is programming on a modern unbranded laptop at a weathered wooden desk in an open seaside beach hut. She wears a sea-green modest Victorian-inspired dress with ivory blouse and rolled lace cuffs. Composition in three-quarter view from inside the bright airy hut, her face visible, hands naturally typing, with a sweeping view of sand dunes and turquoise ocean through the open wall. A notebook with mathematical scribbles, a few punched paper cards and a teapot on the desk make a witty collision of centuries. Soft morning light, sea breeze in the curtains, realistic textures, thoughtful amused concentration, coherent anatomy and fingers. Magazine quality natural photography, restrained teal and ochre palette with warm film tones. No text overlay, no logos, no watermark, no other people. Deliberately imaginary scene: Ada as a modern remote programmer.
+
+## ada-beach-night
+Súbor: ada-beach-night.png
+Webová verzia: dist/assets/gallery/ada-beach-night-ai.jpg
+
+Finálny prompt:
+Use case: photorealistic-natural. Asset: landscape 3:2 editorial photograph for a clearly fictional humorous gallery of Ada Lovelace programming at the beach. Show adult Ada Lovelace in her late twenties with oval pale face, dark eyes, center-parted dark brown hair in Victorian side ringlets, sitting comfortably on a picnic blanket on a quiet beach at blue hour. She wears a burgundy Victorian-inspired dress with a cream lace collar and a shawl, and types on an unbranded modern laptop resting securely on a low wooden picnic table. Her face is visible in three-quarter profile, a slight triumphant smile as if she has fixed a bug. The screen gives a gentle light on her face, with a small warm lantern and cup of tea nearby; ocean waves and the last peach sunset line behind her. Real photographic skin, textiles, hands and laptop perspective, cinematic but plausible natural light, quiet humorous time-travel anachronism, medium-wide shot, not a painting, no extra characters. No words, no logos, no watermark. The scene is openly fictional and AI-created, not an archival photograph.
+

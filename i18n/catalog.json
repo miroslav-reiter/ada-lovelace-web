@@ -1,0 +1,4184 @@
+[
+  {
+    "id": "t0001",
+    "source": "Ada Lovelace: kód, čaj a chaos. Recesistické portfólio priekopníčky programovania, s ozajstnou históriou aj celkom vymyslenými startupmi.",
+    "kind": "text",
+    "context": "index.html / metadata"
+  },
+  {
+    "id": "t0002",
+    "source": "Ada Lovelace - Kód, čaj a chaos",
+    "kind": "text",
+    "context": "index.html / metadata"
+  },
+  {
+    "id": "t0003",
+    "source": "Prvá programátorka. Nultá influencerka. Vitajte v salóne, kde sa história stretáva s poriadnou dávkou recesie.",
+    "kind": "text",
+    "context": "index.html / metadata"
+  },
+  {
+    "id": "t0004",
+    "source": "Preskočiť na obsah",
+    "kind": "text",
+    "context": "index.html / html/body/a"
+  },
+  {
+    "id": "t0005",
+    "source": "Vydanie salónu",
+    "kind": "text",
+    "context": "index.html / aside @aria-label"
+  },
+  {
+    "id": "t0006",
+    "source": "LONDÝN, 1843-ish",
+    "kind": "text",
+    "context": "index.html / body/aside/span"
+  },
+  {
+    "id": "t0007",
+    "source": "NEOFICIÁLNY SALÓN POETICKEJ VEDY",
+    "kind": "text",
+    "context": "index.html / body/aside/span"
+  },
+  {
+    "id": "t0008",
+    "source": "VYDANIE № 003",
+    "kind": "text",
+    "context": "index.html / body/aside/span"
+  },
+  {
+    "id": "t0009",
+    "source": "ada Lovelace & Associates, úvod",
+    "kind": "text",
+    "context": "index.html / a @aria-label"
+  },
+  {
+    "id": "t0010",
+    "source": "ada",
+    "kind": "text",
+    "context": "index.html / body/header/a"
+  },
+  {
+    "id": "t0011",
+    "source": "LOVELACE",
+    "kind": "text",
+    "context": "index.html / header/a/span"
+  },
+  {
+    "id": "t0012",
+    "source": "& ASSOCIATES*",
+    "kind": "text",
+    "context": "index.html / header/a/span"
+  },
+  {
+    "id": "t0013",
+    "source": "Menu",
+    "kind": "text",
+    "context": "index.html / body/header/button"
+  },
+  {
+    "id": "t0014",
+    "source": "Hlavná navigácia",
+    "kind": "text",
+    "context": "index.html / nav @aria-label"
+  },
+  {
+    "id": "t0015",
+    "source": "Salón",
+    "kind": "text",
+    "context": "index.html / header/nav/a"
+  },
+  {
+    "id": "t0016",
+    "source": "Portfólio",
+    "kind": "text",
+    "context": "index.html / header/nav/a"
+  },
+  {
+    "id": "t0017",
+    "source": "Kvíz",
+    "kind": "text",
+    "context": "index.html / header/nav/a"
+  },
+  {
+    "id": "t0018",
+    "source": "Životopis / CV",
+    "kind": "text",
+    "context": "index.html / header/nav/a"
+  },
+  {
+    "id": "t0019",
+    "source": "Zdroje a knihy",
+    "kind": "text",
+    "context": "index.html / header/nav/a"
+  },
+  {
+    "id": "t0020",
+    "source": "Jazyk Ada",
+    "kind": "text",
+    "context": "index.html / header/nav/a"
+  },
+  {
+    "id": "t0021",
+    "source": "Fotografie",
+    "kind": "text",
+    "context": "index.html / header/nav/a"
+  },
+  {
+    "id": "t0022",
+    "source": "MATEMATIČKA. VIZIONÁRKA. HRÔZA PRE TABUĽKY.",
+    "kind": "text",
+    "context": "index.html / section/div/div"
+  },
+  {
+    "id": "t0023",
+    "source": "Kód.",
+    "kind": "text",
+    "context": "index.html / section/div/h1"
+  },
+  {
+    "id": "t0024",
+    "source": "Čaj.",
+    "kind": "text",
+    "context": "index.html / section/div/h1"
+  },
+  {
+    "id": "t0025",
+    "source": "Chaos.",
+    "kind": "text",
+    "context": "index.html / div/h1/em"
+  },
+  {
+    "id": "t0026",
+    "source": "Písala algoritmy, keď ostatní",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0027",
+    "source": "ešte len hľadali",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0028",
+    "source": "zásuvku.",
+    "kind": "text",
+    "context": "index.html / div/p/span"
+  },
+  {
+    "id": "t0029",
+    "source": "Zoznámte sa s Adou Lovelace. Ženou, ktorá predbehla svoju dobu tak veľmi, že jej ešte nedorazil hardvér.",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0030",
+    "source": "Otvoriť dierne portfólio",
+    "kind": "text",
+    "context": "index.html / section/div/a"
+  },
+  {
+    "id": "t0031",
+    "source": "Est. 1815",
+    "kind": "text",
+    "context": "index.html / section/div/div"
+  },
+  {
+    "id": "t0032",
+    "source": "Powered by predstavivosť",
+    "kind": "text",
+    "context": "index.html / section/div/div"
+  },
+  {
+    "id": "t0033",
+    "source": "MENEJ KORZETOV. VIAC ALGORITMOV.",
+    "kind": "text",
+    "context": "index.html / section/div/div"
+  },
+  {
+    "id": "t0034",
+    "source": "Historický akvarelový portrét Ady Lovelace v svetlých šatách",
+    "kind": "text",
+    "context": "index.html / img @alt"
+  },
+  {
+    "id": "t0035",
+    "source": "FIG. 01 / THE ORIGINAL ADA",
+    "kind": "text",
+    "context": "index.html / figure/div/span"
+  },
+  {
+    "id": "t0036",
+    "source": "Ada Lovelace",
+    "kind": "text",
+    "context": "index.html / figure/figcaption/span"
+  },
+  {
+    "id": "t0037",
+    "source": "PRVÁ",
+    "kind": "text",
+    "context": "index.html / section/div/div"
+  },
+  {
+    "id": "t0038",
+    "source": "V KÓDE.",
+    "kind": "text",
+    "context": "index.html / section/div/div"
+  },
+  {
+    "id": "t0039",
+    "source": "AJ BEZ WI-FI.",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0040",
+    "source": "Humorná kódová poznámka",
+    "kind": "text",
+    "context": "index.html / div @aria-label"
+  },
+  {
+    "id": "t0041",
+    "source": "// stav projektu",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0042",
+    "source": "algoritmus:",
+    "kind": "text",
+    "context": "index.html / section/div/div"
+  },
+  {
+    "id": "t0043",
+    "source": "hotový ✓",
+    "kind": "text",
+    "context": "index.html / div/div/b"
+  },
+  {
+    "id": "t0044",
+    "source": "počítač:",
+    "kind": "text",
+    "context": "index.html / section/div/div"
+  },
+  {
+    "id": "t0045",
+    "source": "ešte vymýšľajú",
+    "kind": "text",
+    "context": "index.html / div/div/strong"
+  },
+  {
+    "id": "t0046",
+    "source": "* Associates = Charles, kanvica a veľmi veľa papiera.",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0047",
+    "source": "Humorné motto",
+    "kind": "text",
+    "context": "index.html / div @aria-label"
+  },
+  {
+    "id": "t0048",
+    "source": "100 % ADA",
+    "kind": "text",
+    "context": "index.html / main/div/span"
+  },
+  {
+    "id": "t0049",
+    "source": "0 % UMELÁ INTELIGENCIA Z ROKU 1843",
+    "kind": "text",
+    "context": "index.html / main/div/span"
+  },
+  {
+    "id": "t0050",
+    "source": "ČAJ JE ZÁVISLOSŤ, NIE DEPENDENCY",
+    "kind": "text",
+    "context": "index.html / main/div/span"
+  },
+  {
+    "id": "t0051",
+    "source": "EST. PRED INTERNETOM",
+    "kind": "text",
+    "context": "index.html / main/div/span"
+  },
+  {
+    "id": "t0052",
+    "source": "SALÓN MÁ NOVÉ MIESTNOSTI",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0053",
+    "source": "Vyberte si",
+    "kind": "text",
+    "context": "index.html / section/div/h2"
+  },
+  {
+    "id": "t0054",
+    "source": "svoje dvere.",
+    "kind": "text",
+    "context": "index.html / div/h2/em"
+  },
+  {
+    "id": "t0055",
+    "source": "Skutočné nápady. Pochybné startupy.",
+    "kind": "text",
+    "context": "index.html / a/div/small"
+  },
+  {
+    "id": "t0056",
+    "source": "Kvíz o Ade",
+    "kind": "text",
+    "context": "index.html / a/div/strong"
+  },
+  {
+    "id": "t0057",
+    "source": "12 otázok pre bystré hlavy.",
+    "kind": "text",
+    "context": "index.html / a/div/small"
+  },
+  {
+    "id": "t0058",
+    "source": "Programátorka alebo vibe coder?",
+    "kind": "text",
+    "context": "index.html / a/div/small"
+  },
+  {
+    "id": "t0059",
+    "source": "Fakty, listy a dobré čítanie.",
+    "kind": "text",
+    "context": "index.html / a/div/small"
+  },
+  {
+    "id": "t0060",
+    "source": "Programovací jazyk Ada",
+    "kind": "text",
+    "context": "index.html / a/div/strong"
+  },
+  {
+    "id": "t0061",
+    "source": "Pocta s vlastným kompilátorom.",
+    "kind": "text",
+    "context": "index.html / a/div/small"
+  },
+  {
+    "id": "t0062",
+    "source": "Historické portréty. AI dovolenka.",
+    "kind": "text",
+    "context": "index.html / a/div/small"
+  },
+  {
+    "id": "t0063",
+    "source": "01 / DÁMA ZA ALGORITMOM",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0064",
+    "source": "Trochu grófka.",
+    "kind": "text",
+    "context": "index.html / section/div/h2"
+  },
+  {
+    "id": "t0065",
+    "source": "Veľmi",
+    "kind": "text",
+    "context": "index.html / section/div/h2"
+  },
+  {
+    "id": "t0066",
+    "source": "geek.",
+    "kind": "text",
+    "context": "index.html / div/h2/em"
+  },
+  {
+    "id": "t0067",
+    "source": "Ada Lovelace bola anglická matematička a autorka. V roku 1843 opísala postup na výpočet Bernoulliho čísel pre Babbageov analytický stroj. Často ju preto označujú za prvú programátorku.",
+    "kind": "text",
+    "context": "index.html / div/div/p"
+  },
+  {
+    "id": "t0068",
+    "source": "Dnešnými slovami: napísala softvér na počítač, ktorý ešte nebol. Odvaha? Áno. Kompatibilita? Odložená na neskôr.",
+    "kind": "text",
+    "context": "index.html / div/div/p"
+  },
+  {
+    "id": "t0069",
+    "source": "História bez nášho prikrášľovania ↗",
+    "kind": "text",
+    "context": "index.html / div/div/a"
+  },
+  {
+    "id": "t0070",
+    "source": "Hello, world.",
+    "kind": "text",
+    "context": "index.html / div/article/h3"
+  },
+  {
+    "id": "t0071",
+    "source": "Narodila sa 10. decembra v Londýne. Jej otcom bol básnik Lord Byron.",
+    "kind": "text",
+    "context": "index.html / div/article/p"
+  },
+  {
+    "id": "t0072",
+    "source": "Poézia v DNA. Logika v pláne.",
+    "kind": "text",
+    "context": "index.html / div/article/span"
+  },
+  {
+    "id": "t0073",
+    "source": "Osudový networking.",
+    "kind": "text",
+    "context": "index.html / div/article/h3"
+  },
+  {
+    "id": "t0074",
+    "source": "Spoznala Charlesa Babbagea a jeho prácu na počítacích strojoch.",
+    "kind": "text",
+    "context": "index.html / div/article/p"
+  },
+  {
+    "id": "t0075",
+    "source": "Najlepší meet-up bez menoviek.",
+    "kind": "text",
+    "context": "index.html / div/article/span"
+  },
+  {
+    "id": "t0076",
+    "source": "Poznámka, ktorá ostala.",
+    "kind": "text",
+    "context": "index.html / div/article/h3"
+  },
+  {
+    "id": "t0077",
+    "source": "K prekladu Menabreovho článku pridala sedem rozsiahlych poznámok.",
+    "kind": "text",
+    "context": "index.html / div/article/p"
+  },
+  {
+    "id": "t0078",
+    "source": "„Doplnila som len pár drobností.“",
+    "kind": "text",
+    "context": "index.html / div/article/span"
+  },
+  {
+    "id": "t0079",
+    "source": "Legacy bez expirácie.",
+    "kind": "text",
+    "context": "index.html / div/article/h3"
+  },
+  {
+    "id": "t0080",
+    "source": "Videla potenciál stroja aj za hranicami obyčajného počítania.",
+    "kind": "text",
+    "context": "index.html / div/article/p"
+  },
+  {
+    "id": "t0081",
+    "source": "My stále bojujeme s tlačiarňou.",
+    "kind": "text",
+    "context": "index.html / div/article/span"
+  },
+  {
+    "id": "t0082",
+    "source": "Poznámka redakcie:",
+    "kind": "text",
+    "context": "index.html / section/p/b"
+  },
+  {
+    "id": "t0083",
+    "source": "Životné fakty sú skutočné. Hlášky sú naše. Ada tento web neschvaľovala - mala plný kalendár už v roku 1843.",
+    "kind": "text",
+    "context": "index.html / main/section/p"
+  },
+  {
+    "id": "t0084",
+    "source": "02 / VYBRANÉ DIELO & POCHYBNÉ NÁPADY",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0085",
+    "source": "PORTFÓLIO, NIE ARCHEOLÓGIA",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0086",
+    "source": "Veľké nápady.",
+    "kind": "text",
+    "context": "index.html / section/div/h2"
+  },
+  {
+    "id": "t0087",
+    "source": "Rôzna miera reality.",
+    "kind": "text",
+    "context": "index.html / div/h2/em"
+  },
+  {
+    "id": "t0088",
+    "source": "Tri skutočné kapitoly.",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0089",
+    "source": "Tri výmysly po príliš silnom čaji.",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0090",
+    "source": "Filtrovať projekty",
+    "kind": "text",
+    "context": "index.html / div @aria-label"
+  },
+  {
+    "id": "t0091",
+    "source": "Všetko",
+    "kind": "text",
+    "context": "index.html / div/div/button"
+  },
+  {
+    "id": "t0092",
+    "source": "Poctivá história",
+    "kind": "text",
+    "context": "index.html / div/div/button"
+  },
+  {
+    "id": "t0093",
+    "source": "Čistá recesia",
+    "kind": "text",
+    "context": "index.html / div/div/button"
+  },
+  {
+    "id": "t0094",
+    "source": "6 exponátov",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0095",
+    "source": "NOTE G / 1843",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0096",
+    "source": "B",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0097",
+    "source": "n",
+    "kind": "text",
+    "context": "index.html / div/span/sub"
+  },
+  {
+    "id": "t0098",
+    "source": "● SKUTOČNOSŤ",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0099",
+    "source": "Bernoulli.exe",
+    "kind": "text",
+    "context": "index.html / article/div/h3"
+  },
+  {
+    "id": "t0100",
+    "source": "Algoritmus na Bernoulliho čísla. Hardvér v nedohľadne. Dokumentácia výnimočne hotová.",
+    "kind": "text",
+    "context": "index.html / article/div/p"
+  },
+  {
+    "id": "t0101",
+    "source": "Preskúmať projekt Bernoulli.exe",
+    "kind": "text",
+    "context": "index.html / button @aria-label"
+  },
+  {
+    "id": "t0102",
+    "source": "Preskúmať projekt",
+    "kind": "text",
+    "context": "index.html / article/div/button"
+  },
+  {
+    "id": "t0103",
+    "source": "BREW. COMPILE. REPEAT.",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0104",
+    "source": "v18.43",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0105",
+    "source": "✳ VÝMYSEL",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0106",
+    "source": "1843-ish",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0107",
+    "source": "TeaScript",
+    "kind": "text",
+    "context": "index.html / article/div/h3"
+  },
+  {
+    "id": "t0108",
+    "source": "Jazyk, ktorý sa nekompiluje. Lúhuje sa. Chýbajúci bodkočiarkovník vyrieši sušienka.",
+    "kind": "text",
+    "context": "index.html / article/div/p"
+  },
+  {
+    "id": "t0109",
+    "source": "Preskúmať projekt TeaScript",
+    "kind": "text",
+    "context": "index.html / button @aria-label"
+  },
+  {
+    "id": "t0110",
+    "source": "NOTES",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0111",
+    "source": "by the Translator",
+    "kind": "text",
+    "context": "index.html / div/span/i"
+  },
+  {
+    "id": "t0112",
+    "source": "A. A. L.",
+    "kind": "text",
+    "context": "index.html / div/div/b"
+  },
+  {
+    "id": "t0113",
+    "source": "len pár",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0114",
+    "source": "poznámok ↗",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0115",
+    "source": "Poznámky A - G",
+    "kind": "text",
+    "context": "index.html / article/div/h3"
+  },
+  {
+    "id": "t0116",
+    "source": "Preklad Menabreu s vlastnými vysvetleniami. Keď komentáre ku kódu ukradnú celú šou.",
+    "kind": "text",
+    "context": "index.html / article/div/p"
+  },
+  {
+    "id": "t0117",
+    "source": "Preskúmať projekt Poznámky A až G",
+    "kind": "text",
+    "context": "index.html / button @aria-label"
+  },
+  {
+    "id": "t0118",
+    "source": "INFRAŠTRUKTÚRA NA PARE",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0119",
+    "source": "99,9 % vlhkosť",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0120",
+    "source": "ALTERNATÍVNY VESMÍR",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0121",
+    "source": "Parný cloud™",
+    "kind": "text",
+    "context": "index.html / article/div/h3"
+  },
+  {
+    "id": "t0122",
+    "source": "Vaše dáta sú v oblaku. Doslova. Pri silnom vetre odporúčame lokálnu zálohu.",
+    "kind": "text",
+    "context": "index.html / article/div/p"
+  },
+  {
+    "id": "t0123",
+    "source": "Preskúmať projekt Parný cloud",
+    "kind": "text",
+    "context": "index.html / button @aria-label"
+  },
+  {
+    "id": "t0124",
+    "source": "FLYOLOGY / 1828",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0125",
+    "source": "ambície: nebeské ↑",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0126",
+    "source": "Flyology",
+    "kind": "text",
+    "context": "index.html / article/div/h3"
+  },
+  {
+    "id": "t0127",
+    "source": "Ako dvanásťročná skúmala krídla a možnosti lietania. Detský projekt. Nedetské ambície.",
+    "kind": "text",
+    "context": "index.html / article/div/p"
+  },
+  {
+    "id": "t0128",
+    "source": "Preskúmať projekt Flyology",
+    "kind": "text",
+    "context": "index.html / button @aria-label"
+  },
+  {
+    "id": "t0129",
+    "source": "SPOLOČENSKÝ ŽIVOT, VERZIA 2.0",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0130",
+    "source": "Ctrl",
+    "kind": "text",
+    "context": "index.html / div/div/kbd"
+  },
+  {
+    "id": "t0131",
+    "source": "Z",
+    "kind": "text",
+    "context": "index.html / div/div/kbd"
+  },
+  {
+    "id": "t0132",
+    "source": "Ten škandál? Aký škandál?",
+    "kind": "text",
+    "context": "index.html / article/div/span"
+  },
+  {
+    "id": "t0133",
+    "source": "TAJNÝ PROTOTYP",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0134",
+    "source": "Salónový Undo",
+    "kind": "text",
+    "context": "index.html / article/div/h3"
+  },
+  {
+    "id": "t0135",
+    "source": "Vráti poslednú vetu vyslovenú na večierku. Nefunguje, ak ju už začula vaša teta.",
+    "kind": "text",
+    "context": "index.html / article/div/p"
+  },
+  {
+    "id": "t0136",
+    "source": "Preskúmať projekt Salónový Undo",
+    "kind": "text",
+    "context": "index.html / button @aria-label"
+  },
+  {
+    "id": "t0137",
+    "source": "03 / VYSKÚŠAJTE SI NEEXISTUJÚCU TECHNOLÓGIU",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0138",
+    "source": "✳ CELÉ JE TO RECESIA",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0139",
+    "source": "Váš prvý",
+    "kind": "text",
+    "context": "index.html / div/div/h2"
+  },
+  {
+    "id": "t0140",
+    "source": "čajový program.",
+    "kind": "text",
+    "context": "index.html / div/h2/em"
+  },
+  {
+    "id": "t0141",
+    "source": "Vitajte v TeaScripte. Jedinom jazyku, v ktorom je „daj si pauzu“ platná optimalizácia.",
+    "kind": "text",
+    "context": "index.html / div/div/p"
+  },
+  {
+    "id": "t0142",
+    "source": "ČO DNES KOMPILUJEME?",
+    "kind": "text",
+    "context": "index.html / div/div/label"
+  },
+  {
+    "id": "t0143",
+    "source": "Earl Grey - klasika s noblesou",
+    "kind": "text",
+    "context": "index.html / div/select/option"
+  },
+  {
+    "id": "t0144",
+    "source": "Zelený čaj - úsporný režim",
+    "kind": "text",
+    "context": "index.html / div/select/option"
+  },
+  {
+    "id": "t0145",
+    "source": "Káva - nebezpečný experiment",
+    "kind": "text",
+    "context": "index.html / div/select/option"
+  },
+  {
+    "id": "t0146",
+    "source": "Spustiť kanvicu",
+    "kind": "text",
+    "context": "index.html / div/div/button"
+  },
+  {
+    "id": "t0147",
+    "source": "Interaktívna hra. Žiadny historický vynález ani ozajstný programovací jazyk.",
+    "kind": "text",
+    "context": "index.html / div/div/p"
+  },
+  {
+    "id": "t0148",
+    "source": "salon / hello-world.tea",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0149",
+    "source": "Ukážka kódu TeaScript",
+    "kind": "text",
+    "context": "index.html / div @aria-label"
+  },
+  {
+    "id": "t0150",
+    "source": "// Najprv čaj. Potom revolúcia.",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0151",
+    "source": "import",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0152",
+    "source": "{ kanvica }",
+    "kind": "text",
+    "context": "index.html / div/div/div"
+  },
+  {
+    "id": "t0153",
+    "source": "from",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0154",
+    "source": "'salón'",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0155",
+    "source": "const",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0156",
+    "source": "napoj =",
+    "kind": "text",
+    "context": "index.html / div/div/div"
+  },
+  {
+    "id": "t0157",
+    "source": "'Earl Grey'",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0158",
+    "source": "await",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0159",
+    "source": "kanvica.uvar(napoj);",
+    "kind": "text",
+    "context": "index.html / div/div/div"
+  },
+  {
+    "id": "t0160",
+    "source": "svet.zmen({ sarm:",
+    "kind": "text",
+    "context": "index.html / div/div/div"
+  },
+  {
+    "id": "t0161",
+    "source": "true",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0162",
+    "source": "VÝSTUP ANALYTICKEJ KANVICE",
+    "kind": "text",
+    "context": "index.html / div/div/div"
+  },
+  {
+    "id": "t0163",
+    "source": "> Čakám na pokyn, vaša algoritmickosť.",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0164",
+    "source": "● KANVICA ONLINE",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0165",
+    "source": "RAM: 2 SUŠIENKY",
+    "kind": "text",
+    "context": "index.html / div/div/span"
+  },
+  {
+    "id": "t0166",
+    "source": "SAMOSTATNÝ KVÍZ / 12 OTÁZOK",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0167",
+    "source": "Fakt, fikcia",
+    "kind": "text",
+    "context": "index.html / section/div/h2"
+  },
+  {
+    "id": "t0168",
+    "source": "alebo ďalšia šálka?",
+    "kind": "text",
+    "context": "index.html / div/h2/em"
+  },
+  {
+    "id": "t0169",
+    "source": "Otestujte si znalosti o Ade, jej projektoch aj jazyku, ktorý nesie jej meno. Po každej odpovedi dostanete vysvetlenie.",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0170",
+    "source": "Spustiť kvíz o Ade",
+    "kind": "text",
+    "context": "index.html / section/div/a"
+  },
+  {
+    "id": "t0171",
+    "source": "OTÁZOK. NULA STRESU.",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0172",
+    "source": "ODKAZ ZO SALÓNA",
+    "kind": "text",
+    "context": "index.html / main/section/span"
+  },
+  {
+    "id": "t0173",
+    "source": "Buďte o krok vpred.",
+    "kind": "text",
+    "context": "index.html / main/section/p"
+  },
+  {
+    "id": "t0174",
+    "source": "Aj keď počítač ešte neexistuje.",
+    "kind": "text",
+    "context": "index.html / section/p/em"
+  },
+  {
+    "id": "t0175",
+    "source": "Voľná pocta Ade. Nie jej historický citát.",
+    "kind": "text",
+    "context": "index.html / main/section/span"
+  },
+  {
+    "id": "t0176",
+    "source": "Späť do roku 1843",
+    "kind": "text",
+    "context": "index.html / section/a/span"
+  },
+  {
+    "id": "t0177",
+    "source": "DROBNÉ PÍSMO. VEĽKÝ ROZDIEL.",
+    "kind": "text",
+    "context": "index.html / section/div/span"
+  },
+  {
+    "id": "t0178",
+    "source": "História má zdroje.",
+    "kind": "text",
+    "context": "index.html / section/div/h2"
+  },
+  {
+    "id": "t0179",
+    "source": "Naše výmysly majú štítky.",
+    "kind": "text",
+    "context": "index.html / section/div/h2"
+  },
+  {
+    "id": "t0180",
+    "source": "Celá knižnica, historické pramene a knihy ↗",
+    "kind": "text",
+    "context": "index.html / section/div/a"
+  },
+  {
+    "id": "t0181",
+    "source": "Toto je neoficiálna humorná pocta Ade Lovelace. TeaScript, Parný cloud a Salónový Undo sú vymyslené. Všetky moderné hlášky a dialógy napísala redakcia tohto webu.",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0182",
+    "source": "Život Ady Lovelace · Wikipedia",
+    "kind": "text",
+    "context": "index.html / div/a/span"
+  },
+  {
+    "id": "t0183",
+    "source": "Jej práca · Science Museum Group",
+    "kind": "text",
+    "context": "index.html / div/a/span"
+  },
+  {
+    "id": "t0184",
+    "source": "Kontext · Computer History Museum",
+    "kind": "text",
+    "context": "index.html / div/a/span"
+  },
+  {
+    "id": "t0185",
+    "source": "Portrét · Wikimedia Commons",
+    "kind": "text",
+    "context": "index.html / div/a/span"
+  },
+  {
+    "id": "t0186",
+    "source": "Portrét okolo roku 1840, pripisovaný A. E. Chalonovi. Voľné dielo (public domain). Grafické motívy projektov sú súčasné ilustrácie.",
+    "kind": "text",
+    "context": "index.html / section/div/p"
+  },
+  {
+    "id": "t0187",
+    "source": "ada✳",
+    "kind": "text",
+    "context": "index.html / body/footer/a"
+  },
+  {
+    "id": "t0188",
+    "source": "VYROBENÉ Z ÚCTY, KÓDU A TROCHY RECESIE.",
+    "kind": "text",
+    "context": "index.html / body/footer/span"
+  },
+  {
+    "id": "t0189",
+    "source": "Tajný viktoriánsky bug",
+    "kind": "text",
+    "context": "index.html / button @title"
+  },
+  {
+    "id": "t0190",
+    "source": "Nahlásiť chrobáka ↗",
+    "kind": "text",
+    "context": "index.html / body/footer/button"
+  },
+  {
+    "id": "t0191",
+    "source": "Zavrieť detail projektu",
+    "kind": "text",
+    "context": "index.html / button @aria-label"
+  },
+  {
+    "id": "t0192",
+    "source": "×",
+    "kind": "text",
+    "context": "index.html / body/dialog/button"
+  },
+  {
+    "id": "t0193",
+    "source": "Skutočné projekty Ady Lovelace aj tri úplne vymyslené startupy. Filtre, detaily a interaktívne ukážky.",
+    "kind": "text",
+    "context": "portfolio/index.html / metadata"
+  },
+  {
+    "id": "t0194",
+    "source": "Portfólio: história & recesia - Ada Lovelace",
+    "kind": "text",
+    "context": "portfolio/index.html / metadata"
+  },
+  {
+    "id": "t0195",
+    "source": "SALÓN",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/a"
+  },
+  {
+    "id": "t0196",
+    "source": "/ KABINET PROJEKTOV",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/span"
+  },
+  {
+    "id": "t0197",
+    "source": "01 / KABINET PROJEKTOV",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/p"
+  },
+  {
+    "id": "t0198",
+    "source": "Žiadne malé písmo.",
+    "kind": "text",
+    "context": "portfolio/index.html / div/h1/em"
+  },
+  {
+    "id": "t0199",
+    "source": "Niektoré zmenili dejiny. Iné by neprešli ani cez čajovú komisiu. Každý projekt tu priznáva, z ktorého sveta prišiel.",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/p"
+  },
+  {
+    "id": "t0200",
+    "source": "● SKUTOČNOSŤ = OVERITEĽNÝ HISTORICKÝ ZÁKLAD",
+    "kind": "text",
+    "context": "portfolio/index.html / main/div/span"
+  },
+  {
+    "id": "t0201",
+    "source": "✳ VÝMYSEL = NÁŠ VIKTORIÁNSKY STARTUP",
+    "kind": "text",
+    "context": "portfolio/index.html / main/div/span"
+  },
+  {
+    "id": "t0202",
+    "source": "ŠESŤ PROJEKTOV / DVE REALITY",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/span"
+  },
+  {
+    "id": "t0203",
+    "source": "DÔLEŽITÝ DETAIL",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/span"
+  },
+  {
+    "id": "t0204",
+    "source": "Portfólio pred",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/h2"
+  },
+  {
+    "id": "t0205",
+    "source": "GitHubom.",
+    "kind": "text",
+    "context": "portfolio/index.html / div/h2/em"
+  },
+  {
+    "id": "t0206",
+    "source": "Bernoulliho postup je súčasťou poznámok A – G, nie samostatný historický softvérový produkt. Názov „Bernoulli.exe“ je náš. Flyology predstavuje Adino mladícke skúmanie lietania, nie dokončené lietadlo.",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/p"
+  },
+  {
+    "id": "t0207",
+    "source": "Pri skutočných projektoch nájdete odkazy na historické zdroje. Pri vymyslených nájdete dôkaz, že autor tohto webu by mal piť slabší čaj.",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/p"
+  },
+  {
+    "id": "t0208",
+    "source": "Otvoriť zdroje a knihy ↗",
+    "kind": "text",
+    "context": "portfolio/index.html / section/div/a"
+  },
+  {
+    "id": "t0209",
+    "source": "POKRAČUJTE V SALÓNE",
+    "kind": "text",
+    "context": "portfolio/index.html / main/aside/span"
+  },
+  {
+    "id": "t0210",
+    "source": "Príjemná kandidátka.",
+    "kind": "text",
+    "context": "portfolio/index.html / aside/a/span"
+  },
+  {
+    "id": "t0211",
+    "source": "Nepríjemne dobré CV.",
+    "kind": "text",
+    "context": "portfolio/index.html / a/span/em"
+  },
+  {
+    "id": "t0212",
+    "source": "FAKTY MAJÚ ZDROJE. VÝMYSLY MAJÚ ŠTÍTKY.",
+    "kind": "text",
+    "context": "portfolio/index.html / body/footer/span"
+  },
+  {
+    "id": "t0213",
+    "source": "O tomto salóne ↗",
+    "kind": "text",
+    "context": "portfolio/index.html / body/footer/a"
+  },
+  {
+    "id": "t0214",
+    "source": "Dvanásť otázok o živote, práci a odkaze Ady Lovelace. Okamžité vysvetlenia, zdroje a vlastné skóre.",
+    "kind": "text",
+    "context": "kviz/index.html / metadata"
+  },
+  {
+    "id": "t0215",
+    "source": "Interaktívny kvíz o Ade - Ada Lovelace",
+    "kind": "text",
+    "context": "kviz/index.html / metadata"
+  },
+  {
+    "id": "t0216",
+    "source": "/ SKÚŠKA Z POETICKEJ VEDY",
+    "kind": "text",
+    "context": "kviz/index.html / section/div/span"
+  },
+  {
+    "id": "t0217",
+    "source": "02 / SKÚŠKA Z POETICKEJ VEDY",
+    "kind": "text",
+    "context": "kviz/index.html / section/div/p"
+  },
+  {
+    "id": "t0218",
+    "source": "Koľko Ady",
+    "kind": "text",
+    "context": "kviz/index.html / section/div/h1"
+  },
+  {
+    "id": "t0219",
+    "source": "máte v hlave?",
+    "kind": "text",
+    "context": "kviz/index.html / div/h1/em"
+  },
+  {
+    "id": "t0220",
+    "source": "Dvanásť otázok. Žiadna časomiera. Len vy, história a podozrivo sebavedomá kanvica.",
+    "kind": "text",
+    "context": "kviz/index.html / section/div/p"
+  },
+  {
+    "id": "t0221",
+    "source": "PRAVIDLÁ SALÓNA",
+    "kind": "text",
+    "context": "kviz/index.html / section/aside/span"
+  },
+  {
+    "id": "t0222",
+    "source": "Hádajte.",
+    "kind": "text",
+    "context": "kviz/index.html / section/aside/h2"
+  },
+  {
+    "id": "t0223",
+    "source": "Učte sa.",
+    "kind": "text",
+    "context": "kviz/index.html / section/aside/h2"
+  },
+  {
+    "id": "t0224",
+    "source": "Prekvapte sa.",
+    "kind": "text",
+    "context": "kviz/index.html / aside/h2/em"
+  },
+  {
+    "id": "t0225",
+    "source": "Pri každej otázke vyberte jednu odpoveď.",
+    "kind": "text",
+    "context": "kviz/index.html / aside/ol/li"
+  },
+  {
+    "id": "t0226",
+    "source": "Hneď uvidíte vysvetlenie a zdroj.",
+    "kind": "text",
+    "context": "kviz/index.html / aside/ol/li"
+  },
+  {
+    "id": "t0227",
+    "source": "Na konci dostanete skóre a prehľad odpovedí.",
+    "kind": "text",
+    "context": "kviz/index.html / aside/ol/li"
+  },
+  {
+    "id": "t0228",
+    "source": "Výsledky zostávajú iba v otvorenej stránke. Po obnovení začínate odznova. Žiadne účty, žiadna skúšobná komisia.",
+    "kind": "text",
+    "context": "kviz/index.html / section/aside/p"
+  },
+  {
+    "id": "t0229",
+    "source": "Najprv si pozrieť portfólio ↗",
+    "kind": "text",
+    "context": "kviz/index.html / section/aside/a"
+  },
+  {
+    "id": "t0230",
+    "source": "OTÁZKA 01 / 12",
+    "kind": "text",
+    "context": "kviz/index.html / div/div/span"
+  },
+  {
+    "id": "t0231",
+    "source": "SKÓRE 0",
+    "kind": "text",
+    "context": "kviz/index.html / div/div/span"
+  },
+  {
+    "id": "t0232",
+    "source": "Ďalšia otázka →",
+    "kind": "text",
+    "context": "kviz/index.html / div/div/button"
+  },
+  {
+    "id": "t0233",
+    "source": "Skúsiť znova ↺",
+    "kind": "text",
+    "context": "kviz/index.html / div/div/button"
+  },
+  {
+    "id": "t0234",
+    "source": "Pozrieť všetky odpovede",
+    "kind": "text",
+    "context": "kviz/index.html / div/details/summary"
+  },
+  {
+    "id": "t0235",
+    "source": "Na spustenie interaktívneho kvízu je potrebný JavaScript. Historické fakty nájdete aj v portfóliu a zdrojoch.",
+    "kind": "text",
+    "context": "kviz/index.html / div/noscript/p"
+  },
+  {
+    "id": "t0236",
+    "source": "Čo ak by sa dnes",
+    "kind": "text",
+    "context": "kviz/index.html / aside/a/span"
+  },
+  {
+    "id": "t0237",
+    "source": "uchádzala o prácu?",
+    "kind": "text",
+    "context": "kviz/index.html / a/span/em"
+  },
+  {
+    "id": "t0238",
+    "source": "Humorný moderný životopis Ady Lovelace s prepínaním medzi programátorkou a vibe coderkou, oddeleným historickým základom a tlačou.",
+    "kind": "text",
+    "context": "cv/index.html / metadata"
+  },
+  {
+    "id": "t0239",
+    "source": "Adino CV: programátorka alebo vibe coder - Ada Lovelace",
+    "kind": "text",
+    "context": "cv/index.html / metadata"
+  },
+  {
+    "id": "t0240",
+    "source": "/ ODDELENIE ĽUDSKÝCH ALGORITMOV",
+    "kind": "text",
+    "context": "cv/index.html / section/div/span"
+  },
+  {
+    "id": "t0241",
+    "source": "03 / ODDELENIE ĽUDSKÝCH ALGORITMOV",
+    "kind": "text",
+    "context": "cv/index.html / section/div/p"
+  },
+  {
+    "id": "t0242",
+    "source": "Kandidátka",
+    "kind": "text",
+    "context": "cv/index.html / section/div/h1"
+  },
+  {
+    "id": "t0243",
+    "source": "predbehla deadline.",
+    "kind": "text",
+    "context": "cv/index.html / div/h1/em"
+  },
+  {
+    "id": "t0244",
+    "source": "A zároveň celé storočie. Takto by mohlo vyzerať Adino CV, keby sa dnes uchádzala o prácu v IT.",
+    "kind": "text",
+    "context": "cv/index.html / section/div/p"
+  },
+  {
+    "id": "t0245",
+    "source": "CV",
+    "kind": "text",
+    "context": "cv/index.html / main/section/div"
+  },
+  {
+    "id": "t0246",
+    "source": "✳ MODERNÁ PARÓDIA",
+    "kind": "text",
+    "context": "cv/index.html / div/div/span"
+  },
+  {
+    "id": "t0247",
+    "source": "Roly, formulácie a dnešné schopnosti sú vymyslené. Historické východiská uvádzame osobitne.",
+    "kind": "text",
+    "context": "cv/index.html / div/div/p"
+  },
+  {
+    "id": "t0248",
+    "source": "Verzia životopisu",
+    "kind": "text",
+    "context": "cv/index.html / div @aria-label"
+  },
+  {
+    "id": "t0249",
+    "source": "Programátorka",
+    "kind": "text",
+    "context": "cv/index.html / div/div/button"
+  },
+  {
+    "id": "t0250",
+    "source": "Vibe coder",
+    "kind": "text",
+    "context": "cv/index.html / div/div/button"
+  },
+  {
+    "id": "t0251",
+    "source": "Vytlačiť CV / uložiť do PDF ↗",
+    "kind": "text",
+    "context": "cv/index.html / div/div/button"
+  },
+  {
+    "id": "t0252",
+    "source": "Historický portrét Ady Lovelace",
+    "kind": "text",
+    "context": "cv/index.html / img @alt"
+  },
+  {
+    "id": "t0253",
+    "source": "● OPEN TO WORK*",
+    "kind": "text",
+    "context": "cv/index.html / article/aside/span"
+  },
+  {
+    "id": "t0254",
+    "source": "Ada",
+    "kind": "text",
+    "context": "cv/index.html / article/aside/h2"
+  },
+  {
+    "id": "t0255",
+    "source": "Lovelace",
+    "kind": "text",
+    "context": "cv/index.html / article/aside/h2"
+  },
+  {
+    "id": "t0256",
+    "source": "Londýn · remote naprieč storočiami",
+    "kind": "text",
+    "context": "cv/index.html / article/aside/p"
+  },
+  {
+    "id": "t0257",
+    "source": "Kontakt",
+    "kind": "text",
+    "context": "cv/index.html / aside/div/h3"
+  },
+  {
+    "id": "t0258",
+    "source": "Ukážkové CV historickej osobnosti. Kontaktný účet neexistuje.",
+    "kind": "text",
+    "context": "cv/index.html / aside/div/p"
+  },
+  {
+    "id": "t0259",
+    "source": "Pracovné podmienky",
+    "kind": "text",
+    "context": "cv/index.html / aside/div/h3"
+  },
+  {
+    "id": "t0260",
+    "source": "Zmysluplný problém, priestor na premýšľanie a počítač, ktorý už existuje.",
+    "kind": "text",
+    "context": "cv/index.html / aside/div/p"
+  },
+  {
+    "id": "t0261",
+    "source": "Jazyky",
+    "kind": "text",
+    "context": "cv/index.html / aside/div/h3"
+  },
+  {
+    "id": "t0262",
+    "source": "Angličtina, matematika a diplomatické vysvetľovanie, prečo to nie je „len kalkulačka“.",
+    "kind": "text",
+    "context": "cv/index.html / aside/div/p"
+  },
+  {
+    "id": "t0263",
+    "source": "* Fiktívna dostupnosť. Ada žila v rokoch 1815 – 1852. Tento životopis je tvorivá pocta, nie skutočná pracovná ponuka.",
+    "kind": "text",
+    "context": "cv/index.html / article/aside/small"
+  },
+  {
+    "id": "t0264",
+    "source": "CURRICULUM VITAE / ALTERNATÍVNA SÚČASNOSŤ",
+    "kind": "text",
+    "context": "cv/index.html / div/div/span"
+  },
+  {
+    "id": "t0265",
+    "source": "Programátorka & analytička",
+    "kind": "text",
+    "context": "cv/index.html / article/div/h2"
+  },
+  {
+    "id": "t0266",
+    "source": "Zložité zadania mením na presné kroky. Dokumentujem aj to, čo ešte nikto nepostavil. Hľadám tím, ktorý považuje zvedavosť za kvalifikáciu.",
+    "kind": "text",
+    "context": "cv/index.html / article/div/p"
+  },
+  {
+    "id": "t0267",
+    "source": "Čo prinášam do tímu",
+    "kind": "text",
+    "context": "cv/index.html / div/section/h3"
+  },
+  {
+    "id": "t0268",
+    "source": "Algoritmické myslenie a schopnosť rozdeliť problém na kroky.",
+    "kind": "text",
+    "context": "cv/index.html / section/ul/li"
+  },
+  {
+    "id": "t0269",
+    "source": "Technická dokumentácia, ktorú sa oplatí čítať.",
+    "kind": "text",
+    "context": "cv/index.html / section/ul/li"
+  },
+  {
+    "id": "t0270",
+    "source": "Spájanie matematiky, tvorivosti a praktických otázok.",
+    "kind": "text",
+    "context": "cv/index.html / section/ul/li"
+  },
+  {
+    "id": "t0271",
+    "source": "Trpezlivosť s hardvérom. Historicky overená.",
+    "kind": "text",
+    "context": "cv/index.html / section/ul/li"
+  },
+  {
+    "id": "t0272",
+    "source": "Skúsenosti preložené do dneška",
+    "kind": "text",
+    "context": "cv/index.html / div/section/h3"
+  },
+  {
+    "id": "t0273",
+    "source": "RECESIA",
+    "kind": "text",
+    "context": "cv/index.html / section/h3/span"
+  },
+  {
+    "id": "t0274",
+    "source": "1843 → DNES",
+    "kind": "text",
+    "context": "cv/index.html / section/div/span"
+  },
+  {
+    "id": "t0275",
+    "source": "Algorithm Designer · imaginárny tím Analytical Engine",
+    "kind": "text",
+    "context": "cv/index.html / section/div/h4"
+  },
+  {
+    "id": "t0276",
+    "source": "Navrhla som postup, opísala predpoklady a vysvetlila jeho možnosti. Dnes by som k tomu pridala testy a trvala na zrozumiteľnom code review.",
+    "kind": "text",
+    "context": "cv/index.html / section/div/p"
+  },
+  {
+    "id": "t0277",
+    "source": "VEDĽAJŠÍ PROJEKT · VÝMYSEL",
+    "kind": "text",
+    "context": "cv/index.html / section/div/span"
+  },
+  {
+    "id": "t0278",
+    "source": "TeaScript · hlavná architektka kanvice",
+    "kind": "text",
+    "context": "cv/index.html / section/div/h4"
+  },
+  {
+    "id": "t0279",
+    "source": "Prototyp jazyka, ktorého build pipeline sa končí šálkou čaju. Dosiahnutý výsledok: tím je hydratovaný a dokumentácia vonia po bergamote.",
+    "kind": "text",
+    "context": "cv/index.html / section/div/p"
+  },
+  {
+    "id": "t0280",
+    "source": "Ako pracujem",
+    "kind": "text",
+    "context": "cv/index.html / div/section/h3"
+  },
+  {
+    "id": "t0281",
+    "source": "Najprv pochopím problém. Potom navrhnem postup, overím predpoklady a až následne otvorím editor. „U mňa to funguje“ považujem za začiatok diskusie.",
+    "kind": "text",
+    "context": "cv/index.html / div/section/p"
+  },
+  {
+    "id": "t0282",
+    "source": "Historický základ",
+    "kind": "text",
+    "context": "cv/index.html / div/section/h3"
+  },
+  {
+    "id": "t0283",
+    "source": "SKUTOČNOSŤ",
+    "kind": "text",
+    "context": "cv/index.html / section/h3/span"
+  },
+  {
+    "id": "t0284",
+    "source": "1843: preklad Menabreovho textu a poznámky A – G k analytickému stroju.",
+    "kind": "text",
+    "context": "cv/index.html / section/ul/li"
+  },
+  {
+    "id": "t0285",
+    "source": "Poznámka G obsahuje postup pre Bernoulliho čísla.",
+    "kind": "text",
+    "context": "cv/index.html / section/ul/li"
+  },
+  {
+    "id": "t0286",
+    "source": "1840 – 1841: matematická korešpondencia s Augustom De Morganom.",
+    "kind": "text",
+    "context": "cv/index.html / section/ul/li"
+  },
+  {
+    "id": "t0287",
+    "source": "Matematické rukopisy ↗",
+    "kind": "text",
+    "context": "cv/index.html / section/p/a"
+  },
+  {
+    "id": "t0288",
+    "source": "Poznámky z roku 1843 ↗",
+    "kind": "text",
+    "context": "cv/index.html / section/p/a"
+  },
+  {
+    "id": "t0289",
+    "source": "S úctou a bodkočiarkou,",
+    "kind": "text",
+    "context": "cv/index.html / article/div/p"
+  },
+  {
+    "id": "t0290",
+    "source": "MOTIVAČNÝ LIST, KTORÝ HR NEČAKALO · VÝMYSEL",
+    "kind": "text",
+    "context": "cv/index.html / section/div/span"
+  },
+  {
+    "id": "t0291",
+    "source": "Vážený tím, vo vašom inzeráte žiadate tri roky praxe s nástrojom, ktorý existuje dva roky. Myslím, že si budeme rozumieť. Ja som pracovala na programe skôr, než bol hotový počítač.",
+    "kind": "text",
+    "context": "cv/index.html / section/div/p"
+  },
+  {
+    "id": "t0292",
+    "source": "- Fiktívna Ada z nášho salónu",
+    "kind": "text",
+    "context": "cv/index.html / section/div/p"
+  },
+  {
+    "id": "t0293",
+    "source": "Preverte si naše tvrdenia.",
+    "kind": "text",
+    "context": "cv/index.html / aside/a/span"
+  },
+  {
+    "id": "t0294",
+    "source": "Knižnica je otvorená.",
+    "kind": "text",
+    "context": "cv/index.html / a/span/em"
+  },
+  {
+    "id": "t0295",
+    "source": "Overené historické zdroje, Adine poznámky, matematické listy a tri skutočné knihy. Oddeľujeme archív, výklad a fikciu.",
+    "kind": "text",
+    "context": "zdroje/index.html / metadata"
+  },
+  {
+    "id": "t0296",
+    "source": "Historické zdroje a knihy - Ada Lovelace",
+    "kind": "text",
+    "context": "zdroje/index.html / metadata"
+  },
+  {
+    "id": "t0297",
+    "source": "/ KNIŽNICA BEZ VÝMYSLOV",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/span"
+  },
+  {
+    "id": "t0298",
+    "source": "04 / KNIŽNICA BEZ VÝMYSLOV",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/p"
+  },
+  {
+    "id": "t0299",
+    "source": "Dôverujte.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/h1"
+  },
+  {
+    "id": "t0300",
+    "source": "Ale otvorte zdroj.",
+    "kind": "text",
+    "context": "zdroje/index.html / div/h1/em"
+  },
+  {
+    "id": "t0301",
+    "source": "Humor máme radi. Citácie ešte radšej. Tu sa končí náš Parný cloud a začínajú skutočné listy, archívy a knihy.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/p"
+  },
+  {
+    "id": "t0302",
+    "source": "A",
+    "kind": "text",
+    "context": "zdroje/index.html / main/section/div"
+  },
+  {
+    "id": "t0303",
+    "source": "-G",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/i"
+  },
+  {
+    "id": "t0304",
+    "source": "PRIMÁRNE PRAMENE",
+    "kind": "text",
+    "context": "zdroje/index.html / main/div/span"
+  },
+  {
+    "id": "t0305",
+    "source": "ODBORNÝ KONTEXT",
+    "kind": "text",
+    "context": "zdroje/index.html / main/div/span"
+  },
+  {
+    "id": "t0306",
+    "source": "SKUTOČNÉ KNIHY",
+    "kind": "text",
+    "context": "zdroje/index.html / main/div/span"
+  },
+  {
+    "id": "t0307",
+    "source": "Priamo od Ady.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/h2"
+  },
+  {
+    "id": "t0308",
+    "source": "Takmer bez sprostredkovateľa.",
+    "kind": "text",
+    "context": "zdroje/index.html / div/h2/em"
+  },
+  {
+    "id": "t0309",
+    "source": "Historické texty sú v angličtine.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/p"
+  },
+  {
+    "id": "t0310",
+    "source": "Odkazy sa otvárajú na pôvodných weboch.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/p"
+  },
+  {
+    "id": "t0311",
+    "source": "PÔVODNÝ TEXT · 1843",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/span"
+  },
+  {
+    "id": "t0312",
+    "source": "Notes by the Translator",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/h3"
+  },
+  {
+    "id": "t0313",
+    "source": "Adine poznámky A – G v historickom znení. Priamy pohľad na jej uvažovanie o analytickom stroji. Elektronický prepis na York University; text je v angličtine.",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0314",
+    "source": "Čítať poznámky ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / section/article/a"
+  },
+  {
+    "id": "t0315",
+    "source": "RUKOPISY & LISTY",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/span"
+  },
+  {
+    "id": "t0316",
+    "source": "Matematické papiere Ady Lovelace",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/h3"
+  },
+  {
+    "id": "t0317",
+    "source": "Digitalizované materiály a výskumný kontext projektu Clay Mathematics Institute. Dobrý začiatok, ak vás zaujíma, ako sa matematiku učila.",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0318",
+    "source": "Otvoriť archív ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / section/article/a"
+  },
+  {
+    "id": "t0319",
+    "source": "KOREŠPONDENCIA · 1840 – 1841",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/span"
+  },
+  {
+    "id": "t0320",
+    "source": "Lovelace ↔ De Morgan",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/h3"
+  },
+  {
+    "id": "t0321",
+    "source": "Listy, prepisy a konkrétne matematické otázky. Aj priekopníčka sa pýtala, keď niečomu nerozumela. Vynikajúci argument v prospech pýtania sa.",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0322",
+    "source": "Preskúmať listy ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / section/article/a"
+  },
+  {
+    "id": "t0323",
+    "source": "KEĎ SA HODÍ KONTEXT",
+    "kind": "text",
+    "context": "zdroje/index.html / main/section/span"
+  },
+  {
+    "id": "t0324",
+    "source": "Science Museum Group",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/h3"
+  },
+  {
+    "id": "t0325",
+    "source": "Prehľad života a práce Ady Lovelace od múzejnej inštitúcie.",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/p"
+  },
+  {
+    "id": "t0326",
+    "source": "Prečítať profil ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/a"
+  },
+  {
+    "id": "t0327",
+    "source": "Computer History Museum",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/h3"
+  },
+  {
+    "id": "t0328",
+    "source": "Ada, Babbage a význam jej poznámok pre dejiny výpočtovej techniky.",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/p"
+  },
+  {
+    "id": "t0329",
+    "source": "Prečítať historický kontext ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/a"
+  },
+  {
+    "id": "t0330",
+    "source": "University of Oxford",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/h3"
+  },
+  {
+    "id": "t0331",
+    "source": "Výskum matematického vzdelávania Ady a odkazy na odborné práce.",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/p"
+  },
+  {
+    "id": "t0332",
+    "source": "Preskúmať výskum ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / div/article/a"
+  },
+  {
+    "id": "t0333",
+    "source": "Do knižnice.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/h2"
+  },
+  {
+    "id": "t0334",
+    "source": "Nie do záložiek navždy.",
+    "kind": "text",
+    "context": "zdroje/index.html / div/h2/em"
+  },
+  {
+    "id": "t0335",
+    "source": "Tri rôzne spôsoby, ako spoznať Adu.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/p"
+  },
+  {
+    "id": "t0336",
+    "source": "Bibliografické údaje označujú uvedené vydanie.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/div/p"
+  },
+  {
+    "id": "t0337",
+    "source": "ZO SALÓNOVEJ KNIŽNICE",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/span"
+  },
+  {
+    "id": "t0338",
+    "source": "Christopher Hollings",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/i"
+  },
+  {
+    "id": "t0339",
+    "source": "VÝSKUM & BIOGRAFIA",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/span"
+  },
+  {
+    "id": "t0340",
+    "source": "Ada Lovelace: The Making of a Computer Scientist",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/h3"
+  },
+  {
+    "id": "t0341",
+    "source": "Christopher Hollings, Ursula Martin & Adrian Rice",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0342",
+    "source": "Bodleian Library Publishing · 2018",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0343",
+    "source": "Ako sa z Ady stala matematička. Kniha vychádza z archívneho výskumu a sleduje jej vzdelávanie aj vedecké myslenie.",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0344",
+    "source": "O knihe na University of Oxford ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/a"
+  },
+  {
+    "id": "t0345",
+    "source": "Benjamin Woolley",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/i"
+  },
+  {
+    "id": "t0346",
+    "source": "ŽIVOTOPIS",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/span"
+  },
+  {
+    "id": "t0347",
+    "source": "Ada Lovelace: Bride of Science",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/h3"
+  },
+  {
+    "id": "t0348",
+    "source": "Pan · vydanie 2015",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0349",
+    "source": "Životopis zasadený do Adinej rodiny, vzťahov a vedeckého sveta jej doby. Na čítanie pri dlhšej kanvici čaju.",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0350",
+    "source": "Kniha u vydavateľa ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/a"
+  },
+  {
+    "id": "t0351",
+    "source": "Sydney Padua",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/i"
+  },
+  {
+    "id": "t0352",
+    "source": "KOMIKS · ALTERNATÍVNA HISTÓRIA",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/span"
+  },
+  {
+    "id": "t0353",
+    "source": "The Thrilling Adventures of Lovelace and Babbage",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/h3"
+  },
+  {
+    "id": "t0354",
+    "source": "Penguin · paperback 2016",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0355",
+    "source": "Humorný grafický román s historickými poznámkami a vymyslenými dobrodružstvami. Príbehová fikcia, nie doslovný životopis.",
+    "kind": "text",
+    "context": "zdroje/index.html / article/div/p"
+  },
+  {
+    "id": "t0356",
+    "source": "Farebné knižné motívy sú naše ilustrácie, nie reprodukcie obálok. Odkazy vedú k vydavateľom alebo k univerzitnému opisu knihy. Ceny a dostupnosť neuvádzame.",
+    "kind": "text",
+    "context": "zdroje/index.html / main/section/p"
+  },
+  {
+    "id": "t0357",
+    "source": "Ako čítať tento web",
+    "kind": "text",
+    "context": "zdroje/index.html / main/section/h2"
+  },
+  {
+    "id": "t0358",
+    "source": "Bola naozaj „prvá programátorka“?",
+    "kind": "text",
+    "context": "zdroje/index.html / section/details/summary"
+  },
+  {
+    "id": "t0359",
+    "source": "Často sa tak označuje najmä pre publikovanú poznámku G z roku 1843. Presné prvenstvo závisí od toho, čo rozumieme programom a publikovaním; Babbage tvoril aj skoršie nepublikované postupy. Jej význam nespočíva len v titulku, ale aj v vysvetlení širších možností stroja.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/details/p"
+  },
+  {
+    "id": "t0360",
+    "source": "Historický kontext ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / details/p/a"
+  },
+  {
+    "id": "t0361",
+    "source": "Čo sme si na tomto webe vymysleli?",
+    "kind": "text",
+    "context": "zdroje/index.html / section/details/summary"
+  },
+  {
+    "id": "t0362",
+    "source": "TeaScript, Parný cloud, Salónový Undo, plážové AI zábery, moderné CV, motivačné listy a všetky súčasné hlášky. Sú označené ako recesia. Nikomu nepripisujeme vymyslené odporúčania ani pracovné ponuky.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/details/p"
+  },
+  {
+    "id": "t0363",
+    "source": "Odkiaľ pochádza portrét?",
+    "kind": "text",
+    "context": "zdroje/index.html / section/details/summary"
+  },
+  {
+    "id": "t0364",
+    "source": "Historický akvarel približne z roku 1840 pripisovaný Alfredovi Edwardovi Chalonovi. Reprodukcia je na Wikimedia Commons vedená ako voľné dielo.",
+    "kind": "text",
+    "context": "zdroje/index.html / section/details/p"
+  },
+  {
+    "id": "t0365",
+    "source": "Pôvod, autorstvo a licencia ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / details/p/a"
+  },
+  {
+    "id": "t0366",
+    "source": "Odkazy a bibliografické údaje overené 11. novembra 2026. Encyklopedický rozcestník:",
+    "kind": "text",
+    "context": "zdroje/index.html / main/section/p"
+  },
+  {
+    "id": "t0367",
+    "source": "Ada Lovelace na Wikipédii ↗",
+    "kind": "text",
+    "context": "zdroje/index.html / section/p/a"
+  },
+  {
+    "id": "t0368",
+    "source": "Jej meno žije",
+    "kind": "text",
+    "context": "zdroje/index.html / aside/a/span"
+  },
+  {
+    "id": "t0369",
+    "source": "aj v programovacom jazyku.",
+    "kind": "text",
+    "context": "zdroje/index.html / a/span/em"
+  },
+  {
+    "id": "t0370",
+    "source": "Čo je programovací jazyk Ada, prečo nesie Adino meno, čím je zaujímavý a ako vyzerá jednoduchý program.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / metadata"
+  },
+  {
+    "id": "t0371",
+    "source": "Programovací jazyk Ada - Ada Lovelace",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / metadata"
+  },
+  {
+    "id": "t0372",
+    "source": "/ ADA, TENTORAZ S KOMPILÁTOROM",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/span"
+  },
+  {
+    "id": "t0373",
+    "source": "05 / ADA, TENTORAZ S KOMPILÁTOROM",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/p"
+  },
+  {
+    "id": "t0374",
+    "source": "Ada.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/h1"
+  },
+  {
+    "id": "t0375",
+    "source": "Žena aj jazyk.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/h1/em"
+  },
+  {
+    "id": "t0376",
+    "source": "Jedna predbehla počítače. Druhý vám pripomenie, že typ premennej nie je nezáväzné odporúčanie.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/p"
+  },
+  {
+    "id": "t0377",
+    "source": "begin",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/i"
+  },
+  {
+    "id": "t0378",
+    "source": "end;",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / main/section/div"
+  },
+  {
+    "id": "t0379",
+    "source": "SKUTOČNÝ PROGRAMOVACÍ JAZYK",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / main/div/span"
+  },
+  {
+    "id": "t0380",
+    "source": "TEASCRIPT ZOSTÁVA V KANVICI",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / main/div/span"
+  },
+  {
+    "id": "t0381",
+    "source": "MENO AKO POCTA",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/span"
+  },
+  {
+    "id": "t0382",
+    "source": "Nenapísala ho.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/h2"
+  },
+  {
+    "id": "t0383",
+    "source": "Inšpirovala názov.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/h2/em"
+  },
+  {
+    "id": "t0384",
+    "source": "Jazyk Ada je pomenovaný na počesť Ady Lovelace. Vznikal v súťaži amerického ministerstva obrany v 70. rokoch 20. storočia; víťazný návrh viedol Jean Ichbiah. Prvý štandard vyšiel v roku 1983.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/p"
+  },
+  {
+    "id": "t0385",
+    "source": "Ada Lovelace žila v rokoch 1815 – 1852. Jazyk preto nevytvorila ani v ňom neprogramovala. Názov je pocta jej odkazu.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/p"
+  },
+  {
+    "id": "t0386",
+    "source": "História jazyka · AdaCore ↗",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/p/a"
+  },
+  {
+    "id": "t0387",
+    "source": "Pôvod názvu · historická správa v NASA NTRS, PDF ↗",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/p/a"
+  },
+  {
+    "id": "t0388",
+    "source": "Silné typy.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/h2"
+  },
+  {
+    "id": "t0389",
+    "source": "Slabosť pre poriadok.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/h2/em"
+  },
+  {
+    "id": "t0390",
+    "source": "Tri dôvody, prečo kompilátor",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/p"
+  },
+  {
+    "id": "t0391",
+    "source": "nemusí byť váš nepriateľ.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/p"
+  },
+  {
+    "id": "t0392",
+    "source": "01 / TYPY",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/span"
+  },
+  {
+    "id": "t0393",
+    "source": "Čaj nie je celé číslo.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/h3"
+  },
+  {
+    "id": "t0394",
+    "source": "Silný typový systém pomáha odhaliť nesprávne použitie dát. Mnohé chyby sa zachytia už pri kompilácii.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/p"
+  },
+  {
+    "id": "t0395",
+    "source": "02 / ČITATEĽNOSŤ",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/span"
+  },
+  {
+    "id": "t0396",
+    "source": "Kód sa aj číta.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/h3"
+  },
+  {
+    "id": "t0397",
+    "source": "Jazyk uprednostňuje explicitné vyjadrenie zámeru a čitateľnosť. Slová ako",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/p"
+  },
+  {
+    "id": "t0398",
+    "source": "a",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/p"
+  },
+  {
+    "id": "t0399",
+    "source": "berie vážne.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/p"
+  },
+  {
+    "id": "t0400",
+    "source": "03 / SPOĽAHLIVOSŤ",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/span"
+  },
+  {
+    "id": "t0401",
+    "source": "Viac než pekné demo.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/h3"
+  },
+  {
+    "id": "t0402",
+    "source": "Ada sa používa vo vstavaných a real-time systémoch, napríklad v letectve a železniciach. Sama osebe však nezaručuje bezchybný softvér.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/p"
+  },
+  {
+    "id": "t0403",
+    "source": "Vlastnosti a použitie · AdaCore ↗",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/p/a"
+  },
+  {
+    "id": "t0404",
+    "source": "MALÁ OCHUTNÁVKA SYNTAXE",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/span"
+  },
+  {
+    "id": "t0405",
+    "source": "SKUTOČNÝ KÓD / ILUSTRAČNÝ VÝSTUP",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/span"
+  },
+  {
+    "id": "t0406",
+    "source": "So slušnými typmi.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/h2/em"
+  },
+  {
+    "id": "t0407",
+    "source": "Vyberte si jednu z troch krátkych ukážok. Vysvetlíme, čo znamená a aký výstup by vytvorila.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/p"
+  },
+  {
+    "id": "t0408",
+    "source": "UKÁŽKA",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/label"
+  },
+  {
+    "id": "t0409",
+    "source": "Pozdrav zo salónu",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/select/option"
+  },
+  {
+    "id": "t0410",
+    "source": "Tri šálky v cykle",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/select/option"
+  },
+  {
+    "id": "t0411",
+    "source": "Typ s rozsahom",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/select/option"
+  },
+  {
+    "id": "t0412",
+    "source": "Put_Line vypíše text a ukončí riadok. Procedúra Hello je vstupným bodom tejto ukážky.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/p"
+  },
+  {
+    "id": "t0413",
+    "source": "Ukázať očakávaný výstup ↗",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/button"
+  },
+  {
+    "id": "t0414",
+    "source": "Kopírovať kód",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/button"
+  },
+  {
+    "id": "t0415",
+    "source": "Ukážka v prehliadači zobrazuje pripravený očakávaný výstup. Nie je to Ada kompilátor a kód sa tu nevykonáva.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/p"
+  },
+  {
+    "id": "t0416",
+    "source": "hello.adb",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/span"
+  },
+  {
+    "id": "t0417",
+    "source": "ADA / UKÁŽKA",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/span"
+  },
+  {
+    "id": "t0418",
+    "source": "Ukážka kódu Ada",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / pre @aria-label"
+  },
+  {
+    "id": "t0419",
+    "source": "OČAKÁVANÝ VÝSTUP",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/div"
+  },
+  {
+    "id": "t0420",
+    "source": "Vyberte „Ukázať očakávaný výstup“.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/div/pre"
+  },
+  {
+    "id": "t0421",
+    "source": "OD PRVÉHO RIADKA K LEPŠÍM OTÁZKAM",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / main/section/span"
+  },
+  {
+    "id": "t0422",
+    "source": "Kam ďalej?",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / main/section/h2"
+  },
+  {
+    "id": "t0423",
+    "source": "Naučte sa základy",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/h3"
+  },
+  {
+    "id": "t0424",
+    "source": "Bezplatný kurz Introduction to Ada od AdaCore. Syntax, typy, moduly aj súbežnosť.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/p"
+  },
+  {
+    "id": "t0425",
+    "source": "Otvoriť kurz ↗",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/a"
+  },
+  {
+    "id": "t0426",
+    "source": "Pozrite si pravidlá",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/h3"
+  },
+  {
+    "id": "t0427",
+    "source": "Ada Reference Manual je autoritatívny opis jazyka. Menej vtipov, viac presnosti.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/p"
+  },
+  {
+    "id": "t0428",
+    "source": "Otvoriť referenčné príručky ↗",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/a"
+  },
+  {
+    "id": "t0429",
+    "source": "Spoznajte SPARK",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/h3"
+  },
+  {
+    "id": "t0430",
+    "source": "SPARK je jazyk založený na podmnožine Ady, ktorý umožňuje formálne overovať vlastnosti programov.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/p"
+  },
+  {
+    "id": "t0431",
+    "source": "Úvod do SPARK ↗",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/article/a"
+  },
+  {
+    "id": "t0432",
+    "source": "Čo znamená Ada 2022?",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/b"
+  },
+  {
+    "id": "t0433",
+    "source": "Je to označenie aktuálneho schváleného vydania štandardu podľa Ada Rapporteur Group; schválenie ISO prebehlo v roku 2023. Pripravovaná ďalšia verzia sa označuje Ada 202Y. Stav overený 11. novembra 2026.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / section/div/p"
+  },
+  {
+    "id": "t0434",
+    "source": "Zdroj ↗",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / div/p/a"
+  },
+  {
+    "id": "t0435",
+    "source": "Dobre, dosť typov.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / aside/a/span"
+  },
+  {
+    "id": "t0436",
+    "source": "Otestujte si znalosti o Ade.",
+    "kind": "text",
+    "context": "jazyk-ada/index.html / a/span/em"
+  },
+  {
+    "id": "t0437",
+    "source": "Fotogaléria Ady Lovelace: historická fotografia, dobové portréty a tri jasne označené AI scény programovania na pláži.",
+    "kind": "text",
+    "context": "fotografie/index.html / metadata"
+  },
+  {
+    "id": "t0438",
+    "source": "Ada na pláži - Fotografie & AI fikcia",
+    "kind": "text",
+    "context": "fotografie/index.html / metadata"
+  },
+  {
+    "id": "t0439",
+    "source": "Archív má dôkazy. Pláž má Wi-Fi. Historické podoby Ady a hravá AI dovolenka.",
+    "kind": "text",
+    "context": "fotografie/index.html / metadata"
+  },
+  {
+    "id": "t0440",
+    "source": "Fotografie & AI dovolenka - Ada Lovelace",
+    "kind": "text",
+    "context": "fotografie/index.html / html/head/title"
+  },
+  {
+    "id": "t0441",
+    "source": "/ FOTOGRAFIE",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/span"
+  },
+  {
+    "id": "t0442",
+    "source": "06 / ALBUM Z DVOCH RÔZNYCH VESMÍROV",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0443",
+    "source": "Ada. Pláž.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/h1"
+  },
+  {
+    "id": "t0444",
+    "source": "Pull request.",
+    "kind": "text",
+    "context": "fotografie/index.html / div/h1/em"
+  },
+  {
+    "id": "t0445",
+    "source": "Historické podoby ženy, ktorá predbehla dobu. A dovolenka, na ktorú ju poslala naša predstavivosť.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0446",
+    "source": "Otvoriť fotoalbum",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/a"
+  },
+  {
+    "id": "t0447",
+    "source": "3 historické podoby · 3 AI scény",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0448",
+    "source": "Notebook na pláži? Jednoznačne fikcia.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0449",
+    "source": "AI fikcia: Ada Lovelace s notebookom pod slnečníkom na pláži",
+    "kind": "text",
+    "context": "fotografie/index.html / img @alt"
+  },
+  {
+    "id": "t0450",
+    "source": "✳ AI FIKCIA",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/button/span"
+  },
+  {
+    "id": "t0451",
+    "source": "ZVÄČŠIŤ ↗",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/button/span"
+  },
+  {
+    "id": "t0452",
+    "source": "Pozdrav z alternatívneho leta.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/span"
+  },
+  {
+    "id": "t0453",
+    "source": "1843-ish → 2026",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/span"
+  },
+  {
+    "id": "t0454",
+    "source": "REMOTE",
+    "kind": "text",
+    "context": "fotografie/index.html / section/figure/span"
+  },
+  {
+    "id": "t0455",
+    "source": "OD ROKU",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/span/b"
+  },
+  {
+    "id": "t0456",
+    "source": "● ARCHÍV: FOTOGRAFIA A MAĽBY",
+    "kind": "text",
+    "context": "fotografie/index.html / main/div/span"
+  },
+  {
+    "id": "t0457",
+    "source": "✳ AI FIKCIA: VYMYSLENÉ PLÁŽOVÉ SCÉNY",
+    "kind": "text",
+    "context": "fotografie/index.html / main/div/span"
+  },
+  {
+    "id": "t0458",
+    "source": "Archív má dôkazy.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/h2"
+  },
+  {
+    "id": "t0459",
+    "source": "Pláž má Wi-Fi.",
+    "kind": "text",
+    "context": "fotografie/index.html / div/h2/em"
+  },
+  {
+    "id": "t0460",
+    "source": "Vyberte si svet a otvorte záber.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0461",
+    "source": "Označenie pôvodu zostáva aj v detaile.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0462",
+    "source": "Filtrovať fotogalériu",
+    "kind": "text",
+    "context": "fotografie/index.html / div @aria-label"
+  },
+  {
+    "id": "t0463",
+    "source": "Celý album",
+    "kind": "text",
+    "context": "fotografie/index.html / div/div/button"
+  },
+  {
+    "id": "t0464",
+    "source": "História",
+    "kind": "text",
+    "context": "fotografie/index.html / div/div/button"
+  },
+  {
+    "id": "t0465",
+    "source": "AI na pláži",
+    "kind": "text",
+    "context": "fotografie/index.html / div/div/button"
+  },
+  {
+    "id": "t0466",
+    "source": "6 obrázkov",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/span"
+  },
+  {
+    "id": "t0467",
+    "source": "AI fikcia: Ada Lovelace v svetlých šatách programuje na notebooku pod slnečníkom pri mori.",
+    "kind": "text",
+    "context": "fotografie/index.html / img @alt"
+  },
+  {
+    "id": "t0468",
+    "source": "VYMYSLENÉ LETO",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/div/span"
+  },
+  {
+    "id": "t0469",
+    "source": "ALTERNATÍVNA REALITA",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/div/span"
+  },
+  {
+    "id": "t0470",
+    "source": "Home office? Beach office.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/h3"
+  },
+  {
+    "id": "t0471",
+    "source": "Notebook konečne dorazil. Ada okamžite požiadala o prácu na diaľku. Veľmi na diaľku.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/p"
+  },
+  {
+    "id": "t0472",
+    "source": "O tomto AI obrázku",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/summary"
+  },
+  {
+    "id": "t0473",
+    "source": "Vytvorené pomocou AI v roku 2026. Vymyslená scéna inšpirovaná Adou Lovelace; nejde o historickú fotografiu.",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/p"
+  },
+  {
+    "id": "t0474",
+    "source": "AI fikcia: Ada Lovelace v zelených šatách píše na notebooku pri drevenom stole v otvorenej plážovej chatke.",
+    "kind": "text",
+    "context": "fotografie/index.html / img @alt"
+  },
+  {
+    "id": "t0475",
+    "source": "SALÓN PRI MORI",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/div/span"
+  },
+  {
+    "id": "t0476",
+    "source": "Sprint s výhľadom na more.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/h3"
+  },
+  {
+    "id": "t0477",
+    "source": "Dierne štítky naľavo, cloud napravo. Ten na oblohe zatiaľ nemá predplatné.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/p"
+  },
+  {
+    "id": "t0478",
+    "source": "Vytvorené pomocou AI v roku 2026. Vymyslená pracovňa pri pláži, moderný notebook a dobové oblečenie.",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/p"
+  },
+  {
+    "id": "t0479",
+    "source": "AI fikcia: Ada Lovelace v bordových šatách pri notebooku na večernej pláži s lampášom a šálkou čaju.",
+    "kind": "text",
+    "context": "fotografie/index.html / img @alt"
+  },
+  {
+    "id": "t0480",
+    "source": "DEBUGGING PO ZÁPADE SLNKA",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/div/span"
+  },
+  {
+    "id": "t0481",
+    "source": "Ešte opravím jeden bug.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/h3"
+  },
+  {
+    "id": "t0482",
+    "source": "Slnko už deploylo za horizont. Ada ešte nie. Posledná chyba sa predsa neopraví sama.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/p"
+  },
+  {
+    "id": "t0483",
+    "source": "Vytvorené pomocou AI v roku 2026. Fantazijný večerný debugging na pláži; nejde o udalosť z jej života.",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/p"
+  },
+  {
+    "id": "t0484",
+    "source": "Historická daguerrotypia Ady Lovelace od Antoina Claudeta, s tmavými šatami a zlatým oválnym rámom.",
+    "kind": "text",
+    "context": "fotografie/index.html / img @alt"
+  },
+  {
+    "id": "t0485",
+    "source": "● HISTORICKÁ FOTOGRAFIA",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/button/span"
+  },
+  {
+    "id": "t0486",
+    "source": "ARCHÍV",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/div/span"
+  },
+  {
+    "id": "t0487",
+    "source": "Ada pred objektívom.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/h3"
+  },
+  {
+    "id": "t0488",
+    "source": "Skutočný fotografický portrét, nie maľba. Bez notebooku a bez nášho dovolenkového scenára.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/p"
+  },
+  {
+    "id": "t0489",
+    "source": "Autor, pôvod a licencia",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/summary"
+  },
+  {
+    "id": "t0490",
+    "source": "Antoine Claudet. Daguerrotypia, v názve a opise zdrojového súboru datovaná 1843 alebo 1850. Reprodukcia: Wikimedia Commons, courtesy of Geoffrey Bond. Voľné dielo (public domain).",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/p"
+  },
+  {
+    "id": "t0491",
+    "source": "Pôvod, datovanie a licencia ↗",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/a"
+  },
+  {
+    "id": "t0492",
+    "source": "Dobový akvarelový portrét Ady Lovelace v svetlých šatách s tmavou čipkou, pripisovaný A. E. Chalonovi.",
+    "kind": "text",
+    "context": "fotografie/index.html / img @alt"
+  },
+  {
+    "id": "t0493",
+    "source": "● HISTORICKÁ MAĽBA",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/button/span"
+  },
+  {
+    "id": "t0494",
+    "source": "OKOLO 1840",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/div/span"
+  },
+  {
+    "id": "t0495",
+    "source": "Portrét, ktorý poznáte.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/h3"
+  },
+  {
+    "id": "t0496",
+    "source": "Ada zo vstupnej stránky, tentoraz bez našich nálepiek. Toto je reprodukcia akvarelu, nie fotografia Ady.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/p"
+  },
+  {
+    "id": "t0497",
+    "source": "Akvarelový portrét okolo roku 1840, pripisovaný Alfredovi Edwardovi Chalonovi. Science Museum; reprodukcia z Wikimedia Commons. Voľné dielo (public domain).",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/p"
+  },
+  {
+    "id": "t0498",
+    "source": "Olejomaľba Ady Lovelace od Margaret Sarah Carpenterovej z roku 1836, Ada stojí v bielych šatách s červenou šerpou.",
+    "kind": "text",
+    "context": "fotografie/index.html / img @alt"
+  },
+  {
+    "id": "t0499",
+    "source": "Portrét vo veľkom štýle.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/h3"
+  },
+  {
+    "id": "t0500",
+    "source": "Dobový portrét v celej slávnostnej paráde. Dress code: algoritmická elegancia.",
+    "kind": "text",
+    "context": "fotografie/index.html / figure/figcaption/p"
+  },
+  {
+    "id": "t0501",
+    "source": "Margaret Sarah Carpenter, 1836, olej na plátne. Government Art Collection; reprodukcia z Wikimedia Commons. Voľné dielo (public domain).",
+    "kind": "text",
+    "context": "fotografie/index.html / figcaption/details/p"
+  },
+  {
+    "id": "t0502",
+    "source": "Na filtrovanie a otváranie obrázkov vo veľkom zapnite JavaScript. Všetky obrázky aj ich pôvod si môžete prezrieť priamo na tejto stránke.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/noscript/p"
+  },
+  {
+    "id": "t0503",
+    "source": "ČO VLASTNE VIDÍTE?",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/span"
+  },
+  {
+    "id": "t0504",
+    "source": "Jedna Ada.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/h2"
+  },
+  {
+    "id": "t0505",
+    "source": "Dva druhy reality.",
+    "kind": "text",
+    "context": "fotografie/index.html / div/h2/em"
+  },
+  {
+    "id": "t0506",
+    "source": "Historická časť:",
+    "kind": "text",
+    "context": "fotografie/index.html / div/p/strong"
+  },
+  {
+    "id": "t0507",
+    "source": "jedna daguerrotypia a dve reprodukcie maľovaných portrétov. Pri každej položke uvádzame autora, približné datovanie a zdroj. Maľby neoznačujeme za dobové fotografie.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0508",
+    "source": "Plážová časť:",
+    "kind": "text",
+    "context": "fotografie/index.html / div/p/strong"
+  },
+  {
+    "id": "t0509",
+    "source": "tri nové obrázky vytvorené pomocou AI. Postava je tvorivá vizualizácia inšpirovaná Adou, nie presná rekonštrukcia jej výzoru ani udalostí z jej života.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0510",
+    "source": "* „Remote od roku 1843“ je náš vtip. Historické zábery ostali historické; pláž, notebooky a dovolenkové scenáre sú vymyslené. AI snímky vytvorené 11. novembra 2026.",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/p"
+  },
+  {
+    "id": "t0511",
+    "source": "Viac histórie, menej piesku: zdroje a knihy ↗",
+    "kind": "text",
+    "context": "fotografie/index.html / section/div/a"
+  },
+  {
+    "id": "t0512",
+    "source": "Dosť dovolenky.",
+    "kind": "text",
+    "context": "fotografie/index.html / aside/a/span"
+  },
+  {
+    "id": "t0513",
+    "source": "Čo vlastne naprogramovala?",
+    "kind": "text",
+    "context": "fotografie/index.html / a/span/em"
+  },
+  {
+    "id": "t0514",
+    "source": "Zavrieť fotografiu",
+    "kind": "text",
+    "context": "fotografie/index.html / button @aria-label"
+  },
+  {
+    "id": "t0515",
+    "source": "Stiahnuť obrázok ↓",
+    "kind": "text",
+    "context": "fotografie/index.html / div/div/a"
+  },
+  {
+    "id": "t0516",
+    "source": "Predchádzajúci obrázok",
+    "kind": "text",
+    "context": "fotografie/index.html / button @aria-label"
+  },
+  {
+    "id": "t0517",
+    "source": "LISTUJTE ŠÍPKAMI",
+    "kind": "text",
+    "context": "fotografie/index.html / div/div/span"
+  },
+  {
+    "id": "t0518",
+    "source": "Ďalší obrázok",
+    "kind": "text",
+    "context": "fotografie/index.html / button @aria-label"
+  },
+  {
+    "id": "t0519",
+    "source": "Pôvod, datovanie a licencia",
+    "kind": "text",
+    "context": "gallery JSON / claudet / sourceLabel"
+  },
+  {
+    "id": "t0520",
+    "source": "Pôvod, autorstvo a licencia",
+    "kind": "text",
+    "context": "gallery JSON / chalon / sourceLabel"
+  },
+  {
+    "id": "t0521",
+    "source": "3 exponáty",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0522",
+    "source": "V poznámke G z roku 1843 Ada opísala postup na výpočet Bernoulliho čísel pomocou analytického stroja. Často sa uvádza ako prvý publikovaný počítačový program. Stroj však za jej života nebol dokončený. Názov „Bernoulli.exe“ je náš vtip - prípony súborov vtedy rozhodne neriešili.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0523",
+    "source": "<div class=\"dialog-callout\">Malá ochutnávka veľkého nápadu<div class=\"number-demo\"><label for=\"bernoulli-index\">Vyberte číslo:</label><select id=\"bernoulli-index\"><option value=\"2\">B₂</option><option value=\"4\">B₄</option><option value=\"6\">B₆</option><option value=\"8\">B₈</option><option value=\"10\">B₁₀</option><option value=\"12\">B₁₂</option></select><output id=\"bernoulli-result\" for=\"bernoulli-index\" aria-live=\"polite\">1 / 6</output></div><small>Moderná ukážka vybraných hodnôt. Nejde o simuláciu pôvodného stroja ani Adinho algoritmu.</small></div>",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0524",
+    "source": "Ada preložila z francúzštiny článok Luigiho Menabreu o Babbageovom analytickom stroji. Pripojila vlastné poznámky A až G, ktoré vysvetľovali jeho možnosti. Uvažovala aj o práci s inými symbolmi než číslami, napríklad s hudbou.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0525",
+    "source": "<div class=\"dialog-callout\">Redakčný preklad do dnešnej reči:<br>„Opravila som README. A mimochodom, opísala budúcnosť počítačov.“<small>Vymyslená hláška, nie Adin citát.</small></div>",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0526",
+    "source": "V roku 1828 sa dvanásťročná Ada venovala predstavám o lietaní. Skúmala vtáky, proporcie krídel a vhodné materiály. Svoje skúmanie chcela zachytiť vo „Flyology“. Bol to mladícky výskum a návrh, nie úspešne skonštruované lietadlo.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0527",
+    "source": "<div class=\"dialog-callout\">Stav projektu: nápad vzlietol.<br>Testovací pilot: radšej zostal na zemi.<small>Humorný komentár redakcie. Obrázok krídel na karte je naša ilustrácia, nie historický výkres.</small></div>",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0528",
+    "source": "Náš úplne vymyslený programovací jazyk pre dámy, džentlmenov a prehriate kanvice. Každý program sa začína ohrevom vody a končí pochybnosťou, či sa mlieko pridáva pred čajom. Výnimky obsluhuje komorník.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0529",
+    "source": "<div class=\"dialog-callout\">SyntaxError: chýba sušienka.<br>Riešenie: pridajte dve. Pre istotu.<small>Žiadna z týchto technológií historicky neexistovala.</small></div><button class=\"button primary dialog-action\" data-go-lab>Vyskúšať TeaScript ↗</button>",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0530",
+    "source": "Fiktívna hostingová služba poháňaná parou a neopodstatneným sebavedomím. Dáta sa ukladajú do oblaku, zálohy do hmly a faktúry pod dvere. Pri daždi dochádza k neplánovanému sťahovaniu súborov.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0531",
+    "source": "<div class=\"dialog-callout\">FREE plán: 5 MB pary<br>PRO plán: vlastný kotol<br>ENTERPRISE: niekto iný prikladá<small>Toto nie je skutočná ponuka. Nedá sa objednať ani poštovým holubom.</small></div>",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0532",
+    "source": "Vymyslené zariadenie na vrátenie poslednej spoločenskej katastrofy. Rozliali ste čaj na baróna? Ctrl + Z. Pochválili ste nesprávny klobúk? Ctrl + Z. Prezradili ste, čo si myslíte o jeho matematike? Tam už treba nový salón.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0533",
+    "source": "<div class=\"dialog-callout\" id=\"undo-message\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\">„Váš klobúk vyzerá ako pokazený diferenciálny stroj.“</div><button class=\"button primary dialog-action\" id=\"undo-demo\">Zachrániť večierok · Ctrl + Z</button>",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0534",
+    "source": "● HISTORICKÝ ZÁKLAD",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0535",
+    "source": "✳ ČISTÁ RECESIA · VYMYSLENÉ",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0536",
+    "source": "Historický zdroj: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0537",
+    "source": "Vymyslený projekt vytvorený pre tento humorný web. Nie je súčasťou skutočného životopisu Ady Lovelace.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0538",
+    "source": "„Aký odvážny klobúk! Takúto architektúru ešte nikto neskúsil.“ ✓ Večierok zachránený.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0539",
+    "source": "Škandál úspešne odvolaný ✓",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0540",
+    "source": "Zelený čaj",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0541",
+    "source": "Káva",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0542",
+    "source": "Lúhujem algoritmus…",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0543",
+    "source": "> Zahrievam vodu na prevádzkovú teplotu.\n> Kontrolujem zásoby sušienok…",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0544",
+    "source": "> Earl Grey úspešne skompilovaný.\n> Hello, world. A teraz trochu noblesy.\n✓ 0 chýb. 2 sušienky. Budúcnosť pripravená.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0545",
+    "source": "> Zelený čaj úspešne skompilovaný.\n> Úsporný režim: menej pary, rovnaký génius.\n✓ Uhlíková stopa: jedna stopa od šálky.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0546",
+    "source": "> TypeError: káva nie je čaj.\n> Volám komorníka… komorník odišiel.\n! Skúste čaj. Alebo založte iný startup.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0547",
+    "source": "Spustiť znova <span>↗</span>",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0548",
+    "source": "Ada napísala algoritmus pre stroj, ktorý za jej života nebol dokončený.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0549",
+    "source": "Presne tak. Jej postup pre Bernoulliho čísla bol určený pre Babbageov analytický stroj. Softvér naozaj predbehol hardvér.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0550",
+    "source": "TeaScript bol oficiálnym jazykom britských čajovní.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0551",
+    "source": "TeaScript sme si vymysleli. Čajovne si museli vystačiť s bežnou konverzáciou a tichým súdením hostí.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0552",
+    "source": "Adin otec bol básnik Lord Byron.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0553",
+    "source": "Áno. Poézia zostala v rodine, Ada k nej pridala matematiku.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0554",
+    "source": "Ako dieťa skúmala, ako by sa dalo lietať.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0555",
+    "source": "Áno. Jej záujem o krídla a lietanie sa spája s projektom Flyology. Nebolo to hotové lietadlo.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0556",
+    "source": "S Babbageom spustili cloudové úložisko poháňané parou.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0557",
+    "source": "To je náš Parný cloud. V skutočných dejinách ho nenájdete. Ani za mimoriadne vlhkého počasia.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0558",
+    "source": "Ada videla v analytickom stroji potenciál pracovať aj s hudbou.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0559",
+    "source": "Áno. Uvažovala o možnostiach stroja za hranicami samotnej aritmetiky. Žiadny viktoriánsky Spotify však nepostavila.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0560",
+    "source": "OTÁZKA",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0561",
+    "source": "SKÓRE",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0562",
+    "source": "Správne. Sušienka pre vás!",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0563",
+    "source": "Tentoraz vás história nachytala.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0564",
+    "source": "(Vymyslený obsah.)",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0565",
+    "source": "Ukázať výsledok →",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0566",
+    "source": "SKÚŠKA UKONČENÁ",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0567",
+    "source": "Čestný doktorát z rozpoznávania recesie.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0568",
+    "source": "Do salónu máte vstup povolený.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0569",
+    "source": "Odporúčame ešte jednu šálku histórie.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0570",
+    "source": "Výsledok:",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0571",
+    "source": "Ada by pravdepodobne uznanlivo prikývla. To je, samozrejme, náš odhad.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0572",
+    "source": "Pravé príbehy aj naše výmysly si môžete znovu pozrieť v projektoch.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0573",
+    "source": "Chrobák zaevidovaný. Záhradník bol privolaný. IT oddelenie vznikne neskôr.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0574",
+    "source": "Priorita: vysoká. Počet nôh: šesť. Odhad opravy: po čaji.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0575",
+    "source": "Chrobák tvrdí, že je to funkcia. Vyšetrovanie pokračuje.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0576",
+    "source": "ŽIVOT",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0577",
+    "source": "Keď sa načítala prvá webstránka",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0578",
+    "source": "Narodila sa 10. decembra 1815 v Londýne. Rok 1843 patrí jej slávnym poznámkam.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0579",
+    "source": "Básnik Lord Byron",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0580",
+    "source": "Zakladateľ Parného cloudu",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0581",
+    "source": "Jej otcom bol básnik Lord Byron. Babbage bol jej neskorší spolupracovník.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0582",
+    "source": "SPOLUPRÁCA",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0583",
+    "source": "S ktorým vynálezcom sa spája jej práca na analytickom stroji?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0584",
+    "source": "Komorník s certifikátom DevOps",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0585",
+    "source": "Charles Babbage navrhoval analytický stroj. Ada vysvetľovala jeho možnosti a opísala výpočtový postup.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0586",
+    "source": "Čo počítal postup opísaný v poznámke G?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0587",
+    "source": "Optimálnu teplotu čaju",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0588",
+    "source": "Počet klobúkov na plese",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0589",
+    "source": "Pravdepodobnosť pádu Wi-Fi",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0590",
+    "source": "Bernoulliho čísla",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0591",
+    "source": "Poznámka G opisuje postup pre Bernoulliho čísla. Názov Bernoulli.exe na našom webe je moderný žart.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0592",
+    "source": "Z akého jazyka Ada preložila Menabreov článok?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0593",
+    "source": "Z francúzštiny",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0594",
+    "source": "Z taliančiny",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0595",
+    "source": "Článok vyšiel vo francúzštine v roku 1842. Anglický preklad s Adinými poznámkami bol publikovaný v roku 1843.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0596",
+    "source": "HARDVÉR",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0597",
+    "source": "Aký bol osud analytického stroja počas Adinho života?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0598",
+    "source": "Predával sa ako notebook",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0599",
+    "source": "Nebol dokončený",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0600",
+    "source": "Bežal v každej čajovni",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0601",
+    "source": "Analytický stroj za jej života dokončený nebol. Preto na ňom svoj publikovaný postup nemohla spustiť.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0602",
+    "source": "PREDSTAVIVOSŤ",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0603",
+    "source": "O akej možnosti stroja Ada uvažovala okrem počítania?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0604",
+    "source": "O vybavovaní víz",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0605",
+    "source": "O automatickom varení čaju",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0606",
+    "source": "O práci s hudbou",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0607",
+    "source": "O predaji predplatného",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0608",
+    "source": "Uvažovala o manipulácii s inými symbolmi než číslami a uviedla aj možnosť práce s hudbou. Neznamená to, že vytvorila hudobnú aplikáciu.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0609",
+    "source": "DETSKÉ NÁPADY",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0610",
+    "source": "S čím súvisel mladícky projekt Flyology?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0611",
+    "source": "S kompilátormi",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0612",
+    "source": "S lietaním a krídlami",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0613",
+    "source": "S taxonómiou počítačových chýb",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0614",
+    "source": "Ako dvanásťročná sa zaujímala o lietanie, krídla a materiály. Projekt nebol hotovým funkčným lietadlom.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0615",
+    "source": "VZDELÁVANIE",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0616",
+    "source": "S kým Ada korešpondenčne študovala pokročilú matematiku?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0617",
+    "source": "S chatbotom ČajGPT",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0618",
+    "source": "Jej matematické listy s Augustom De Morganom z rokov 1840 – 1841 sú dôležitým prameňom o jej vzdelávaní.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0619",
+    "source": "Aký vzťah má Ada Lovelace k programovaciemu jazyku Ada?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0620",
+    "source": "Napísala jeho kompilátor",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0621",
+    "source": "Používala ho v roku 1843",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0622",
+    "source": "Jazyk bol pomenovaný na jej počesť",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0623",
+    "source": "Je to jej tajný pseudonym",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0624",
+    "source": "Jazyk vznikol až v 20. storočí a prvý štandard vyšiel v roku 1983. Ada Lovelace ho nevytvorila; nesie jej meno.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0625",
+    "source": "SKUTOČNOSŤ ČI RECESIA",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0626",
+    "source": "Ktorý z týchto projektov je na našom webe úplne vymyslený?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0627",
+    "source": "Poznámky A – G",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0628",
+    "source": "Postup pre Bernoulliho čísla",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0629",
+    "source": "Skúmanie lietania",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0630",
+    "source": "TeaScript je náš fiktívny čajový jazyk. Skutočný programovací jazyk Ada nájdete na samostatnej podstránke.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0631",
+    "source": "Ktoré tvrdenie o Ade je najpresnejšie?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0632",
+    "source": "Vynašla všetky počítače sama",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0633",
+    "source": "Bola priekopníčkou; presné označenie „prvá“ potrebuje kontext",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0634",
+    "source": "Napísala prvú mobilnú aplikáciu",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0635",
+    "source": "Založila prvý cloud v Londýne",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0636",
+    "source": "Je často označovaná za prvú programátorku najmä pre publikovaný postup z roku 1843. Babbage mal aj skoršie nepublikované postupy; jej odkaz zahŕňa tiež širšiu víziu výpočtových strojov.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0637",
+    "source": "Overiť zdroj ↗",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0638",
+    "source": "OTÁZKA {0} / {1}",
+    "kind": "template",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0639",
+    "source": "SKÓRE {0}",
+    "kind": "template",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0640",
+    "source": "Správna odpoveď: {0}.",
+    "kind": "template",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0641",
+    "source": "Čestný doktorát zo salónu.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0642",
+    "source": "Váš algoritmus na históriu funguje.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0643",
+    "source": "Dobrý základ. Teraz doplniť poznámky.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0644",
+    "source": "Odporúčame druhú šálku histórie.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0645",
+    "source": "Správne ste odpovedali na {0} z {1} otázok ({2} %). {3}",
+    "kind": "template",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0646",
+    "source": "{0} Vaša odpoveď: {1}",
+    "kind": "template",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0647",
+    "source": "Správne: {0}. {1}",
+    "kind": "template",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0648",
+    "source": "Vibe coderka & poetická prototypárka",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0649",
+    "source": "Z neurčitého „nech to má iskru“ spravím prototyp a potom sa opýtam, čo má vlastne robiť. AI beriem ako pomocníka. Zodpovednosť za výsledok si nechávam.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0650",
+    "source": "Preklad hmlistého nápadu do zrozumiteľného zadania.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0651",
+    "source": "Rýchle prototypovanie s AI, čajom a kritickým myslením.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0652",
+    "source": "Kontrola vygenerovaného kódu a overovanie správania.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0653",
+    "source": "Schopnosť povedať „pekné, ale toto ešte nefunguje“.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0654",
+    "source": "Prompt-to-Prototype Lead · fiktívne štúdio Poetical Science",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0655",
+    "source": "V tejto alternatívnej súčasnosti by som s AI skúšala nápady, spresňovala zadanie a kontrolovala, či výsledok robí to, čo sľubuje. Prompt „nejako to oprav“ by som vracala na dopracovanie.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0656",
+    "source": "Parný cloud · prototyp na hranici kondenzácie",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0657",
+    "source": "Navrhla som fiktívny cloud s pôsobivou prezentáciou a otáznikom pri fyzike. Po prvom daždi sme objavili potrebu záloh. MVP získalo vlastný dáždnik.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0658",
+    "source": "Najprv pomenujem cieľ. Potom zadávam, skúšam, čítam a opravujem. Kód od AI nenasadzujem iba preto, že mi odpovedala veľmi zdvorilo.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0659",
+    "source": "AI asistent, dobré zadanie, čas na testovanie a zákaz meetingov počas lúhovania.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0660",
+    "source": "Vážený tím, váš produkt potrebuje víziu, prototyp a niekoho, kto overí, či tlačidlo naozaj funguje. Ponúkam všetky tri veci. Na otázku „koľko promptov denne?“ odpovedám: radšej správny problém než veľa promptov.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0661",
+    "source": "Životopis aktualizovaný:",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0662",
+    "source": "Cyklus prejde hodnoty 1 až 3 vrátane. Integer'Image prevedie číslo na text; pri kladnom čísle obsahuje aj úvodnú medzeru.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0663",
+    "source": "Podtyp Teplota obmedzuje povolené celé čísla na rozsah 0 až 100. Hodnota 95 do rozsahu patrí. Symbol := znamená priradenie.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0664",
+    "source": "Kód skopírovaný ✓",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0665",
+    "source": "Kód bol skopírovaný do schránky.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0666",
+    "source": "Označte a skopírujte kód ručne",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0667",
+    "source": "3 obrázky",
+    "kind": "literal",
+    "context": "gallery.js"
+  },
+  {
+    "id": "t0668",
+    "source": "Stiahnuť AI obrázok ↓",
+    "kind": "literal",
+    "context": "gallery.js"
+  },
+  {
+    "id": "t0669",
+    "source": "Stiahnuť reprodukciu ↓",
+    "kind": "literal",
+    "context": "gallery.js"
+  },
+  {
+    "id": "t0670",
+    "source": "Jazyk webu",
+    "kind": "text",
+    "context": "language switcher"
+  },
+  {
+    "id": "t0671",
+    "source": "Slovenčina",
+    "kind": "text",
+    "context": "language switcher"
+  },
+  {
+    "id": "t0672",
+    "source": "Čeština",
+    "kind": "text",
+    "context": "language switcher"
+  },
+  {
+    "id": "t0673",
+    "source": "English",
+    "kind": "text",
+    "context": "language switcher"
+  },
+  {
+    "id": "t0674",
+    "source": "Deutsch",
+    "kind": "text",
+    "context": "language switcher"
+  },
+  {
+    "id": "t0675",
+    "source": "Español",
+    "kind": "text",
+    "context": "language switcher"
+  },
+  {
+    "id": "t0676",
+    "source": "Otvoriť túto stránku v inom jazyku",
+    "kind": "text",
+    "context": "language switcher"
+  },
+  {
+    "id": "t0677",
+    "source": "JAZYKY SALÓNA",
+    "kind": "text",
+    "context": "language switcher"
+  },
+  {
+    "id": "t0678",
+    "source": "Wikipedia · detstvo",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0679",
+    "source": "\">Zdroj ↗</a>",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0680",
+    "source": "zo 6.",
+    "kind": "literal",
+    "context": "app.js"
+  },
+  {
+    "id": "t0681",
+    "source": "V ktorom roku sa Ada Lovelace narodila?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0682",
+    "source": "RODINA",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0683",
+    "source": "Kto bol Adin otec?",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0684",
+    "source": "ALGORITMY",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0685",
+    "source": "JAZYKY",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0686",
+    "source": "Z Pythonu",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0687",
+    "source": "Z Morseovej abecedy",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0688",
+    "source": "Zabudli mu heslo",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0689",
+    "source": "S marketingom aeroliniek",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0690",
+    "source": "S Lordom Byronom",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0691",
+    "source": "S Isaacom Newtonom",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0692",
+    "source": "S Augustom De Morganom",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0693",
+    "source": "JAZYK ADA",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0694",
+    "source": "DEJINY BEZ SKRATIEK",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0695",
+    "source": "Bezchybný výkon. Aj kompilátor uznanlivo mlčí.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0696",
+    "source": "Pozrite si prehľad, objavte zdroje a pokojne si zahrajte znova.",
+    "kind": "literal",
+    "context": "pages.js"
+  },
+  {
+    "id": "t0697",
+    "source": "{0} z {1}. {2} {3}",
+    "kind": "template",
+    "context": "gallery.js"
+  }
+]

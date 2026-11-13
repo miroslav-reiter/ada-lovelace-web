@@ -1,0 +1,187 @@
+{
+  "default": "sk",
+  "languages": {
+    "sk": "Slovenčina",
+    "cs": "Čeština",
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español"
+  },
+  "pages": [
+    {
+      "lang": "sk",
+      "page": 0,
+      "path": "/"
+    },
+    {
+      "lang": "sk",
+      "page": 1,
+      "path": "/portfolio/"
+    },
+    {
+      "lang": "sk",
+      "page": 2,
+      "path": "/kviz/"
+    },
+    {
+      "lang": "sk",
+      "page": 3,
+      "path": "/cv/"
+    },
+    {
+      "lang": "sk",
+      "page": 4,
+      "path": "/zdroje/"
+    },
+    {
+      "lang": "sk",
+      "page": 5,
+      "path": "/jazyk-ada/"
+    },
+    {
+      "lang": "sk",
+      "page": 6,
+      "path": "/fotografie/"
+    },
+    {
+      "lang": "cs",
+      "page": 0,
+      "path": "/cs/"
+    },
+    {
+      "lang": "cs",
+      "page": 1,
+      "path": "/cs/portfolio/"
+    },
+    {
+      "lang": "cs",
+      "page": 2,
+      "path": "/cs/kviz/"
+    },
+    {
+      "lang": "cs",
+      "page": 3,
+      "path": "/cs/cv/"
+    },
+    {
+      "lang": "cs",
+      "page": 4,
+      "path": "/cs/zdroje/"
+    },
+    {
+      "lang": "cs",
+      "page": 5,
+      "path": "/cs/jazyk-ada/"
+    },
+    {
+      "lang": "cs",
+      "page": 6,
+      "path": "/cs/fotografie/"
+    },
+    {
+      "lang": "en",
+      "page": 0,
+      "path": "/en/"
+    },
+    {
+      "lang": "en",
+      "page": 1,
+      "path": "/en/portfolio/"
+    },
+    {
+      "lang": "en",
+      "page": 2,
+      "path": "/en/quiz/"
+    },
+    {
+      "lang": "en",
+      "page": 3,
+      "path": "/en/cv/"
+    },
+    {
+      "lang": "en",
+      "page": 4,
+      "path": "/en/sources/"
+    },
+    {
+      "lang": "en",
+      "page": 5,
+      "path": "/en/ada-language/"
+    },
+    {
+      "lang": "en",
+      "page": 6,
+      "path": "/en/photos/"
+    },
+    {
+      "lang": "de",
+      "page": 0,
+      "path": "/de/"
+    },
+    {
+      "lang": "de",
+      "page": 1,
+      "path": "/de/portfolio/"
+    },
+    {
+      "lang": "de",
+      "page": 2,
+      "path": "/de/quiz/"
+    },
+    {
+      "lang": "de",
+      "page": 3,
+      "path": "/de/lebenslauf/"
+    },
+    {
+      "lang": "de",
+      "page": 4,
+      "path": "/de/quellen/"
+    },
+    {
+      "lang": "de",
+      "page": 5,
+      "path": "/de/ada-sprache/"
+    },
+    {
+      "lang": "de",
+      "page": 6,
+      "path": "/de/fotos/"
+    },
+    {
+      "lang": "es",
+      "page": 0,
+      "path": "/es/"
+    },
+    {
+      "lang": "es",
+      "page": 1,
+      "path": "/es/portafolio/"
+    },
+    {
+      "lang": "es",
+      "page": 2,
+      "path": "/es/quiz/"
+    },
+    {
+      "lang": "es",
+      "page": 3,
+      "path": "/es/cv/"
+    },
+    {
+      "lang": "es",
+      "page": 4,
+      "path": "/es/fuentes/"
+    },
+    {
+      "lang": "es",
+      "page": 5,
+      "path": "/es/lenguaje-ada/"
+    },
+    {
+      "lang": "es",
+      "page": 6,
+      "path": "/es/fotos/"
+    }
+  ]
+}

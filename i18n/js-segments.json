@@ -1,0 +1,1511 @@
+{
+  "app.js": [
+    {
+      "start": 851,
+      "end": 864,
+      "kind": "literal",
+      "source": "6 exponátov",
+      "id": "t0094"
+    },
+    {
+      "start": 867,
+      "end": 879,
+      "kind": "literal",
+      "source": "3 exponáty",
+      "id": "t0521"
+    },
+    {
+      "start": 980,
+      "end": 1260,
+      "kind": "literal",
+      "source": "V poznámke G z roku 1843 Ada opísala postup na výpočet Bernoulliho čísel pomocou analytického stroja. Často sa uvádza ako prvý publikovaný počítačový program. Stroj však za jej života nebol dokončený. Názov „Bernoulli.exe“ je náš vtip - prípony súborov vtedy rozhodne neriešili.",
+      "id": "t0522"
+    },
+    {
+      "start": 1273,
+      "end": 1826,
+      "kind": "literal",
+      "source": "<div class=\"dialog-callout\">Malá ochutnávka veľkého nápadu<div class=\"number-demo\"><label for=\"bernoulli-index\">Vyberte číslo:</label><select id=\"bernoulli-index\"><option value=\"2\">B₂</option><option value=\"4\">B₄</option><option value=\"6\">B₆</option><option value=\"8\">B₈</option><option value=\"10\">B₁₀</option><option value=\"12\">B₁₂</option></select><output id=\"bernoulli-result\" for=\"bernoulli-index\" aria-live=\"polite\">1 / 6</output></div><small>Moderná ukážka vybraných hodnôt. Nejde o simuláciu pôvodného stroja ani Adinho algoritmu.</small></div>",
+      "id": "t0523"
+    },
+    {
+      "start": 1923,
+      "end": 1939,
+      "kind": "literal",
+      "source": "Poznámky A - G",
+      "id": "t0115"
+    },
+    {
+      "start": 1972,
+      "end": 2200,
+      "kind": "literal",
+      "source": "Ada preložila z francúzštiny článok Luigiho Menabreu o Babbageovom analytickom stroji. Pripojila vlastné poznámky A až G, ktoré vysvetľovali jeho možnosti. Uvažovala aj o práci s inými symbolmi než číslami, napríklad s hudbou.",
+      "id": "t0524"
+    },
+    {
+      "start": 2213,
+      "end": 2399,
+      "kind": "literal",
+      "source": "<div class=\"dialog-callout\">Redakčný preklad do dnešnej reči:<br>„Opravila som README. A mimochodom, opísala budúcnosť počítačov.“<small>Vymyslená hláška, nie Adin citát.</small></div>",
+      "id": "t0525"
+    },
+    {
+      "start": 2533,
+      "end": 2763,
+      "kind": "literal",
+      "source": "V roku 1828 sa dvanásťročná Ada venovala predstavám o lietaní. Skúmala vtáky, proporcie krídel a vhodné materiály. Svoje skúmanie chcela zachytiť vo „Flyology“. Bol to mladícky výskum a návrh, nie úspešne skonštruované lietadlo.",
+      "id": "t0526"
+    },
+    {
+      "start": 2776,
+      "end": 2993,
+      "kind": "literal",
+      "source": "<div class=\"dialog-callout\">Stav projektu: nápad vzlietol.<br>Testovací pilot: radšej zostal na zemi.<small>Humorný komentár redakcie. Obrázok krídel na karte je naša ilustrácia, nie historický výkres.</small></div>",
+      "id": "t0527"
+    },
+    {
+      "start": 3034,
+      "end": 3055,
+      "kind": "literal",
+      "source": "Wikipedia · detstvo",
+      "id": "t0678"
+    },
+    {
+      "start": 3128,
+      "end": 3331,
+      "kind": "literal",
+      "source": "Náš úplne vymyslený programovací jazyk pre dámy, džentlmenov a prehriate kanvice. Každý program sa začína ohrevom vody a končí pochybnosťou, či sa mlieko pridáva pred čajom. Výnimky obsluhuje komorník.",
+      "id": "t0528"
+    },
+    {
+      "start": 3344,
+      "end": 3600,
+      "kind": "literal",
+      "source": "<div class=\"dialog-callout\">SyntaxError: chýba sušienka.<br>Riešenie: pridajte dve. Pre istotu.<small>Žiadna z týchto technológií historicky neexistovala.</small></div><button class=\"button primary dialog-action\" data-go-lab>Vyskúšať TeaScript ↗</button>",
+      "id": "t0529"
+    },
+    {
+      "start": 3628,
+      "end": 3642,
+      "kind": "literal",
+      "source": "Parný cloud™",
+      "id": "t0121"
+    },
+    {
+      "start": 3678,
+      "end": 3871,
+      "kind": "literal",
+      "source": "Fiktívna hostingová služba poháňaná parou a neopodstatneným sebavedomím. Dáta sa ukladajú do oblaku, zálohy do hmly a faktúry pod dvere. Pri daždi dochádza k neplánovanému sťahovaniu súborov.",
+      "id": "t0530"
+    },
+    {
+      "start": 3884,
+      "end": 4084,
+      "kind": "literal",
+      "source": "<div class=\"dialog-callout\">FREE plán: 5 MB pary<br>PRO plán: vlastný kotol<br>ENTERPRISE: niekto iný prikladá<small>Toto nie je skutočná ponuka. Nedá sa objednať ani poštovým holubom.</small></div>",
+      "id": "t0531"
+    },
+    {
+      "start": 4111,
+      "end": 4126,
+      "kind": "literal",
+      "source": "Salónový Undo",
+      "id": "t0134"
+    },
+    {
+      "start": 4162,
+      "end": 4386,
+      "kind": "literal",
+      "source": "Vymyslené zariadenie na vrátenie poslednej spoločenskej katastrofy. Rozliali ste čaj na baróna? Ctrl + Z. Pochválili ste nesprávny klobúk? Ctrl + Z. Prezradili ste, čo si myslíte o jeho matematike? Tam už treba nový salón.",
+      "id": "t0532"
+    },
+    {
+      "start": 4399,
+      "end": 4656,
+      "kind": "literal",
+      "source": "<div class=\"dialog-callout\" id=\"undo-message\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\">„Váš klobúk vyzerá ako pokazený diferenciálny stroj.“</div><button class=\"button primary dialog-action\" id=\"undo-demo\">Zachrániť večierok · Ctrl + Z</button>",
+      "id": "t0533"
+    },
+    {
+      "start": 4997,
+      "end": 5018,
+      "kind": "literal",
+      "source": "● HISTORICKÝ ZÁKLAD",
+      "id": "t0534"
+    },
+    {
+      "start": 5021,
+      "end": 5050,
+      "kind": "literal",
+      "source": "✳ ČISTÁ RECESIA · VYMYSLENÉ",
+      "id": "t0535"
+    },
+    {
+      "start": 5213,
+      "end": 5284,
+      "kind": "literal",
+      "source": "Historický zdroj: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"",
+      "id": "t0536"
+    },
+    {
+      "start": 5344,
+      "end": 5448,
+      "kind": "literal",
+      "source": "Vymyslený projekt vytvorený pre tento humorný web. Nie je súčasťou skutočného životopisu Ady Lovelace.",
+      "id": "t0537"
+    },
+    {
+      "start": 6057,
+      "end": 6144,
+      "kind": "literal",
+      "source": "„Aký odvážny klobúk! Takúto architektúru ešte nikto neskúsil.“ ✓ Večierok zachránený.",
+      "id": "t0538"
+    },
+    {
+      "start": 6230,
+      "end": 6258,
+      "kind": "literal",
+      "source": "Škandál úspešne odvolaný ✓",
+      "id": "t0539"
+    },
+    {
+      "start": 6709,
+      "end": 6721,
+      "kind": "literal",
+      "source": "Zelený čaj",
+      "id": "t0540"
+    },
+    {
+      "start": 6729,
+      "end": 6735,
+      "kind": "literal",
+      "source": "Káva",
+      "id": "t0541"
+    },
+    {
+      "start": 7139,
+      "end": 7160,
+      "kind": "literal",
+      "source": "Lúhujem algoritmus…",
+      "id": "t0542"
+    },
+    {
+      "start": 7195,
+      "end": 7269,
+      "kind": "literal",
+      "source": "> Zahrievam vodu na prevádzkovú teplotu.\n> Kontrolujem zásoby sušienok…",
+      "id": "t0543"
+    },
+    {
+      "start": 7325,
+      "end": 7446,
+      "kind": "literal",
+      "source": "> Earl Grey úspešne skompilovaný.\n> Hello, world. A teraz trochu noblesy.\n✓ 0 chýb. 2 sušienky. Budúcnosť pripravená.",
+      "id": "t0544"
+    },
+    {
+      "start": 7461,
+      "end": 7584,
+      "kind": "literal",
+      "source": "> Zelený čaj úspešne skompilovaný.\n> Úsporný režim: menej pary, rovnaký génius.\n✓ Uhlíková stopa: jedna stopa od šálky.",
+      "id": "t0545"
+    },
+    {
+      "start": 7600,
+      "end": 7711,
+      "kind": "literal",
+      "source": "> TypeError: káva nie je čaj.\n> Volám komorníka… komorník odišiel.\n! Skúste čaj. Alebo založte iný startup.",
+      "id": "t0546"
+    },
+    {
+      "start": 7795,
+      "end": 7825,
+      "kind": "literal",
+      "source": "Spustiť znova <span>↗</span>",
+      "id": "t0547"
+    },
+    {
+      "start": 7989,
+      "end": 8062,
+      "kind": "literal",
+      "source": "Ada napísala algoritmus pre stroj, ktorý za jej života nebol dokončený.",
+      "id": "t0548"
+    },
+    {
+      "start": 8087,
+      "end": 8210,
+      "kind": "literal",
+      "source": "Presne tak. Jej postup pre Bernoulliho čísla bol určený pre Babbageov analytický stroj. Softvér naozaj predbehol hardvér.",
+      "id": "t0549"
+    },
+    {
+      "start": 8244,
+      "end": 8297,
+      "kind": "literal",
+      "source": "TeaScript bol oficiálnym jazykom britských čajovní.",
+      "id": "t0550"
+    },
+    {
+      "start": 8323,
+      "end": 8425,
+      "kind": "literal",
+      "source": "TeaScript sme si vymysleli. Čajovne si museli vystačiť s bežnou konverzáciou a tichým súdením hostí.",
+      "id": "t0551"
+    },
+    {
+      "start": 8436,
+      "end": 8470,
+      "kind": "literal",
+      "source": "Adin otec bol básnik Lord Byron.",
+      "id": "t0552"
+    },
+    {
+      "start": 8495,
+      "end": 8556,
+      "kind": "literal",
+      "source": "Áno. Poézia zostala v rodine, Ada k nej pridala matematiku.",
+      "id": "t0553"
+    },
+    {
+      "start": 8587,
+      "end": 8630,
+      "kind": "literal",
+      "source": "Ako dieťa skúmala, ako by sa dalo lietať.",
+      "id": "t0554"
+    },
+    {
+      "start": 8655,
+      "end": 8750,
+      "kind": "literal",
+      "source": "Áno. Jej záujem o krídla a lietanie sa spája s projektom Flyology. Nebolo to hotové lietadlo.",
+      "id": "t0555"
+    },
+    {
+      "start": 8781,
+      "end": 8837,
+      "kind": "literal",
+      "source": "S Babbageom spustili cloudové úložisko poháňané parou.",
+      "id": "t0556"
+    },
+    {
+      "start": 8863,
+      "end": 8958,
+      "kind": "literal",
+      "source": "To je náš Parný cloud. V skutočných dejinách ho nenájdete. Ani za mimoriadne vlhkého počasia.",
+      "id": "t0557"
+    },
+    {
+      "start": 8969,
+      "end": 9034,
+      "kind": "literal",
+      "source": "Ada videla v analytickom stroji potenciál pracovať aj s hudbou.",
+      "id": "t0558"
+    },
+    {
+      "start": 9059,
+      "end": 9176,
+      "kind": "literal",
+      "source": "Áno. Uvažovala o možnostiach stroja za hranicami samotnej aritmetiky. Žiadny viktoriánsky Spotify však nepostavila.",
+      "id": "t0559"
+    },
+    {
+      "start": 9351,
+      "end": 9360,
+      "kind": "literal",
+      "source": "OTÁZKA ",
+      "id": "t0560"
+    },
+    {
+      "start": 9452,
+      "end": 9460,
+      "kind": "literal",
+      "source": "SKÓRE ",
+      "id": "t0561"
+    },
+    {
+      "start": 10289,
+      "end": 10297,
+      "kind": "literal",
+      "source": "SKÓRE ",
+      "id": "t0561"
+    },
+    {
+      "start": 10334,
+      "end": 10362,
+      "kind": "literal",
+      "source": "Správne. Sušienka pre vás!",
+      "id": "t0562"
+    },
+    {
+      "start": 10365,
+      "end": 10399,
+      "kind": "literal",
+      "source": "Tentoraz vás história nachytala.",
+      "id": "t0563"
+    },
+    {
+      "start": 10578,
+      "end": 10593,
+      "kind": "literal",
+      "source": "\">Zdroj ↗</a>",
+      "id": "t0679"
+    },
+    {
+      "start": 10596,
+      "end": 10617,
+      "kind": "literal",
+      "source": " (Vymyslený obsah.)",
+      "id": "t0564"
+    },
+    {
+      "start": 10729,
+      "end": 10748,
+      "kind": "literal",
+      "source": "Ukázať výsledok →",
+      "id": "t0565"
+    },
+    {
+      "start": 10751,
+      "end": 10768,
+      "kind": "literal",
+      "source": "Ďalšia otázka →",
+      "id": "t0232"
+    },
+    {
+      "start": 11004,
+      "end": 11021,
+      "kind": "literal",
+      "source": "SKÚŠKA UKONČENÁ",
+      "id": "t0566"
+    },
+    {
+      "start": 11141,
+      "end": 11183,
+      "kind": "literal",
+      "source": "Čestný doktorát z rozpoznávania recesie.",
+      "id": "t0567"
+    },
+    {
+      "start": 11199,
+      "end": 11231,
+      "kind": "literal",
+      "source": "Do salónu máte vstup povolený.",
+      "id": "t0568"
+    },
+    {
+      "start": 11234,
+      "end": 11273,
+      "kind": "literal",
+      "source": "Odporúčame ešte jednu šálku histórie.",
+      "id": "t0569"
+    },
+    {
+      "start": 11311,
+      "end": 11323,
+      "kind": "literal",
+      "source": "Výsledok: ",
+      "id": "t0570"
+    },
+    {
+      "start": 11334,
+      "end": 11343,
+      "kind": "literal",
+      "source": " zo 6. ",
+      "id": "t0680"
+    },
+    {
+      "start": 11361,
+      "end": 11433,
+      "kind": "literal",
+      "source": "Ada by pravdepodobne uznanlivo prikývla. To je, samozrejme, náš odhad.",
+      "id": "t0571"
+    },
+    {
+      "start": 11436,
+      "end": 11505,
+      "kind": "literal",
+      "source": "Pravé príbehy aj naše výmysly si môžete znovu pozrieť v projektoch.",
+      "id": "t0572"
+    },
+    {
+      "start": 11810,
+      "end": 11886,
+      "kind": "literal",
+      "source": "Chrobák zaevidovaný. Záhradník bol privolaný. IT oddelenie vznikne neskôr.",
+      "id": "t0573"
+    },
+    {
+      "start": 11888,
+      "end": 11947,
+      "kind": "literal",
+      "source": "Priorita: vysoká. Počet nôh: šesť. Odhad opravy: po čaji.",
+      "id": "t0574"
+    },
+    {
+      "start": 11949,
+      "end": 12007,
+      "kind": "literal",
+      "source": "Chrobák tvrdí, že je to funkcia. Vyšetrovanie pokračuje.",
+      "id": "t0575"
+    }
+  ],
+  "pages.js": [
+    {
+      "start": 2098,
+      "end": 2105,
+      "kind": "literal",
+      "source": "ŽIVOT",
+      "id": "t0576"
+    },
+    {
+      "start": 2108,
+      "end": 2149,
+      "kind": "literal",
+      "source": "V ktorom roku sa Ada Lovelace narodila?",
+      "id": "t0681"
+    },
+    {
+      "start": 2180,
+      "end": 2213,
+      "kind": "literal",
+      "source": "Keď sa načítala prvá webstránka",
+      "id": "t0577"
+    },
+    {
+      "start": 2229,
+      "end": 2309,
+      "kind": "literal",
+      "source": "Narodila sa 10. decembra 1815 v Londýne. Rok 1843 patrí jej slávnym poznámkam.",
+      "id": "t0578"
+    },
+    {
+      "start": 2355,
+      "end": 2363,
+      "kind": "literal",
+      "source": "RODINA",
+      "id": "t0682"
+    },
+    {
+      "start": 2366,
+      "end": 2386,
+      "kind": "literal",
+      "source": "Kto bol Adin otec?",
+      "id": "t0683"
+    },
+    {
+      "start": 2414,
+      "end": 2433,
+      "kind": "literal",
+      "source": "Básnik Lord Byron",
+      "id": "t0579"
+    },
+    {
+      "start": 2455,
+      "end": 2482,
+      "kind": "literal",
+      "source": "Zakladateľ Parného cloudu",
+      "id": "t0580"
+    },
+    {
+      "start": 2498,
+      "end": 2573,
+      "kind": "literal",
+      "source": "Jej otcom bol básnik Lord Byron. Babbage bol jej neskorší spolupracovník.",
+      "id": "t0581"
+    },
+    {
+      "start": 2619,
+      "end": 2631,
+      "kind": "literal",
+      "source": "SPOLUPRÁCA",
+      "id": "t0582"
+    },
+    {
+      "start": 2634,
+      "end": 2697,
+      "kind": "literal",
+      "source": "S ktorým vynálezcom sa spája jej práca na analytickom stroji?",
+      "id": "t0583"
+    },
+    {
+      "start": 2756,
+      "end": 2788,
+      "kind": "literal",
+      "source": "Komorník s certifikátom DevOps",
+      "id": "t0584"
+    },
+    {
+      "start": 2804,
+      "end": 2908,
+      "kind": "literal",
+      "source": "Charles Babbage navrhoval analytický stroj. Ada vysvetľovala jeho možnosti a opísala výpočtový postup.",
+      "id": "t0585"
+    },
+    {
+      "start": 2951,
+      "end": 2962,
+      "kind": "literal",
+      "source": "ALGORITMY",
+      "id": "t0684"
+    },
+    {
+      "start": 2965,
+      "end": 3006,
+      "kind": "literal",
+      "source": "Čo počítal postup opísaný v poznámke G?",
+      "id": "t0586"
+    },
+    {
+      "start": 3016,
+      "end": 3040,
+      "kind": "literal",
+      "source": "Optimálnu teplotu čaju",
+      "id": "t0587"
+    },
+    {
+      "start": 3041,
+      "end": 3066,
+      "kind": "literal",
+      "source": "Počet klobúkov na plese",
+      "id": "t0588"
+    },
+    {
+      "start": 3067,
+      "end": 3095,
+      "kind": "literal",
+      "source": "Pravdepodobnosť pádu Wi-Fi",
+      "id": "t0589"
+    },
+    {
+      "start": 3096,
+      "end": 3115,
+      "kind": "literal",
+      "source": "Bernoulliho čísla",
+      "id": "t0590"
+    },
+    {
+      "start": 3131,
+      "end": 3232,
+      "kind": "literal",
+      "source": "Poznámka G opisuje postup pre Bernoulliho čísla. Názov Bernoulli.exe na našom webe je moderný žart.",
+      "id": "t0591"
+    },
+    {
+      "start": 3274,
+      "end": 3282,
+      "kind": "literal",
+      "source": "JAZYKY",
+      "id": "t0685"
+    },
+    {
+      "start": 3285,
+      "end": 3333,
+      "kind": "literal",
+      "source": "Z akého jazyka Ada preložila Menabreov článok?",
+      "id": "t0592"
+    },
+    {
+      "start": 3343,
+      "end": 3359,
+      "kind": "literal",
+      "source": "Z francúzštiny",
+      "id": "t0593"
+    },
+    {
+      "start": 3360,
+      "end": 3371,
+      "kind": "literal",
+      "source": "Z Pythonu",
+      "id": "t0686"
+    },
+    {
+      "start": 3372,
+      "end": 3386,
+      "kind": "literal",
+      "source": "Z taliančiny",
+      "id": "t0594"
+    },
+    {
+      "start": 3387,
+      "end": 3408,
+      "kind": "literal",
+      "source": "Z Morseovej abecedy",
+      "id": "t0687"
+    },
+    {
+      "start": 3424,
+      "end": 3535,
+      "kind": "literal",
+      "source": "Článok vyšiel vo francúzštine v roku 1842. Anglický preklad s Adinými poznámkami bol publikovaný v roku 1843.",
+      "id": "t0595"
+    },
+    {
+      "start": 3577,
+      "end": 3586,
+      "kind": "literal",
+      "source": "HARDVÉR",
+      "id": "t0596"
+    },
+    {
+      "start": 3589,
+      "end": 3644,
+      "kind": "literal",
+      "source": "Aký bol osud analytického stroja počas Adinho života?",
+      "id": "t0597"
+    },
+    {
+      "start": 3654,
+      "end": 3680,
+      "kind": "literal",
+      "source": "Predával sa ako notebook",
+      "id": "t0598"
+    },
+    {
+      "start": 3681,
+      "end": 3698,
+      "kind": "literal",
+      "source": "Nebol dokončený",
+      "id": "t0599"
+    },
+    {
+      "start": 3699,
+      "end": 3723,
+      "kind": "literal",
+      "source": "Bežal v každej čajovni",
+      "id": "t0600"
+    },
+    {
+      "start": 3724,
+      "end": 3742,
+      "kind": "literal",
+      "source": "Zabudli mu heslo",
+      "id": "t0688"
+    },
+    {
+      "start": 3758,
+      "end": 3861,
+      "kind": "literal",
+      "source": "Analytický stroj za jej života dokončený nebol. Preto na ňom svoj publikovaný postup nemohla spustiť.",
+      "id": "t0601"
+    },
+    {
+      "start": 3904,
+      "end": 3919,
+      "kind": "literal",
+      "source": "PREDSTAVIVOSŤ",
+      "id": "t0602"
+    },
+    {
+      "start": 3922,
+      "end": 3977,
+      "kind": "literal",
+      "source": "O akej možnosti stroja Ada uvažovala okrem počítania?",
+      "id": "t0603"
+    },
+    {
+      "start": 3987,
+      "end": 4005,
+      "kind": "literal",
+      "source": "O vybavovaní víz",
+      "id": "t0604"
+    },
+    {
+      "start": 4006,
+      "end": 4034,
+      "kind": "literal",
+      "source": "O automatickom varení čaju",
+      "id": "t0605"
+    },
+    {
+      "start": 4035,
+      "end": 4053,
+      "kind": "literal",
+      "source": "O práci s hudbou",
+      "id": "t0606"
+    },
+    {
+      "start": 4054,
+      "end": 4078,
+      "kind": "literal",
+      "source": "O predaji predplatného",
+      "id": "t0607"
+    },
+    {
+      "start": 4094,
+      "end": 4231,
+      "kind": "literal",
+      "source": "Uvažovala o manipulácii s inými symbolmi než číslami a uviedla aj možnosť práce s hudbou. Neznamená to, že vytvorila hudobnú aplikáciu.",
+      "id": "t0608"
+    },
+    {
+      "start": 4273,
+      "end": 4288,
+      "kind": "literal",
+      "source": "DETSKÉ NÁPADY",
+      "id": "t0609"
+    },
+    {
+      "start": 4291,
+      "end": 4333,
+      "kind": "literal",
+      "source": "S čím súvisel mladícky projekt Flyology?",
+      "id": "t0610"
+    },
+    {
+      "start": 4343,
+      "end": 4359,
+      "kind": "literal",
+      "source": "S kompilátormi",
+      "id": "t0611"
+    },
+    {
+      "start": 4360,
+      "end": 4383,
+      "kind": "literal",
+      "source": "S lietaním a krídlami",
+      "id": "t0612"
+    },
+    {
+      "start": 4384,
+      "end": 4416,
+      "kind": "literal",
+      "source": "S taxonómiou počítačových chýb",
+      "id": "t0613"
+    },
+    {
+      "start": 4417,
+      "end": 4443,
+      "kind": "literal",
+      "source": "S marketingom aeroliniek",
+      "id": "t0689"
+    },
+    {
+      "start": 4459,
+      "end": 4564,
+      "kind": "literal",
+      "source": "Ako dvanásťročná sa zaujímala o lietanie, krídla a materiály. Projekt nebol hotovým funkčným lietadlom.",
+      "id": "t0614"
+    },
+    {
+      "start": 4610,
+      "end": 4623,
+      "kind": "literal",
+      "source": "VZDELÁVANIE",
+      "id": "t0615"
+    },
+    {
+      "start": 4626,
+      "end": 4684,
+      "kind": "literal",
+      "source": "S kým Ada korešpondenčne študovala pokročilú matematiku?",
+      "id": "t0616"
+    },
+    {
+      "start": 4694,
+      "end": 4712,
+      "kind": "literal",
+      "source": "S Lordom Byronom",
+      "id": "t0690"
+    },
+    {
+      "start": 4713,
+      "end": 4733,
+      "kind": "literal",
+      "source": "S Isaacom Newtonom",
+      "id": "t0691"
+    },
+    {
+      "start": 4734,
+      "end": 4754,
+      "kind": "literal",
+      "source": "S chatbotom ČajGPT",
+      "id": "t0617"
+    },
+    {
+      "start": 4755,
+      "end": 4779,
+      "kind": "literal",
+      "source": "S Augustom De Morganom",
+      "id": "t0692"
+    },
+    {
+      "start": 4795,
+      "end": 4901,
+      "kind": "literal",
+      "source": "Jej matematické listy s Augustom De Morganom z rokov 1840 – 1841 sú dôležitým prameňom o jej vzdelávaní.",
+      "id": "t0618"
+    },
+    {
+      "start": 4945,
+      "end": 4956,
+      "kind": "literal",
+      "source": "JAZYK ADA",
+      "id": "t0693"
+    },
+    {
+      "start": 4959,
+      "end": 5016,
+      "kind": "literal",
+      "source": "Aký vzťah má Ada Lovelace k programovaciemu jazyku Ada?",
+      "id": "t0619"
+    },
+    {
+      "start": 5026,
+      "end": 5052,
+      "kind": "literal",
+      "source": "Napísala jeho kompilátor",
+      "id": "t0620"
+    },
+    {
+      "start": 5053,
+      "end": 5079,
+      "kind": "literal",
+      "source": "Používala ho v roku 1843",
+      "id": "t0621"
+    },
+    {
+      "start": 5080,
+      "end": 5116,
+      "kind": "literal",
+      "source": "Jazyk bol pomenovaný na jej počesť",
+      "id": "t0622"
+    },
+    {
+      "start": 5117,
+      "end": 5144,
+      "kind": "literal",
+      "source": "Je to jej tajný pseudonym",
+      "id": "t0623"
+    },
+    {
+      "start": 5160,
+      "end": 5273,
+      "kind": "literal",
+      "source": "Jazyk vznikol až v 20. storočí a prvý štandard vyšiel v roku 1983. Ada Lovelace ho nevytvorila; nesie jej meno.",
+      "id": "t0624"
+    },
+    {
+      "start": 5313,
+      "end": 5336,
+      "kind": "literal",
+      "source": "SKUTOČNOSŤ ČI RECESIA",
+      "id": "t0625"
+    },
+    {
+      "start": 5339,
+      "end": 5399,
+      "kind": "literal",
+      "source": "Ktorý z týchto projektov je na našom webe úplne vymyslený?",
+      "id": "t0626"
+    },
+    {
+      "start": 5421,
+      "end": 5437,
+      "kind": "literal",
+      "source": "Poznámky A – G",
+      "id": "t0627"
+    },
+    {
+      "start": 5438,
+      "end": 5468,
+      "kind": "literal",
+      "source": "Postup pre Bernoulliho čísla",
+      "id": "t0628"
+    },
+    {
+      "start": 5469,
+      "end": 5488,
+      "kind": "literal",
+      "source": "Skúmanie lietania",
+      "id": "t0629"
+    },
+    {
+      "start": 5504,
+      "end": 5612,
+      "kind": "literal",
+      "source": "TeaScript je náš fiktívny čajový jazyk. Skutočný programovací jazyk Ada nájdete na samostatnej podstránke.",
+      "id": "t0630"
+    },
+    {
+      "start": 5652,
+      "end": 5673,
+      "kind": "literal",
+      "source": "DEJINY BEZ SKRATIEK",
+      "id": "t0694"
+    },
+    {
+      "start": 5676,
+      "end": 5716,
+      "kind": "literal",
+      "source": "Ktoré tvrdenie o Ade je najpresnejšie?",
+      "id": "t0631"
+    },
+    {
+      "start": 5726,
+      "end": 5756,
+      "kind": "literal",
+      "source": "Vynašla všetky počítače sama",
+      "id": "t0632"
+    },
+    {
+      "start": 5757,
+      "end": 5820,
+      "kind": "literal",
+      "source": "Bola priekopníčkou; presné označenie „prvá“ potrebuje kontext",
+      "id": "t0633"
+    },
+    {
+      "start": 5821,
+      "end": 5854,
+      "kind": "literal",
+      "source": "Napísala prvú mobilnú aplikáciu",
+      "id": "t0634"
+    },
+    {
+      "start": 5855,
+      "end": 5886,
+      "kind": "literal",
+      "source": "Založila prvý cloud v Londýne",
+      "id": "t0635"
+    },
+    {
+      "start": 5902,
+      "end": 6089,
+      "kind": "literal",
+      "source": "Je často označovaná za prvú programátorku najmä pre publikovaný postup z roku 1843. Babbage mal aj skoršie nepublikované postupy; jej odkaz zahŕňa tiež širšiu víziu výpočtových strojov.",
+      "id": "t0636"
+    },
+    {
+      "start": 6415,
+      "end": 6432,
+      "kind": "literal",
+      "source": " Overiť zdroj ↗",
+      "id": "t0637"
+    },
+    {
+      "start": 6693,
+      "end": 6758,
+      "kind": "template",
+      "source": "OTÁZKA {0} / {1}",
+      "id": "t0638",
+      "expressions": [
+        "String(index+1).padStart(2,'0')",
+        "questions.length"
+      ],
+      "expressionRanges": [
+        {
+          "start": 6703,
+          "end": 6734
+        },
+        {
+          "start": 6740,
+          "end": 6756
+        }
+      ]
+    },
+    {
+      "start": 6798,
+      "end": 6816,
+      "kind": "template",
+      "source": "SKÓRE {0}",
+      "id": "t0639",
+      "expressions": [
+        "score()"
+      ],
+      "expressionRanges": [
+        {
+          "start": 6807,
+          "end": 6814
+        }
+      ]
+    },
+    {
+      "start": 8057,
+      "end": 8075,
+      "kind": "template",
+      "source": "SKÓRE {0}",
+      "id": "t0639",
+      "expressions": [
+        "score()"
+      ],
+      "expressionRanges": [
+        {
+          "start": 8066,
+          "end": 8073
+        }
+      ]
+    },
+    {
+      "start": 8256,
+      "end": 8284,
+      "kind": "literal",
+      "source": "Správne. Sušienka pre vás!",
+      "id": "t0562"
+    },
+    {
+      "start": 8285,
+      "end": 8319,
+      "kind": "literal",
+      "source": "Tentoraz vás história nachytala.",
+      "id": "t0563"
+    },
+    {
+      "start": 8428,
+      "end": 8472,
+      "kind": "template",
+      "source": "Správna odpoveď: {0}. ",
+      "id": "t0640",
+      "expressions": [
+        "q.options[q.correct]"
+      ],
+      "expressionRanges": [
+        {
+          "start": 8448,
+          "end": 8468
+        }
+      ]
+    },
+    {
+      "start": 8738,
+      "end": 8757,
+      "kind": "literal",
+      "source": "Ukázať výsledok →",
+      "id": "t0565"
+    },
+    {
+      "start": 8758,
+      "end": 8775,
+      "kind": "literal",
+      "source": "Ďalšia otázka →",
+      "id": "t0232"
+    },
+    {
+      "start": 9210,
+      "end": 9227,
+      "kind": "literal",
+      "source": "SKÚŠKA UKONČENÁ",
+      "id": "t0566"
+    },
+    {
+      "start": 9360,
+      "end": 9388,
+      "kind": "literal",
+      "source": "Čestný doktorát zo salónu.",
+      "id": "t0641"
+    },
+    {
+      "start": 9398,
+      "end": 9435,
+      "kind": "literal",
+      "source": "Váš algoritmus na históriu funguje.",
+      "id": "t0642"
+    },
+    {
+      "start": 9445,
+      "end": 9484,
+      "kind": "literal",
+      "source": "Dobrý základ. Teraz doplniť poznámky.",
+      "id": "t0643"
+    },
+    {
+      "start": 9485,
+      "end": 9519,
+      "kind": "literal",
+      "source": "Odporúčame druhú šálku histórie.",
+      "id": "t0644"
+    },
+    {
+      "start": 9563,
+      "end": 9804,
+      "kind": "template",
+      "source": "Správne ste odpovedali na {0} z {1} otázok ({2} %). {3}",
+      "id": "t0645",
+      "expressions": [
+        "total",
+        "questions.length",
+        "Math.round(total/questions.length*100)",
+        "total===12?'Bezchybný výkon. Aj kompilátor uznanlivo mlčí.':'Pozrite si prehľad, objavte zdroje a pokojne si zahrajte znova.'"
+      ],
+      "expressionRanges": [
+        {
+          "start": 9592,
+          "end": 9597
+        },
+        {
+          "start": 9603,
+          "end": 9619
+        },
+        {
+          "start": 9631,
+          "end": 9669
+        },
+        {
+          "start": 9677,
+          "end": 9802
+        }
+      ]
+    },
+    {
+      "start": 9688,
+      "end": 9736,
+      "kind": "literal",
+      "source": "Bezchybný výkon. Aj kompilátor uznanlivo mlčí.",
+      "id": "t0695"
+    },
+    {
+      "start": 9737,
+      "end": 9802,
+      "kind": "literal",
+      "source": "Pozrite si prehľad, objavte zdroje a pokojne si zahrajte znova.",
+      "id": "t0696"
+    },
+    {
+      "start": 10075,
+      "end": 10153,
+      "kind": "template",
+      "source": "{0} Vaša odpoveď: {1}",
+      "id": "t0646",
+      "expressions": [
+        "responses[i]===q.correct?'✓':'✕'",
+        "q.options[responses[i]]"
+      ],
+      "expressionRanges": [
+        {
+          "start": 10078,
+          "end": 10110
+        },
+        {
+          "start": 10128,
+          "end": 10151
+        }
+      ]
+    },
+    {
+      "start": 10227,
+      "end": 10271,
+      "kind": "template",
+      "source": "Správne: {0}. {1}",
+      "id": "t0647",
+      "expressions": [
+        "q.options[q.correct]",
+        "q.why"
+      ],
+      "expressionRanges": [
+        {
+          "start": 10239,
+          "end": 10259
+        },
+        {
+          "start": 10264,
+          "end": 10269
+        }
+      ]
+    },
+    {
+      "start": 10852,
+      "end": 10880,
+      "kind": "literal",
+      "source": "Programátorka & analytička",
+      "id": "t0265"
+    },
+    {
+      "start": 10894,
+      "end": 11034,
+      "kind": "literal",
+      "source": "Zložité zadania mením na presné kroky. Dokumentujem aj to, čo ešte nikto nepostavil. Hľadám tím, ktorý považuje zvedavosť za kvalifikáciu.",
+      "id": "t0266"
+    },
+    {
+      "start": 11050,
+      "end": 11112,
+      "kind": "literal",
+      "source": "Algoritmické myslenie a schopnosť rozdeliť problém na kroky.",
+      "id": "t0268"
+    },
+    {
+      "start": 11113,
+      "end": 11161,
+      "kind": "literal",
+      "source": "Technická dokumentácia, ktorú sa oplatí čítať.",
+      "id": "t0269"
+    },
+    {
+      "start": 11162,
+      "end": 11217,
+      "kind": "literal",
+      "source": "Spájanie matematiky, tvorivosti a praktických otázok.",
+      "id": "t0270"
+    },
+    {
+      "start": 11218,
+      "end": 11264,
+      "kind": "literal",
+      "source": "Trpezlivosť s hardvérom. Historicky overená.",
+      "id": "t0271"
+    },
+    {
+      "start": 11282,
+      "end": 11337,
+      "kind": "literal",
+      "source": "Algorithm Designer · imaginárny tím Analytical Engine",
+      "id": "t0275"
+    },
+    {
+      "start": 11349,
+      "end": 11490,
+      "kind": "literal",
+      "source": "Navrhla som postup, opísala predpoklady a vysvetlila jeho možnosti. Dnes by som k tomu pridala testy a trvala na zrozumiteľnom code review.",
+      "id": "t0276"
+    },
+    {
+      "start": 11508,
+      "end": 11548,
+      "kind": "literal",
+      "source": "TeaScript · hlavná architektka kanvice",
+      "id": "t0278"
+    },
+    {
+      "start": 11561,
+      "end": 11699,
+      "kind": "literal",
+      "source": "Prototyp jazyka, ktorého build pipeline sa končí šálkou čaju. Dosiahnutý výsledok: tím je hydratovaný a dokumentácia vonia po bergamote.",
+      "id": "t0279"
+    },
+    {
+      "start": 11714,
+      "end": 11863,
+      "kind": "literal",
+      "source": "Najprv pochopím problém. Potom navrhnem postup, overím predpoklady a až následne otvorím editor. „U mňa to funguje“ považujem za začiatok diskusie.",
+      "id": "t0281"
+    },
+    {
+      "start": 11882,
+      "end": 11957,
+      "kind": "literal",
+      "source": "Zmysluplný problém, priestor na premýšľanie a počítač, ktorý už existuje.",
+      "id": "t0260"
+    },
+    {
+      "start": 11972,
+      "end": 12154,
+      "kind": "literal",
+      "source": "Vážený tím, vo vašom inzeráte žiadate tri roky praxe s nástrojom, ktorý existuje dva roky. Myslím, že si budeme rozumieť. Ja som pracovala na programe skôr, než bol hotový počítač.",
+      "id": "t0291"
+    },
+    {
+      "start": 12186,
+      "end": 12224,
+      "kind": "literal",
+      "source": "Vibe coderka & poetická prototypárka",
+      "id": "t0648"
+    },
+    {
+      "start": 12238,
+      "end": 12391,
+      "kind": "literal",
+      "source": "Z neurčitého „nech to má iskru“ spravím prototyp a potom sa opýtam, čo má vlastne robiť. AI beriem ako pomocníka. Zodpovednosť za výsledok si nechávam.",
+      "id": "t0649"
+    },
+    {
+      "start": 12407,
+      "end": 12460,
+      "kind": "literal",
+      "source": "Preklad hmlistého nápadu do zrozumiteľného zadania.",
+      "id": "t0650"
+    },
+    {
+      "start": 12461,
+      "end": 12518,
+      "kind": "literal",
+      "source": "Rýchle prototypovanie s AI, čajom a kritickým myslením.",
+      "id": "t0651"
+    },
+    {
+      "start": 12519,
+      "end": 12573,
+      "kind": "literal",
+      "source": "Kontrola vygenerovaného kódu a overovanie správania.",
+      "id": "t0652"
+    },
+    {
+      "start": 12574,
+      "end": 12627,
+      "kind": "literal",
+      "source": "Schopnosť povedať „pekné, ale toto ešte nefunguje“.",
+      "id": "t0653"
+    },
+    {
+      "start": 12645,
+      "end": 12706,
+      "kind": "literal",
+      "source": "Prompt-to-Prototype Lead · fiktívne štúdio Poetical Science",
+      "id": "t0654"
+    },
+    {
+      "start": 12718,
+      "end": 12906,
+      "kind": "literal",
+      "source": "V tejto alternatívnej súčasnosti by som s AI skúšala nápady, spresňovala zadanie a kontrolovala, či výsledok robí to, čo sľubuje. Prompt „nejako to oprav“ by som vracala na dopracovanie.",
+      "id": "t0655"
+    },
+    {
+      "start": 12924,
+      "end": 12971,
+      "kind": "literal",
+      "source": "Parný cloud · prototyp na hranici kondenzácie",
+      "id": "t0656"
+    },
+    {
+      "start": 12984,
+      "end": 13133,
+      "kind": "literal",
+      "source": "Navrhla som fiktívny cloud s pôsobivou prezentáciou a otáznikom pri fyzike. Po prvom daždi sme objavili potrebu záloh. MVP získalo vlastný dáždnik.",
+      "id": "t0657"
+    },
+    {
+      "start": 13148,
+      "end": 13281,
+      "kind": "literal",
+      "source": "Najprv pomenujem cieľ. Potom zadávam, skúšam, čítam a opravujem. Kód od AI nenasadzujem iba preto, že mi odpovedala veľmi zdvorilo.",
+      "id": "t0658"
+    },
+    {
+      "start": 13300,
+      "end": 13382,
+      "kind": "literal",
+      "source": "AI asistent, dobré zadanie, čas na testovanie a zákaz meetingov počas lúhovania.",
+      "id": "t0659"
+    },
+    {
+      "start": 13397,
+      "end": 13610,
+      "kind": "literal",
+      "source": "Vážený tím, váš produkt potrebuje víziu, prototyp a niekoho, kto overí, či tlačidlo naozaj funguje. Ponúkam všetky tri veci. Na otázku „koľko promptov denne?“ odpovedám: radšej správny problém než veľa promptov.",
+      "id": "t0660"
+    },
+    {
+      "start": 14428,
+      "end": 14455,
+      "kind": "literal",
+      "source": "Životopis aktualizovaný: ",
+      "id": "t0661"
+    },
+    {
+      "start": 14783,
+      "end": 14870,
+      "kind": "literal",
+      "source": "Put_Line vypíše text a ukončí riadok. Procedúra Hello je vstupným bodom tejto ukážky.",
+      "id": "t0412"
+    },
+    {
+      "start": 15113,
+      "end": 15237,
+      "kind": "literal",
+      "source": "Cyklus prejde hodnoty 1 až 3 vrátane. Integer'Image prevedie číslo na text; pri kladnom čísle obsahuje aj úvodnú medzeru.",
+      "id": "t0662"
+    },
+    {
+      "start": 15515,
+      "end": 15640,
+      "kind": "literal",
+      "source": "Podtyp Teplota obmedzuje povolené celé čísla na rozsah 0 až 100. Hodnota 95 do rozsahu patrí. Symbol := znamená priradenie.",
+      "id": "t0663"
+    },
+    {
+      "start": 15970,
+      "end": 16006,
+      "kind": "literal",
+      "source": "Vyberte „Ukázať očakávaný výstup“.",
+      "id": "t0420"
+    },
+    {
+      "start": 16044,
+      "end": 16059,
+      "kind": "literal",
+      "source": "Kopírovať kód",
+      "id": "t0414"
+    },
+    {
+      "start": 16386,
+      "end": 16405,
+      "kind": "literal",
+      "source": "Kód skopírovaný ✓",
+      "id": "t0664"
+    },
+    {
+      "start": 16438,
+      "end": 16472,
+      "kind": "literal",
+      "source": "Kód bol skopírovaný do schránky.",
+      "id": "t0665"
+    },
+    {
+      "start": 16518,
+      "end": 16550,
+      "kind": "literal",
+      "source": "Označte a skopírujte kód ručne",
+      "id": "t0666"
+    }
+  ],
+  "gallery.js": [
+    {
+      "start": 930,
+      "end": 942,
+      "kind": "literal",
+      "source": "6 obrázkov",
+      "id": "t0466"
+    },
+    {
+      "start": 945,
+      "end": 956,
+      "kind": "literal",
+      "source": "3 obrázky",
+      "id": "t0667"
+    },
+    {
+      "start": 2083,
+      "end": 2106,
+      "kind": "literal",
+      "source": "Stiahnuť AI obrázok ↓",
+      "id": "t0668"
+    },
+    {
+      "start": 2109,
+      "end": 2133,
+      "kind": "literal",
+      "source": "Stiahnuť reprodukciu ↓",
+      "id": "t0669"
+    },
+    {
+      "start": 2181,
+      "end": 2268,
+      "kind": "template",
+      "source": "{0} z {1}. {2} {3}",
+      "id": "t0697",
+      "expressions": [
+        "currentScope.indexOf(id)+1",
+        "currentScope.length",
+        "photo.title",
+        "photo.label"
+      ],
+      "expressionRanges": [
+        {
+          "start": 2184,
+          "end": 2210
+        },
+        {
+          "start": 2216,
+          "end": 2235
+        },
+        {
+          "start": 2240,
+          "end": 2251
+        },
+        {
+          "start": 2255,
+          "end": 2266
+        }
+      ]
+    }
+  ]
+}

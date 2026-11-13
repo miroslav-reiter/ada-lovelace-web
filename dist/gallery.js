@@ -21,7 +21,7 @@
       card.hidden = kind !== 'all' && card.dataset.photoKind !== kind;
       if(!card.hidden)count++;
     });
-    find('#gallery-count').textContent = count === 6 ? '6 obrázkov' : '3 obrázky';
+    find('#gallery-count').textContent = count === 6 ? "6 obrázkov" : "3 obrázky";
   }
   function renderPhoto(id) {
     currentId = id;
@@ -45,7 +45,7 @@
     } else find('#photo-source').removeAttribute('href');
     find('#photo-download').href = photo.src;
     find('#photo-download').download = photo.src.split('/').pop();
-    find('#photo-download').textContent = photo.kind === 'ai' ? 'Stiahnuť AI obrázok ↓' : 'Stiahnuť reprodukciu ↓';
+    find('#photo-download').textContent = photo.kind === 'ai' ? "Stiahnuť AI obrázok ↓" : "Stiahnuť reprodukciu ↓";
     find('#photo-announcement').textContent = `${currentScope.indexOf(id)+1} z ${currentScope.length}. ${photo.title} ${photo.label}`;
   }
   function openPhoto(id,button) {

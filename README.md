@@ -1,10 +1,22 @@
 # Ada Lovelace - Kód, čaj a chaos
 
-Recesistický slovenský web o Ade Lovelace: overené historické informácie, vedome vymyslené projekty a viktoriánsky humor s notebookom na pláži.
+Recesistický viacjazyčný web o Ade Lovelace: overené historické informácie, vedome vymyslené projekty a viktoriánsky humor s notebookom na pláži.
 
 **Web:** [Ada Lovelace - Kód, čaj a chaos](https://ada-lovelace.vita-academy-7121.chatgpt.site/)
 
 Prístup na web sa riadi jeho nastaveniami v Sites. Tento repozitár obsahuje kompletné súbory poslednej publikovanej verzie vrátane všetkých obrázkov. Pôvodná história troch úprav zo Sites je zachovaná v obnoviteľnom Git archíve `docs/source-history.bundle`.
+
+## Jazyky
+
+Slovenčina je predvolená. Každý jazyk obsahuje všetkých sedem strán vrátane interaktívneho kvízu, životopisu a galérie. Prepínač zachová rovnakú podstránku a sekciu.
+
+- [Slovenčina](https://ada-lovelace.vita-academy-7121.chatgpt.site/)
+- [Čeština](https://ada-lovelace.vita-academy-7121.chatgpt.site/cs/)
+- [English](https://ada-lovelace.vita-academy-7121.chatgpt.site/en/)
+- [Deutsch](https://ada-lovelace.vita-academy-7121.chatgpt.site/de/)
+- [Español](https://ada-lovelace.vita-academy-7121.chatgpt.site/es/)
+
+[Úprava prekladov a technické overenie](docs/JAZYKY.md)
 
 ## Čo tu nájdeš
 
@@ -22,7 +34,7 @@ Galéria obsahuje filtre, zväčšovanie, ovládanie šípkami, zatvorenie kláv
 
 ## Spustenie lokálne
 
-Nie je potrebná inštalácia balíkov ani zostavenie projektu. Súbory v `dist/` sú priamo upraviteľné HTML, CSS a JavaScript.
+Na spustenie hotového webu nie je potrebná inštalácia balíkov ani zostavenie projektu. Súbory v `dist/` sú hotové statické HTML, CSS a JavaScript. Preklady sa upravujú v `i18n/` a generujú príkazom `python scripts/build-i18n.py`.
 
 Po naklonovaní repozitára spusti v jeho koreňovom priečinku:
 
@@ -40,7 +52,9 @@ Web spúšťaj cez HTTP server. Odkazy a obrázky používajú absolútne cesty 
 dist/                 Kompletný statický web a jeho zdrojové súbory
   assets/             Historické obrázky, favicon a optimalizované AI obrázky
   assets/gallery/     Galéria a metadáta obrázkov
-  portfolio/          Samostatné podstránky
+  cs/, en/, de/, es/   Jazykové verzie so siedmimi stránkami
+  locales/            Lokalizované skripty a metadáta galérie
+  portfolio/          Slovenské samostatné podstránky
   kviz/
   cv/
   zdroje/
@@ -48,18 +62,20 @@ dist/                 Kompletný statický web a jeho zdrojové súbory
   fotografie/
 assets-originals/ai/   Pôvodné AI obrázky v PNG a presné zadania generátoru
 docs/                 Pôvod obrázkov a poznámky k úpravám
-scripts/              Kontrola lokálnych odkazov
+i18n/                 Prekladové slovníky a zdrojové šablóny
+scripts/              Generovanie jazykov a kontrola odkazov/metadát
 .openai/hosting.json  Existujúce nastavenie hostingu Sites
 ```
 
 Zdieľané štýly sú v `dist/style.css` a `dist/pages.css`. Správanie úvodu je v `dist/app.js`, podstránok v `dist/pages.js` a fotogalérie v `dist/gallery.js`. Galéria má samostatný `dist/gallery.css`.
 
-Pri úprave galérie aktualizuj karty a vložené JSON dáta v `dist/fotografie/index.html` aj sprievodné metadáta v `dist/assets/gallery/photos.json`.
+Pri úprave galérie aktualizuj zdrojovú šablónu `i18n/templates/fotografie/index.html`, údaje v `i18n/photos.sk.json` a príslušné preklady. Potom spusti generovanie jazykov. Podrobný postup je v [návode na preklady](docs/JAZYKY.md).
 
 ## Overenie
 
 ```sh
 python scripts/check-links.py
+python scripts/check-i18n.py
 node --check dist/app.js
 node --check dist/pages.js
 node --check dist/gallery.js

@@ -123,10 +123,11 @@
         const solution=document.createElement('p');solution.textContent=`Correct: ${q.options[q.correct]}. ${q.why}`;solution.append(createSource(q.source));
         row.append(title,answer,solution);find('#vq-review').append(row);
       });
+      document.dispatchEvent(new CustomEvent('ada:quiz-complete', {detail:{correct:total,total:questions.length}}));
       find('#vq-result-title').focus();
     }
     find('#vq-next').addEventListener('click',()=>{index++;if(index<questions.length)renderQuestion(true);else showResult();});
-    find('#vq-restart').addEventListener('click',()=>{index=0;responses=[];find('#vq-question-stage').hidden=false;find('#vq-result').hidden=true;find('.answer-review').open=false;renderQuestion(true);});
+    find('#vq-restart').addEventListener('click',()=>{document.dispatchEvent(new CustomEvent('ada:quiz-reset'));index=0;responses=[];find('#vq-question-stage').hidden=false;find('#vq-result').hidden=true;find('.answer-review').open=false;renderQuestion(true);});
     renderQuestion();
   }
 

@@ -46,3 +46,11 @@ Pre informačné technológie verejnej správy je relevantná vyhláška č. 78/
 
 - [Vyhláška 78/2020 Z. z., znenie účinné od 15. 5. 2026](https://static.slov-lex.sk/static/SK/ZZ/2020/78/20260515.html)
 - [Zákon 351/2022 Z. z., znenie účinné od 30. 5. 2026](https://static.slov-lex.sk/static/SK/ZZ/2022/351/20260530.html)
+
+## Rozšírenie 15. novembra 2026
+
+Pribudli spoločné nastavenia veľkosti textu 100, 125, 150 a 200 %, pokojnejšieho rozloženia a obmedzenia pohybu. Voľby sa uchovávajú iba v miestnom úložisku prehliadača. Dielňa používa tlačidlá na pridanie, presun a odstránenie štítkov; nevyžaduje ťahanie myšou. Stav programu a filtre majú prístupné názvy a oznamovanie výsledkov.
+
+Všetkých 20 nových jazykových podstránok prešlo kontrolou axe-core 4.14.0 pri šírke 320 aj 1280 CSS px bez automaticky zistených porušení. Na vybraných obrazových pozadiach zostali položky kontrastu na manuálne posúdenie. Skontrolované bolo aj dokončenie kvízu s diplomom, reštart, ovládanie poradnice klávesnicou, novinové filtre a výpočtová dielňa. Pri 200 % texte boli opravené presahy starších nadpisov, odkazov, knižných kariet a dekorácií. Overenie zahŕňalo všetky slovenské typy stránok a nové nemecké sekcie pri 320 CSS px.
+
+Ide o rozšírenú technickú kontrolu, nie o certifikáciu úplnej zhody WCAG. Obmedzenia uvedené vyššie naďalej platia.

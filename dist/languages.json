@@ -44,6 +44,26 @@
       "path": "/fotografie/"
     },
     {
+      "lang": "sk",
+      "page": 7,
+      "path": "/stroj-casu/"
+    },
+    {
+      "lang": "sk",
+      "page": 8,
+      "path": "/dierne-stitky/"
+    },
+    {
+      "lang": "sk",
+      "page": 9,
+      "path": "/poradna/"
+    },
+    {
+      "lang": "sk",
+      "page": 10,
+      "path": "/noviny/"
+    },
+    {
       "lang": "cs",
       "page": 0,
       "path": "/cs/"
@@ -77,6 +97,26 @@
       "lang": "cs",
       "page": 6,
       "path": "/cs/fotografie/"
+    },
+    {
+      "lang": "cs",
+      "page": 7,
+      "path": "/cs/stroj-casu/"
+    },
+    {
+      "lang": "cs",
+      "page": 8,
+      "path": "/cs/derne-stitky/"
+    },
+    {
+      "lang": "cs",
+      "page": 9,
+      "path": "/cs/poradna/"
+    },
+    {
+      "lang": "cs",
+      "page": 10,
+      "path": "/cs/noviny/"
     },
     {
       "lang": "en",
@@ -114,6 +154,26 @@
       "path": "/en/photos/"
     },
     {
+      "lang": "en",
+      "page": 7,
+      "path": "/en/time-machine/"
+    },
+    {
+      "lang": "en",
+      "page": 8,
+      "path": "/en/punched-cards/"
+    },
+    {
+      "lang": "en",
+      "page": 9,
+      "path": "/en/advice/"
+    },
+    {
+      "lang": "en",
+      "page": 10,
+      "path": "/en/newspaper/"
+    },
+    {
       "lang": "de",
       "page": 0,
       "path": "/de/"
@@ -149,6 +209,26 @@
       "path": "/de/fotos/"
     },
     {
+      "lang": "de",
+      "page": 7,
+      "path": "/de/zeitmaschine/"
+    },
+    {
+      "lang": "de",
+      "page": 8,
+      "path": "/de/lochkarten/"
+    },
+    {
+      "lang": "de",
+      "page": 9,
+      "path": "/de/ratgeber/"
+    },
+    {
+      "lang": "de",
+      "page": 10,
+      "path": "/de/zeitung/"
+    },
+    {
       "lang": "es",
       "page": 0,
       "path": "/es/"
@@ -182,6 +262,26 @@
       "lang": "es",
       "page": 6,
       "path": "/es/fotos/"
+    },
+    {
+      "lang": "es",
+      "page": 7,
+      "path": "/es/maquina-del-tiempo/"
+    },
+    {
+      "lang": "es",
+      "page": 8,
+      "path": "/es/tarjetas-perforadas/"
+    },
+    {
+      "lang": "es",
+      "page": 9,
+      "path": "/es/consultorio/"
+    },
+    {
+      "lang": "es",
+      "page": 10,
+      "path": "/es/periodico/"
     }
   ]
 }

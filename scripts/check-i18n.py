@@ -22,9 +22,12 @@ class Page(HTMLParser):
         self.scripts = []
         self.links = []
         self.meta = {}
+        self.in_script = False
+        self.visible_text = []
         self.feed(text)
     def handle_starttag(self, tag, attrs):
         d = dict(attrs)
+        if tag == 'script': self.in_script = True
         if tag == 'html': self.lang = d.get('lang')
         if tag == 'meta': self.meta[d.get('name') or d.get('property')] = d.get('content')
         if tag == 'script' and 'src' in d: self.scripts.append(urlsplit(d['src']).path)
@@ -36,15 +39,21 @@ class Page(HTMLParser):
                 if d.get('aria-current') == 'page': self.current.append(d['data-language'])
                 assert d['lang'] == d['hreflang'] == d['data-language']
             else: self.links.append(d.get('href', ''))
+    def handle_endtag(self, tag):
+        if tag=='script': self.in_script=False
+    def handle_data(self, data):
+        if not self.in_script:self.visible_text.append(data)
 
 manifest = json.loads((ROOT/'dist/languages.json').read_text(encoding='utf-8'))
 assert manifest['default'] == 'sk'
 assert set(manifest['languages']) == {'sk', 'cs', 'en', 'de', 'es'}
-assert len(manifest['pages']) == 35
-assert len(list((ROOT/'dist').rglob('*.html'))) == 35
+page_count=len(build.ROUTES['sk'])
+assert len(manifest['pages']) == page_count*5 == 55
+assert len(list((ROOT/'dist').rglob('*.html'))) == page_count*5
 for lang in build.LANGUAGES:
     build.load_translations(lang)
-    for index in range(7):
+    build.experiences.load(ROOT/'i18n',lang)
+    for index in range(page_count):
         url = build.page_url(lang, index)
         text = (ROOT/'dist'/url.lstrip('/')/'index.html').read_text(encoding='utf-8')
         page = Page(text)
@@ -64,12 +73,13 @@ for lang in build.LANGUAGES:
             parsed=urlsplit(link)
             if parsed.scheme or parsed.netloc or not parsed.path: continue
             if parsed.path.endswith('/'):
-                assert parsed.path in [build.page_url(lang,i) for i in range(7)], (url,link)
-        assert not re.search(r'\{\d+\}', text), url
+                assert parsed.path in [build.page_url(lang,i) for i in range(page_count)], (url,link)
+        assert not re.search(r'\{\d+\}', ''.join(page.visible_text)), url
+        assert '/experiences.js' in page.scripts and '/reading-init.js' in page.scripts, url
 
 for file in (ROOT/'dist').rglob('*'):
     if file.suffix not in ('.html','.js','.css','.json'): continue
     text=file.read_text(encoding='utf-8')
     assert chr(8212) not in text, file
     assert not re.search(r'&(?:mdash|#8212|#x2014);|\\u2014',text,re.I), file
-print('PASS: 35 pages, 5 complete catalogs, localized navigation and scripts, canonical URLs, hreflang and default Slovak edition.')
+print('PASS: 55 pages, 5 complete catalogs, experience translations, localized navigation, canonical URLs, hreflang and default Slovak edition.')

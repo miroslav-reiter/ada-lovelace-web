@@ -8,7 +8,7 @@ Prístup na web sa riadi jeho nastaveniami v Sites. Tento repozitár obsahuje ko
 
 ## Jazyky
 
-Slovenčina je predvolená. Každý jazyk obsahuje všetkých sedem strán vrátane interaktívneho kvízu, životopisu a galérie. Prepínač zachová rovnakú podstránku a sekciu.
+Slovenčina je predvolená. Každý jazyk obsahuje všetkých jedenásť strán vrátane interaktívneho kvízu, životopisu a galérie. Prepínač zachová rovnakú podstránku a sekciu.
 
 - [Slovenčina](https://ada-lovelace.vita-academy-7121.chatgpt.site/)
 - [Čeština](https://ada-lovelace.vita-academy-7121.chatgpt.site/cs/)
@@ -24,13 +24,19 @@ Slovenčina je predvolená. Každý jazyk obsahuje všetkých sedem strán vrát
 | --- | --- | --- |
 | Salón | `/` | Úvod do života Ady, projekty a humor |
 | Portfólio | `/portfolio/` | Skutočné aj jasne označené vymyslené projekty |
-| Kvíz | `/kviz/` | Interaktívne otázky, vyhodnotenie a vysvetlenia |
+| Kvíz | `/kviz/` | 12 otázok, vysvetlenia a osobný diplom s exportom PNG |
 | Životopis / CV | `/cv/` | Ada ako dnešná programátorka alebo vibe coder |
 | Zdroje a knihy | `/zdroje/` | Historické pramene a knihy |
 | Jazyk Ada | `/jazyk-ada/` | Predstavenie programovacieho jazyka Ada |
 | Fotografie | `/fotografie/` | Historická fotografia, dva maľované portréty a tri AI scény |
+| Stroj času | `/stroj-casu/` | Šesť historických zastávok so zdrojmi a fiktívnym komentárom |
+| Dierne štítky | `/dierne-stitky/` | Výpočtová a čajová úloha, poradie, krokovanie a chyby |
+| Adina poradňa | `/poradna/` | Šesť pripravených otázok s humorom a praktickou radou |
+| Salónne noviny | `/noviny/` | Šesť fiktívnych článkov s kategóriami a filtrami |
 
-Galéria obsahuje filtre, zväčšovanie, ovládanie šípkami, zatvorenie klávesom Escape a odkazy na stiahnutie obrázkov. Web má responzívny dizajn a mobilné menu.
+Galéria obsahuje filtre, zväčšovanie, ovládanie šípkami, zatvorenie klávesom Escape a odkazy na stiahnutie obrázkov. Web má responzívny dizajn a mobilné menu. Na každej stránke je pohodlné čítanie: veľkosť textu až 200 %, pokojnejšie rozloženie a obmedzenie pohybu. Celkovo ide o 55 strán v piatich jazykoch.
+
+[Popis nových funkcií a overenia](docs/INTERAKTIVNE-SEKCIE.md)
 
 ## Spustenie lokálne
 
@@ -52,7 +58,7 @@ Web spúšťaj cez HTTP server. Odkazy a obrázky používajú absolútne cesty 
 dist/                 Kompletný statický web a jeho zdrojové súbory
   assets/             Historické obrázky, favicon a optimalizované AI obrázky
   assets/gallery/     Galéria a metadáta obrázkov
-  cs/, en/, de/, es/   Jazykové verzie so siedmimi stránkami
+  cs/, en/, de/, es/   Jazykové verzie s jedenástimi stránkami
   locales/            Lokalizované skripty a metadáta galérie
   portfolio/          Slovenské samostatné podstránky
   kviz/
@@ -60,6 +66,10 @@ dist/                 Kompletný statický web a jeho zdrojové súbory
   zdroje/
   jazyk-ada/
   fotografie/
+  stroj-casu/
+  dierne-stitky/
+  poradna/
+  noviny/
 assets-originals/ai/   Pôvodné AI obrázky v PNG a presné zadania generátoru
 docs/                 Pôvod obrázkov a poznámky k úpravám
 i18n/                 Prekladové slovníky a zdrojové šablóny
@@ -67,7 +77,7 @@ scripts/              Generovanie jazykov a kontrola odkazov/metadát
 .openai/hosting.json  Existujúce nastavenie hostingu Sites
 ```
 
-Zdieľané štýly sú v `dist/style.css` a `dist/pages.css`. Správanie úvodu je v `dist/app.js`, podstránok v `dist/pages.js` a fotogalérie v `dist/gallery.js`. Galéria má samostatný `dist/gallery.css`.
+Zdieľané štýly sú v `dist/style.css` a `dist/pages.css`. Správanie úvodu je v `dist/app.js`, podstránok v `dist/pages.js` a fotogalérie v `dist/gallery.js`. Galéria má samostatný `dist/gallery.css`. Nové sekcie používajú `dist/experiences.css`, `dist/experiences.js` a čistý výpočtový model `dist/machine-core.mjs`. Nastavenia pred prvým vykreslením načíta `dist/reading-init.js`.
 
 Pri úprave galérie aktualizuj zdrojovú šablónu `i18n/templates/fotografie/index.html`, údaje v `i18n/photos.sk.json` a príslušné preklady. Potom spusti generovanie jazykov. Podrobný postup je v [návode na preklady](docs/JAZYKY.md).
 
@@ -79,6 +89,8 @@ python scripts/check-i18n.py
 node --check dist/app.js
 node --check dist/pages.js
 node --check dist/gallery.js
+node --check dist/experiences.js
+node scripts/test-experiences.mjs
 ```
 
 Kontrola odkazov používa iba štandardnú knižnicu Pythonu. Node.js je potrebný len na uvedenú syntaktickú kontrolu JavaScriptu, nie na prevádzku webu. Kvíz, galéria a mobilné menu boli overené aj v prehliadači.

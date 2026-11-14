@@ -10,15 +10,17 @@ Slovenčina je hlavný a predvolený jazyk. Hlavná adresa zostáva slovenská b
 | Deutsch | `/de/` |
 | Español | `/es/` |
 
-Každý jazyk má sedem strán: úvod, portfólio, kvíz, CV, zdroje a knihy, jazyk Ada a fotografie. Preložené sú texty stránok, navigácia, titulky a popisy pre vyhľadávače, alternatívne texty obrázkov, názvy ovládacích prvkov aj dynamické výsledky kvízu, oba varianty CV a galéria. Názvy kníh, mená, originálne zdroje a samotné ukážky programového kódu zostávajú v pôvodnom znení.
+Každý jazyk má jedenásť strán: úvod, portfólio, kvíz, CV, zdroje a knihy, jazyk Ada, fotografie, stroj času, dielňa diernych štítkov, poradňa a noviny. Preložené sú texty stránok, navigácia, titulky a popisy pre vyhľadávače, alternatívne texty obrázkov, názvy ovládacích prvkov aj dynamické výsledky kvízu, oba varianty CV a galéria. Názvy kníh, mená, originálne zdroje a samotné ukážky programového kódu zostávajú v pôvodnom znení.
 
 ## Úprava prekladov
 
 - `i18n/catalog.json` obsahuje 697 textových položiek a ich slovenské znenie.
 - `i18n/sk.json`, `cs.json`, `en.json`, `de.json`, `es.json` obsahujú kompletné preklady podľa rovnakých kľúčov.
 - `i18n/templates/` obsahuje zdrojové HTML stránky a JavaScript pred lokalizáciou.
+- `i18n/experience.sk.json`, `experience.cs.json`, `experience.en.json`, `experience.de.json`, `experience.es.json` obsahujú ďalších 210 textov nových sekcií, diplomu a nastavení čítania.
+- `scripts/experience_pages.py` vytvára ich spoločné šablóny.
 - `i18n/photos.sk.json` obsahuje zdrojové metadáta galérie.
-- `scripts/build-i18n.py` vytvorí všetkých 35 strán a lokalizovaný JavaScript do `dist/`.
+- `scripts/build-i18n.py` vytvorí všetkých 55 strán a lokalizovaný JavaScript do `dist/`.
 
 Pri zmene textu uprav príslušný preklad a spusti:
 
@@ -28,7 +30,7 @@ python scripts/check-links.py
 python scripts/check-i18n.py
 ```
 
-Zástupné hodnoty ako `{0}` a `{1}` aj HTML značky v prekladoch zachovaj. Pri pridaní nového textu doplň zodpovedajúcu položku do katalógu a všetkých piatich slovníkov. Súbory HTML a lokalizovaný JavaScript v `dist/` sa pri zostavení prepíšu. Zdieľané CSS a `dist/language-switch.js` sa upravujú priamo.
+Zástupné hodnoty ako `{0}` a `{1}` aj HTML značky v prekladoch zachovaj. Pri pridaní nového textu doplň zodpovedajúcu položku do katalógu a všetkých piatich slovníkov. Súbory HTML a lokalizovaný JavaScript v `dist/` sa pri zostavení prepíšu. Zdieľané CSS, `dist/language-switch.js`, `dist/experiences.js`, `dist/reading-init.js` a `dist/machine-core.mjs` sa upravujú priamo. Po zmene zdieľaných súborov aktualizuj aj verziu ich odkazu v generátore, aby prehliadač načítal aktuálny obsah.
 
 Ak meníš JavaScript v zdrojových šablónach, obnov aj jeho mapu prekladov. Na tento vývojový krok je potrebný parser Acorn:
 
@@ -51,3 +53,7 @@ Každá stránka má vlastnú kanonickú adresu, nastavenie `lang`, päť altern
 Overených bolo 35 strán a 995 lokálnych odkazov či súborov, úplnosť slovníkov, jazyk navigácie, metadáta a syntax JavaScriptu. V prehliadači boli skontrolované stránky pri šírke 1280 a 320 CSS pixelov, prepínanie jazykov, kvíz, oba varianty CV, galéria, preložené popisy a ukážky jazyka Ada. Pri jazykovej úprave bol opravený prístupný názov nemeckých tlačidiel a zvýšený kontrast drobnej poznámky pri portréte.
 
 Automatická kontrola prístupnosti nenahrádza úplný audit WCAG ani používateľské testovanie s asistenčnými technológiami. Pôvodné historické dátumy overenia zdrojov zostali zachované; preklad nepredstavuje nový historický výskum.
+
+## Rozšírenie 15. novembra 2026
+
+Web má 55 strán, 697 základných a 210 nových prekladových položiek pre každý jazyk. Kontrola potvrdila úplnosť prekladov, 1900 lokálnych odkazov, správne jazykové odkazy, kanonické adresy a jazykové metadáta. Nové štyri sekcie boli v každom jazyku overené pri šírke 320 aj 1280 CSS px. Podrobnosti sú v [popise rozšírenia](INTERAKTIVNE-SEKCIE.md).

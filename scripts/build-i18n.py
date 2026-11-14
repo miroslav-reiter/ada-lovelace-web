@@ -10,6 +10,7 @@ import html
 import json
 import re
 import hashlib
+import experience_pages as experiences
 
 ROOT = Path(__file__).resolve().parent.parent
 I18N = ROOT / 'i18n'
@@ -24,6 +25,8 @@ ROUTES = {
     'es': ['', 'portafolio', 'quiz', 'cv', 'fuentes', 'lenguaje-ada', 'fotos'],
 }
 SOURCE_PATHS = ['index.html'] + [x + '/index.html' for x in ROUTES['sk'][1:]]
+for lang in LANGUAGES:
+    ROUTES[lang] += experiences.EXTRA_ROUTES[lang]
 OG_LOCALES = {'sk':'sk_SK','cs':'cs_CZ','en':'en_GB','de':'de_DE','es':'es_ES'}
 CATALOG = json.loads((I18N / 'catalog.json').read_text(encoding='utf-8'))
 SOURCE_IDS = {row['source']: row['id'] for row in CATALOG}
@@ -83,12 +86,15 @@ class LocalizedPage(HTMLParser):
     def __init__(self, lang, index, strings):
         super().__init__(convert_charrefs=True)
         self.lang, self.index, self.strings = lang, index, strings
+        self.experience = experiences.load(I18N,lang)
         self.out, self.stack = [], []
         self.script = None
     def handle_decl(self, decl): self.out.append('<!'+decl+'>')
     def handle_comment(self, comment): self.out.append('<!--'+comment+'-->')
     def handle_starttag(self, tag, attrs):
         d = dict(attrs)
+        if tag=='section' and d.get('id')=='o-ade' and self.index==0:
+            self.out.append(experiences.home(self.experience,self.lang,page_url))
         if tag == 'link' and d.get('rel') == 'canonical': return
         if tag == 'html': d['lang'] = self.lang
         for key in ('alt','title','aria-label','placeholder'):
@@ -103,10 +109,12 @@ class LocalizedPage(HTMLParser):
             value = local_url(value,self.lang)
             if tag == 'script' and key == 'src' and urlsplit(value).path in ('/app.js','/pages.js','/gallery.js'):
                 name = urlsplit(value).path.rsplit('/',1)[-1]
-                value = ('/' if self.lang == 'sk' else '/locales/'+self.lang+'/') + name + '?v=i18n1'
+                value = ('/' if self.lang == 'sk' else '/locales/'+self.lang+'/') + name + '?v=salon2'
             d[key] = value
         rendered = '<' + tag + ''.join(' '+k if v is None else ' '+k+'="'+html.escape(v,quote=True)+'"' for k,v in d.items()) + '>'
         self.out.append(rendered)
+        if tag=='div' and d.get('id')=='diploma-slot':
+            self.out.append(experiences.diploma(self.experience))
         if tag == 'script': self.script=d
         if tag not in ('area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'):
             self.stack.append(tag)
@@ -120,6 +128,8 @@ class LocalizedPage(HTMLParser):
                 self.out.append('<link rel="alternate" hreflang="'+lang+'" href="'+ORIGIN+page_url(lang,self.index)+'">')
             self.out.append('<link rel="alternate" hreflang="x-default" href="'+ORIGIN+page_url('sk',self.index)+'">')
             self.out.append('<link rel="stylesheet" href="/languages.css?v=1"><script src="/language-switch.js?v=1" defer></script>')
+            self.out.append('<link rel="stylesheet" href="/experiences.css?v=4"><script src="/reading-init.js?v=2"></script><script type="module" src="/experiences.js?v=4"></script>')
+            self.out.append('<script id="experience-data" type="application/json">'+json.dumps(experiences.runtime_data(self.experience,self.index),ensure_ascii=False).replace('<','\\u003c')+'</script>')
         self.out.append('</'+tag+'>')
         if tag == 'header':
             self.out.append('<nav class="language-bar" aria-label="'+html.escape(self.strings['t0670'],quote=True)+'"><span class="language-label">'+html.escape(self.strings['t0677'])+'</span><div class="language-switch">')
@@ -127,6 +137,7 @@ class LocalizedPage(HTMLParser):
                 current = ' aria-current="page"' if lang == self.lang else ''
                 self.out.append('<a href="'+page_url(lang,self.index)+'" lang="'+lang+'" hreflang="'+lang+'" data-language="'+lang+'"'+current+'>'+name+'</a>')
             self.out.append('</div></nav>')
+            self.out.append(experiences.controls(self.experience,self.lang,self.index,page_url))
         if tag == 'script': self.script=None
         if tag in self.stack:
             self.stack = self.stack[:len(self.stack)-1-self.stack[::-1].index(tag)]
@@ -181,6 +192,14 @@ def build():
         for index,source in enumerate(SOURCE_PATHS):
             page=LocalizedPage(lang,index,strings)
             page.feed((I18N/'templates'/source).read_text(encoding='utf-8'))
+            url=page_url(lang,index)
+            write(DIST/url.lstrip('/')/'index.html',''.join(page.out))
+            paths.append({'lang':lang,'page':index,'path':url})
+        for offset,kind in enumerate(experiences.KINDS):
+            index=7+offset
+            page=LocalizedPage(lang,index,strings)
+            raw=experiences.document((I18N/'templates/kviz/index.html').read_text(encoding='utf-8'),page.experience,kind)
+            page.feed(raw)
             url=page_url(lang,index)
             write(DIST/url.lstrip('/')/'index.html',''.join(page.out))
             paths.append({'lang':lang,'page':index,'path':url})

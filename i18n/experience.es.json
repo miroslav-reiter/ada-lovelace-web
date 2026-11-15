@@ -208,5 +208,12 @@
   "diploma.print": "Imprimir o guardar en PDF",
   "diploma.printHint": "En la ventana de impresión, elige una impresora o la opción de guardar en PDF.",
   "diploma.saved": "El diploma está listo para descargar.",
-  "diploma.error": "No se ha podido crear la imagen. Prueba a imprimir o a guardar en PDF."
+  "diploma.error": "No se ha podido crear la imagen. Prueba a imprimir o a guardar en PDF.",
+  "theme.label": "Apariencia",
+  "theme.system": "Según el sistema",
+  "theme.light": "Modo claro",
+  "theme.dark": "Modo oscuro",
+  "theme.systemStatus": "Según el sistema: {0}",
+  "theme.storage": "Esta opción se aplica a esta página. El navegador no puede guardarla.",
+  "theme.noScript": "Cambiar la apariencia requiere JavaScript."
 }

@@ -208,5 +208,12 @@
   "diploma.print": "Vytlačiť alebo uložiť PDF",
   "diploma.printHint": "V tlačovom okne vyberte tlačiareň alebo možnosť uloženia do PDF.",
   "diploma.saved": "Diplom je pripravený na stiahnutie.",
-  "diploma.error": "Obrázok sa nepodarilo vytvoriť. Skúste tlač alebo uloženie do PDF."
+  "diploma.error": "Obrázok sa nepodarilo vytvoriť. Skúste tlač alebo uloženie do PDF.",
+  "theme.label": "Vzhľad",
+  "theme.system": "Podľa systému",
+  "theme.light": "Svetlý režim",
+  "theme.dark": "Tmavý režim",
+  "theme.systemStatus": "Podľa systému: {0}",
+  "theme.storage": "Voľba platí na tejto stránke. Prehliadač ju nedokáže uložiť.",
+  "theme.noScript": "Prepínanie vzhľadu vyžaduje JavaScript."
 }

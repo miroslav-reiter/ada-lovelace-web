@@ -91,6 +91,7 @@ node --check dist/pages.js
 node --check dist/gallery.js
 node --check dist/experiences.js
 node scripts/test-experiences.mjs
+node scripts/test-theme.mjs
 ```
 
 Kontrola odkazov používa iba štandardnú knižnicu Pythonu. Node.js je potrebný len na uvedenú syntaktickú kontrolu JavaScriptu, nie na prevádzku webu. Kvíz, galéria a mobilné menu boli overené aj v prehliadači.
@@ -122,3 +123,7 @@ git clone docs/source-history.bundle ada-lovelace-historia
 ## Prístupnosť
 
 Zväčšené písmo, upravené kontrasty a ovládanie klávesnicou. Rozsah technického overenia a jeho limity sú v [kontrole prístupnosti](docs/PRISTUPNOST.md).
+
+## Vzhľad
+
+Na všetkých 55 stránkach môžete vybrať svetlý, tmavý alebo systémový režim. Predvolený systémový režim sleduje nastavenie prehliadača alebo počítača. Voľba sa pamätá pri prechode medzi stránkami aj jazykmi; ukladá sa iba v prehliadači. Prepínač je preložený do všetkých piatich jazykov. Podrobnosti a výsledky kontrol nájdete v [dokumentácii vzhľadu](docs/VZHLAD.md).

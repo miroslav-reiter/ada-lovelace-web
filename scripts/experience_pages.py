@@ -41,12 +41,13 @@ def load(root, lang):
 def controls(t, lang, index, page_url):
     links=''.join(f'<a href="{page_url(lang,7+i)}"'+(' aria-current="page"' if index==7+i else '')+f'>{esc(t["nav."+kind])}</a>' for i,kind in enumerate(KINDS))
     return f'''<div class="salon-tools"><nav class="explore-nav" aria-label="{esc(t['nav.label'])}">{links}</nav>
+<div class="salon-preferences"><div class="theme-picker" role="region" aria-label="{esc(t['theme.label'])}"><label for="theme-select">{esc(t['theme.label'])}</label><select id="theme-select" disabled data-system-status="{esc(t['theme.systemStatus'])}" data-storage-notice="{esc(t['theme.storage'])}"><option value="system" selected>{esc(t['theme.system'])}</option><option value="light">{esc(t['theme.light'])}</option><option value="dark">{esc(t['theme.dark'])}</option></select><p id="theme-status" class="sr-only" role="status" aria-live="polite"></p><noscript>{esc(t['theme.noScript'])}</noscript></div>
 <details class="reading-tools"><summary>{esc(t['read.title'])}</summary><div class="reading-panel">
 <label for="reading-size">{esc(t['read.size'])}</label><select id="reading-size"><option value="100">{esc(t['read.default'])}</option><option value="125">125 %</option><option value="150">150 %</option><option value="200">200 %</option></select>
 <label class="check-label"><input id="reading-calm" type="checkbox">{esc(t['read.calm'])}</label>
 <label class="check-label"><input id="reading-motion" type="checkbox">{esc(t['read.motion'])}</label>
 <button type="button" id="reading-reset">{esc(t['read.reset'])}</button><p>{esc(t['read.note'])}</p>
-<p id="reading-status" class="sr-only" role="status" aria-live="polite"></p></div></details></div>'''
+<p id="reading-status" class="sr-only" role="status" aria-live="polite"></p></div></details></div></div>'''
 
 def home(t, lang, page_url):
     cards=''.join(f'<a href="{page_url(lang,7+i)}"><span class="eyebrow">{i+7:02d}</span><h3>{esc(t["nav."+kind])} <span aria-hidden="true">↗</span></h3><p>{esc(t["home."+kind])}</p></a>' for i,kind in enumerate(KINDS))

@@ -113,6 +113,8 @@ class LocalizedPage(HTMLParser):
             d[key] = value
         rendered = '<' + tag + ''.join(' '+k if v is None else ' '+k+'="'+html.escape(v,quote=True)+'"' for k,v in d.items()) + '>'
         self.out.append(rendered)
+        if tag == 'head':
+            self.out.append('<script src="/theme.js?v=1"></script>')
         if tag=='div' and d.get('id')=='diploma-slot':
             self.out.append(experiences.diploma(self.experience))
         if tag == 'script': self.script=d
@@ -129,6 +131,7 @@ class LocalizedPage(HTMLParser):
             self.out.append('<link rel="alternate" hreflang="x-default" href="'+ORIGIN+page_url('sk',self.index)+'">')
             self.out.append('<link rel="stylesheet" href="/languages.css?v=1"><script src="/language-switch.js?v=1" defer></script>')
             self.out.append('<link rel="stylesheet" href="/experiences.css?v=4"><script src="/reading-init.js?v=2"></script><script type="module" src="/experiences.js?v=4"></script>')
+            self.out.append('<link rel="stylesheet" href="/theme.css?v=1">')
             self.out.append('<script id="experience-data" type="application/json">'+json.dumps(experiences.runtime_data(self.experience,self.index),ensure_ascii=False).replace('<','\\u003c')+'</script>')
         self.out.append('</'+tag+'>')
         if tag == 'header':

@@ -1,0 +1,98 @@
+/* The evening salon keeps its warm paper, coral accents and sage surfaces. */
+html { color-scheme: light; }
+.project-art .art-caption { right: 17px; overflow-wrap: anywhere; }
+main a,.section-label { overflow-wrap: anywhere; }
+.source-links a>* { min-width: 0; }
+.salon-preferences { display: flex; flex: 1 1 340px; flex-direction: column; gap: 8px; max-width: 390px; min-width: 0; }
+.salon-preferences .reading-tools { flex: auto; }
+.theme-picker { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; }
+.theme-picker label { font-size: 1rem; font-weight: 600; }
+.theme-picker select { flex: 1 1 180px; min-width: 0; max-width: 100%; min-height: 44px; border: 1px solid #737867; padding: 8px 12px; background: var(--paper); color: var(--ink); font: 1rem/1.5 var(--sans); }
+.theme-picker noscript { font-size: .875rem; }
+@media(max-width:760px) { .salon-preferences { max-width: none; width: 100%; } }
+@media screen {
+  html[data-theme=dark] {
+    color-scheme: dark;
+    --paper: #171c1b;
+    --ink: #f1eddf;
+    --muted: #bdc5b7;
+    --accent: #ffa58c;
+    --red: #e9947c;
+    --green: #303e30;
+    --line: #687467;
+    --night-panel: #242d28;
+    --night-raised: #2d3730;
+    --night-peach: #49352f;
+    --night-blue: #293c40;
+    --night-purple: #3a3548;
+    --night-border: #929f8a;
+    --night-soft: #c9d0c1;
+  }
+  html[data-theme=dark] :focus-visible { outline-color: #9bd8ff; }
+  html[data-theme=dark] .skip-link { color: var(--paper); }
+  html[data-theme=dark] :is(.hero-intro,.timeline p,.project-card p,.page-deck,.editorial-pair p,.question-category,.cv-pitch,.cv-main h3 span,.cv-job>span,.cv-sidebar small,.cv-availability,.archive-row p,.context-grid p,.book-details p,.source-inline,.resource-path p,.gallery-card-meta,.gallery-card figcaption>p,.gallery-colophon p,.gallery-colophon .gallery-footnote,#photo-origin,.fine-print,.event-portrait figcaption,.closing-note) { color: var(--night-soft); }
+  html[data-theme=dark] :is(.site-header nav a[aria-current=page],.feature-glyph,#photo-source:hover,#photo-download:hover) { color: var(--accent); }
+  html[data-theme=dark] .site-header nav a[aria-current=page] { background: transparent; }
+  html[data-theme=dark] :is(.portrait-card,.gallery-postcard,.visitor-quiz,.quiz-box,.cv-sheet,.book-card,.gallery-card,.advice-answer,.reading-panel,.machine-dial,.diploma-section input) { background: var(--night-panel); }
+  html[data-theme=dark] :is(.portrait-card,.gallery-postcard,.visitor-quiz,.quiz-box,.cv-sheet,.project-card:hover) { box-shadow: 6px 6px 0 #080e0b; }
+  html[data-theme=dark] :is(.portrait-photo,.event-portrait img,.gallery-image-button,.gallery-card.history .gallery-image-button,.gallery-postcard>button) { background: #30372e; }
+  html[data-theme=dark] .portrait-index { background: #171c1b; color: #f1eddf; }
+  html[data-theme=dark] .portrait-photo img { mix-blend-mode: normal; }
+  html[data-theme=dark] :is(.round-stamp,.ticker) { background: var(--night-peach); color: var(--ink); }
+  html[data-theme=dark] .code-slip>span:first-child { color: #c4d9b6; }
+  html[data-theme=dark] :is(.code-slip:before,.gallery-postcard:before) { background: #7c7058; }
+  html[data-theme=dark] :is(.language-switch a,.filters .filter,.gallery-filters button,.answer-option,.answer-letter,.theme-picker select,.reading-panel select,.reading-panel button,.experience-actions button,.year-controls button,.advice-questions button,.news-filters button,.workshop button,.diploma-section input) { border-color: var(--night-border); }
+  html[data-theme=dark] :is(.language-switch a:hover,.gallery-filters button:hover:not(.active)) { background: var(--night-raised); }
+  html[data-theme=dark] .language-switch a[aria-current=page] { background: var(--ink); color: var(--paper); }
+  html[data-theme=dark] :is(.cv-sidebar,.cv-letter,.cv-fact-box,.context-section,.standard-note,.gallery-ribbon,.gallery-colophon,.dialog-callout,.experience-cards>a,.fiction-note,.fiction-banner,.machine-console,.practical-note,.news-card:first-child) { background: var(--night-raised); }
+  html[data-theme=dark] :is(.experience-cards>a:nth-child(even),.news-card:nth-child(4),.fiction-banner) { background: var(--night-peach); }
+  html[data-theme=dark] :is(.experience-cards>a:hover,#machine-palette button:hover) { background: #3c4d37; }
+  html[data-theme=dark] #machine-palette button { background: var(--night-raised); }
+  html[data-theme=dark] :is(.tag.fact,.gallery-badge.history) { background: #354631; color: #d6edb8; border-color: #9cba8b; }
+  html[data-theme=dark] :is(.tag.fiction,.gallery-badge.ai) { background: #50362f; color: #ffcaad; border-color: #cfa590; }
+  html[data-theme=dark] :is(.zoom-label,.gallery-image-button:hover .zoom-label,.gallery-postcard>button:hover .zoom-label) { color: #f1eddf; background: #171c1b; border-color: #929f8a; }
+  html[data-theme=dark] :is(.bernoulli,.book-symbol.sage) { background-color: #35432f; }
+  html[data-theme=dark] .bernoulli { background-image: linear-gradient(#8fa97725 1px,transparent 1px),linear-gradient(90deg,#8fa97725 1px,transparent 1px); }
+  html[data-theme=dark] .number-track span { color: #c4d9b6; }
+  html[data-theme=dark] :is(.tea-art,.book-symbol.peach,.page-kviz .page-emblem) { background: var(--night-peach); }
+  html[data-theme=dark] :is(.cup,.saucer) { background: #594331; }
+  html[data-theme=dark] .notes-art { background: #403b2e; }
+  html[data-theme=dark] .paper-stack { background: #2e3029; box-shadow: 6px 5px 0 #4c4c3e,7px 6px 0 var(--ink); }
+  html[data-theme=dark] .fake-lines { background: repeating-linear-gradient(to bottom,transparent 0 5px,#a3a18e 5px 6px); }
+  html[data-theme=dark] :is(.cloud-art,.page-cv .page-emblem) { background: var(--night-blue); }
+  html[data-theme=dark] .cloud-symbol { color: #b6cbd0; text-shadow: 1px 1px #171c1b,-1px -1px #171c1b; }
+  html[data-theme=dark] .fly-art { background: #463c28; }
+  html[data-theme=dark] :is(.undo-art,.book-symbol.lavender,.page-zdroje .page-emblem) { background: var(--night-purple); }
+  html[data-theme=dark] .progress-track { background: #50594c; }
+  html[data-theme=dark] :is(.answer-option.correct,.answer-option[aria-disabled=true].correct) { background: #30482e; color: #e2f2d4; border-color: #a8c28b; }
+  html[data-theme=dark] :is(.answer-option.chosen-wrong,.answer-option[aria-disabled=true].chosen-wrong) { background: #4c322d; color: #ffded1; border-color: #e3a38b; }
+  html[data-theme=dark] .answer-feedback { background: #4c322d; color: #ffded1; border-color: #e3a38b; }
+  html[data-theme=dark] .answer-feedback.positive { background: #30482e; color: #e2f2d4; border-color: #a8c28b; }
+  html[data-theme=dark] .answer-option[aria-disabled=true]:not(.correct):not(.chosen-wrong) { background: transparent; color: var(--ink); }
+  html[data-theme=dark] .punch-card { background: #403a2b; border-color: #b4a688; }
+  html[data-theme=dark] .punch-number { color: #e7d7b6; }
+  html[data-theme=dark] .punch-holes i { background: #403a2b; border-color: #b4a688; }
+  html[data-theme=dark] .punch-holes i.punched { background: #e7d7b6; }
+  html[data-theme=dark] .punch-card.is-complete { border-left-color: #b4d095; }
+  html[data-theme=dark] .card-actions button { background: #252b23; }
+  html[data-theme=dark] :is(.experience-actions button:disabled,.workshop button:disabled,.card-actions button[aria-disabled=true]) { background: #2b322f; color: #bac3af; border-style: dashed; }
+  html[data-theme=dark] .machine-lights i { background: #61695b; }
+  html[data-theme=dark] .machine-console[data-state=success] .machine-lights i { background: #b4d095; }
+  html[data-theme=dark] .machine-console[data-state=error] .machine-lights i { background: #ffad91; }
+  html[data-theme=dark] .machine-console[data-state=error] #machine-status { color: #ffb9a2; }
+  html[data-theme=dark] .practical-note { border-left-color: #b4d095; }
+  /* These code panels stay dark in both themes. Their own tokens preserve syntax contrast. */
+  html[data-theme=dark] :is(.lab,.ada-playground) { --ink: #252820; --paper: #eeeade; --green: #d7e5a4; background: #202820; color: #eeeade; border-color: #929f8a; }
+  html[data-theme=dark] :is(.lab,.ada-playground) :focus-visible { outline-color: #9bd8ff; }
+  /* A diploma is a paper document in both screen themes and in the PNG export. */
+  html[data-theme=dark] .diploma-certificate { --ink: #252820; --paper: #eeeade; --accent: #ad351f; background: #f8f3e6; color: #252820; border-color: #252820; color-scheme: light; }
+  html[data-theme=dark] .diploma-certificate .fine-print { color: #535849; }
+}
+@media (forced-colors: active) {
+  html[data-theme=dark] :focus-visible { outline-color: Highlight; }
+  .theme-picker select { forced-color-adjust: auto; }
+}
+@media print {
+  .salon-preferences,.theme-picker { display: none !important; }
+  html[data-theme] { color-scheme: light; --paper:#eeeade; --ink:#252820; --muted:#595d50; --accent:#ad351f; --red:#ee583c; --green:#d7e5a4; --line:#b9b8a9; }
+}

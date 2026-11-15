@@ -57,3 +57,5 @@ Automatická kontrola prístupnosti nenahrádza úplný audit WCAG ani používa
 ## Rozšírenie 15. novembra 2026
 
 Web má 55 strán, 697 základných a 210 nových prekladových položiek pre každý jazyk. Kontrola potvrdila úplnosť prekladov, 1900 lokálnych odkazov, správne jazykové odkazy, kanonické adresy a jazykové metadáta. Nové štyri sekcie boli v každom jazyku overené pri šírke 320 aj 1280 CSS px. Podrobnosti sú v [popise rozšírenia](INTERAKTIVNE-SEKCIE.md).
+
+Prepínač vzhľadu pridal ďalších 7 položiek, spolu je teda 217 položiek v každom slovníku `experience.*.json`. Zdieľané `dist/theme.js` a `dist/theme.css` sa upravujú priamo. Všetky tri režimy a stavové oznámenia sú preložené do všetkých piatich jazykov. Podrobnosti sú v [dokumentácii vzhľadu](VZHLAD.md).

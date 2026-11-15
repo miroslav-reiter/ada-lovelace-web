@@ -76,6 +76,12 @@ for lang in build.LANGUAGES:
                 assert parsed.path in [build.page_url(lang,i) for i in range(page_count)], (url,link)
         assert not re.search(r'\{\d+\}', ''.join(page.visible_text)), url
         assert '/experiences.js' in page.scripts and '/reading-init.js' in page.scripts, url
+        assert '/theme.js' in page.scripts and '/theme.css?v=1' in text, url
+        assert text.index('/theme.js') < text.index('rel="stylesheet"'), url
+        assert text.count('id="theme-select"') == 1 and 'for="theme-select"' in text, url
+        assert 'id="theme-status"' in text, url
+        for value in ('system', 'light', 'dark'):
+            assert '<option value="'+value+'"' in text, (url, value)
 
 for file in (ROOT/'dist').rglob('*'):
     if file.suffix not in ('.html','.js','.css','.json'): continue

@@ -54,3 +54,7 @@ Pribudli spoločné nastavenia veľkosti textu 100, 125, 150 a 200 %, pokojnejš
 Všetkých 20 nových jazykových podstránok prešlo kontrolou axe-core 4.14.0 pri šírke 320 aj 1280 CSS px bez automaticky zistených porušení. Na vybraných obrazových pozadiach zostali položky kontrastu na manuálne posúdenie. Skontrolované bolo aj dokončenie kvízu s diplomom, reštart, ovládanie poradnice klávesnicou, novinové filtre a výpočtová dielňa. Pri 200 % texte boli opravené presahy starších nadpisov, odkazov, knižných kariet a dekorácií. Overenie zahŕňalo všetky slovenské typy stránok a nové nemecké sekcie pri 320 CSS px.
 
 Ide o rozšírenú technickú kontrolu, nie o certifikáciu úplnej zhody WCAG. Obmedzenia uvedené vyššie naďalej platia.
+
+## Režimy vzhľadu 15. novembra 2026
+
+Všetkých 55 strán má preložený natívny prepínač svetlého, tmavého a systémového režimu s viditeľným popisom a oznamovaním zmien. Tmavé farby boli overené na všetkých slovenských typoch stránok pri šírkach 1280 a 320 CSS px, vrátane zväčšeného textu, otvorených dialógov a spätnej väzby kvízu. Rozsah a limity kontroly sú v [dokumentácii vzhľadu](VZHLAD.md).

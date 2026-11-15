@@ -208,5 +208,12 @@
   "diploma.print": "Drucken oder als PDF speichern",
   "diploma.printHint": "Wählen Sie im Druckdialog einen Drucker oder die Option zum Speichern als PDF.",
   "diploma.saved": "Das Diplom steht zum Herunterladen bereit.",
-  "diploma.error": "Das Bild konnte nicht erstellt werden. Versuchen Sie, das Diplom zu drucken oder als PDF zu speichern."
+  "diploma.error": "Das Bild konnte nicht erstellt werden. Versuchen Sie, das Diplom zu drucken oder als PDF zu speichern.",
+  "theme.label": "Darstellung",
+  "theme.system": "Systemeinstellung",
+  "theme.light": "Heller Modus",
+  "theme.dark": "Dunkler Modus",
+  "theme.systemStatus": "Systemeinstellung: {0}",
+  "theme.storage": "Diese Auswahl gilt für diese Seite. Ihr Browser kann sie nicht speichern.",
+  "theme.noScript": "Zum Wechseln der Darstellung wird JavaScript benötigt."
 }

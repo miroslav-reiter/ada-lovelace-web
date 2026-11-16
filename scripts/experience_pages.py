@@ -38,8 +38,11 @@ def load(root, lang):
         assert re.findall(r'\{\d+\}',v)==re.findall(r'\{\d+\}',base[k]), (lang,k)
     return data
 
+def navigation_links(t, lang, index, page_url):
+    return ''.join(f'<a href="{page_url(lang,7+i)}"'+(' aria-current="page"' if index==7+i else '')+f'>{esc(t["nav."+kind])}</a>' for i,kind in enumerate(KINDS))
+
 def controls(t, lang, index, page_url):
-    links=''.join(f'<a href="{page_url(lang,7+i)}"'+(' aria-current="page"' if index==7+i else '')+f'>{esc(t["nav."+kind])}</a>' for i,kind in enumerate(KINDS))
+    links=navigation_links(t, lang, index, page_url)
     return f'''<div class="salon-tools"><nav class="explore-nav" aria-label="{esc(t['nav.label'])}">{links}</nav>
 <div class="salon-preferences">
 <details class="reading-tools"><summary>{esc(t['read.title'])}</summary><div class="reading-panel" role="region" aria-label="{esc(t['read.title'])}">

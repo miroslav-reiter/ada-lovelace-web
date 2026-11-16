@@ -55,6 +55,7 @@
 .site-header { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 8px 24px; padding-block: 16px; }
 .site-header>.brand { grid-column: 1; grid-row: 1; justify-self: start; }
 .site-header>#site-nav { grid-column: 1/-1; grid-row: 2; width: 100%; justify-content: flex-start; gap: 4px 22px; padding: 0; }
+.mobile-explore-links { display: none; }
 .header-preferences { grid-column: 2; grid-row: 1; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.25fr); align-items: start; gap: 8px; width: 27rem; max-width: 100%; min-width: 0; }
 .site-header .language-bar { display: block; margin: 0; padding: 0; border: 0; width: 100%; max-width: none; min-width: 0; font-weight: 400; }
 .header-preferences .theme-picker { display: block; min-width: 0; }
@@ -79,6 +80,9 @@ html[data-reading-size]:not([data-reading-size="100"]) .header-preferences { fle
   .site-header>.menu-toggle { margin-left: auto; }
   .site-header>#site-nav { display: none; flex-basis: 100%; gap: 0; }
   .site-header>#site-nav.menu-open { display: flex; }
+  .site-header #site-nav .mobile-explore-links { display: grid; width: 100%; min-width: 0; gap: 0; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  .site-header #site-nav .mobile-explore-links a { display: flex; align-items: center; min-height: 44px; overflow-wrap: anywhere; }
+  .salon-tools>.explore-nav { display: none; }
   .header-preferences,html[data-reading-size]:not([data-reading-size="100"]) .header-preferences { width: 100%; flex: 1 1 100%; grid-template-columns: repeat(2,minmax(0,1fr)); margin: 0; }
   .header-preferences .salon-dropdown summary { min-height: 3rem; padding: 8px; gap: 6px; }
   .header-preferences #language-current-name,.header-preferences #theme-current-label { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }

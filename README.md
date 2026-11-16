@@ -10,6 +10,8 @@ Prístup na web sa riadi jeho nastaveniami v Sites. Tento repozitár obsahuje ko
 
 Slovenčina je predvolená. Každý jazyk obsahuje všetkých jedenásť strán vrátane interaktívneho kvízu, životopisu a galérie. Prepínač zachová rovnakú podstránku a sekciu.
 
+Na mobile sú odkazy Stroj času, Dierne štítky, Adina poradňa a Salónne noviny v hlavnom rozbaľovacom menu, aby hlavička zaberala menej miesta. Na počítači zostávajú v samostatnej navigácii.
+
 - [Slovenčina](https://ada-lovelace.vita-academy-7121.chatgpt.site/)
 - [Čeština](https://ada-lovelace.vita-academy-7121.chatgpt.site/cs/)
 - [English](https://ada-lovelace.vita-academy-7121.chatgpt.site/en/)

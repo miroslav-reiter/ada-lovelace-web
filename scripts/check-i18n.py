@@ -77,7 +77,7 @@ for lang in build.LANGUAGES:
         assert not re.search(r'\{\d+\}', ''.join(page.visible_text)), url
         assert '/experiences.js' in page.scripts and '/reading-init.js' in page.scripts, url
         assert '/theme.js' in page.scripts and '/theme.css?v=1' in text, url
-        assert '/dropdowns.js' in page.scripts and '/dropdowns.css?v=2' in text, url
+        assert '/dropdowns.js' in page.scripts and '/dropdowns.css?v=3' in text, url
         header = text[text.index('<header'):text.index('</header>')]
         assert 'class="header-preferences"' in header and 'id="theme-select"' in header and 'id="language-current-name"' in header, url
         assert text.count('class="language-flag"') == 6, url

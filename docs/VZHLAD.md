@@ -45,6 +45,8 @@ Overené boli otvorené ponuky v piatich jazykoch, svetlý aj tmavý vzhľad pri
 
 Oba prepínače sú vedľa seba priamo v hlavičke. Samostatný jazykový riadok bol odstránený a panel pohodlného čítania zostal pri doplnkovej navigácii. Pri šírke 1280 CSS px sa začiatok obsahu posunul z približne 360 na 248 px od vrchu stránky.
 
+Pri šírke do 760 CSS px sú Stroj času, Dierne štítky, Adina poradňa a Salónne noviny súčasťou rozbaľovacieho hlavného menu. Samostatný riadok s týmito odkazmi je na mobile skrytý. Na širších obrazovkách zostáva pôvodná doplnková navigácia. Obe zobrazenia používajú spoločné preklady a označujú aktuálnu podstránku; skryté odkazy nevstupujú do poradia klávesu Tab.
+
 Na mobile sa zobrazí vlajka so skratkou jazyka a ikonka s krátkym názvom vzhľadu. Otvorené ponuky majú celú šírku dvojice prepínačov a rozbalia sa do toku stránky. Celé názvy zostávajú v ponukách aj v prístupných názvoch ovládania. Pri zväčšenom texte sa krátky názov vzhľadu skryje, aby oba prepínače zostali vedľa seba; aktuálny režim naďalej označuje ikonka a celý prístupný názov.
 
 Overenie zahŕňalo otvorené ponuky vo všetkých piatich jazykoch pri 1280 a 320 CSS px, svetlý a tmavý režim, vybrané jazykové verzie pri 768 CSS px, mobilné menu a klávesnicové prepnutie na českú verziu aktuálneho CV. Slovenčina, nemčina a španielčina boli pri 320 CSS px overené aj s textom zväčšeným na 200 %. Po opravách boli kontrolované stavy bez horizontálneho presahu a automaticky zistených porušení axe-core. Statická kontrola potvrdzuje umiestnenie oboch prepínačov v hlavičke všetkých 55 strán. Nejde o úplnú certifikáciu WCAG; predchádzajúce limity overenia platia aj naďalej.

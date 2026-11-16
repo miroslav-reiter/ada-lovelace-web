@@ -1,0 +1,52 @@
+/* Small, tactile controls inspired by the salon's stationery. */
+.salon-dropdown { position: relative; min-width: 0; width: 100%; color: var(--ink); }
+.language-dropdown { width: 20rem; max-width: 100%; }
+.salon-dropdown[hidden],#theme-select[hidden] { display: none; }
+.salon-dropdown summary { display: flex; align-items: center; gap: 12px; min-height: 50px; padding: 11px 14px; border: 1px solid #737867; border-radius: 12px; background: #f8f5eb; box-shadow: 0 2px 0 #25282014; cursor: pointer; list-style: none; font: 500 1rem/1.5 var(--sans); }
+.salon-dropdown summary::-webkit-details-marker { display: none; }
+.salon-dropdown summary::marker { content: ''; }
+.salon-dropdown summary>span:not(#theme-current-icon) { min-width: 0; flex: 1; overflow-wrap: anywhere; }
+.salon-dropdown summary:hover { background: #e6eadb; border-color: var(--ink); }
+.salon-dropdown[open] { z-index: 35; }
+.salon-dropdown[open]>summary { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink); }
+.ui-icon { width: 22px; height: 22px; flex-shrink: 0; display: block; }
+.icon-chevron { margin-left: auto; transition: transform .15s ease; }
+.salon-dropdown[open] .icon-chevron { transform: rotate(180deg); }
+.language-flag { width: 30px; height: 22.5px; display: block; flex-shrink: 0; border-radius: 4px; box-shadow: 0 0 0 1px #25282035; overflow: hidden; }
+.dropdown-panel { position: absolute; z-index: 1; top: calc(100% + 8px); right: 0; width: 100%; max-height: min(24rem,60dvh); overflow-y: auto; overscroll-behavior: contain; display: grid; gap: 4px; margin: 0; padding: 7px; list-style: none; border: 1px solid #737867; border-radius: 15px; background: #f8f5eb; box-shadow: 0 14px 32px #25282029,0 3px 7px #25282012; }
+.dropdown-panel li { margin: 0; padding: 0; min-width: 0; }
+.language-dropdown .dropdown-panel { right: -2px; width: calc(100% + 4px); }
+.salon-dropdown .dropdown-panel :is(a,button) { display: flex; align-items: center; justify-content: flex-start; gap: 12px; width: 100%; min-height: 48px; padding: 11px 12px; border: 1px solid transparent; border-radius: 9px; background: transparent; color: var(--ink); text-align: left; text-decoration: none; font: 400 1rem/1.5 var(--sans); cursor: pointer; }
+.dropdown-panel .option-name { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.option-check { visibility: hidden; flex-shrink: 0; color: inherit; }
+.option-check .ui-icon { width: 18px; height: 18px; }
+.salon-dropdown .dropdown-panel :is(a[aria-current=page],button[aria-pressed=true]) { background: #e0e8d0; color: #252820; font-weight: 600; border-color: #9aa78b; }
+.salon-dropdown .dropdown-panel :is(a[aria-current=page],button[aria-pressed=true]) .option-check { visibility: visible; }
+.salon-dropdown .dropdown-panel :is(a,button):hover { background: #e9e5d6; color: #252820; }
+.salon-dropdown .dropdown-panel :focus-visible { outline-offset: -3px; }
+.theme-dropdown { flex: 1 1 180px; max-width: 20rem; margin-left: auto; }
+#theme-current-icon { flex-shrink: 0; }
+.theme-picker { align-items: center; }
+@media(max-width:760px) {
+  .language-dropdown { width: 100%; }
+  .dropdown-panel,.language-dropdown .dropdown-panel { position: static; width: 100%; margin-top: 8px; }
+  .theme-picker { align-items: flex-start; }
+  #theme-label { padding-top: 11px; }
+}
+@media screen {
+  html[data-theme=dark] .salon-dropdown summary,html[data-theme=dark] .dropdown-panel { background: #242d28; border-color: #929f8a; }
+  html[data-theme=dark] .salon-dropdown summary:hover { background: #344035; }
+  html[data-theme=dark] .salon-dropdown[open]>summary { border-color: #c9d0c1; box-shadow: 0 0 0 1px #c9d0c1; }
+  html[data-theme=dark] .dropdown-panel { box-shadow: 0 14px 32px #0006; }
+  html[data-theme=dark] .salon-dropdown .dropdown-panel :is(a,button) { color: #f1eddf; }
+  html[data-theme=dark] .salon-dropdown .dropdown-panel :is(a[aria-current=page],button[aria-pressed=true]) { background: #354631; color: #e2f2d4; border-color: #9cba8b; }
+  html[data-theme=dark] .salon-dropdown .dropdown-panel :is(a,button):hover { background: #3c463a; color: #f1eddf; }
+  html[data-theme=dark] .language-flag { box-shadow: 0 0 0 1px #fff4; }
+}
+@media (prefers-reduced-motion:reduce) { .icon-chevron { transition: none; } }
+@media (forced-colors:active) {
+  .salon-dropdown summary,.dropdown-panel { border: 1px solid ButtonText; }
+  .salon-dropdown .dropdown-panel :is(a[aria-current=page],button[aria-pressed=true]) { border: 2px solid Highlight; }
+  .language-flag { forced-color-adjust: none; }
+}
+@media print { .salon-dropdown { display: none !important; } }

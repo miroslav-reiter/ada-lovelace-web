@@ -58,3 +58,7 @@ Ide o rozšírenú technickú kontrolu, nie o certifikáciu úplnej zhody WCAG. 
 ## Režimy vzhľadu 15. novembra 2026
 
 Všetkých 55 strán má preložený natívny prepínač svetlého, tmavého a systémového režimu s viditeľným popisom a oznamovaním zmien. Tmavé farby boli overené na všetkých slovenských typoch stránok pri šírkach 1280 a 320 CSS px, vrátane zväčšeného textu, otvorených dialógov a spätnej väzby kvízu. Rozsah a limity kontroly sú v [dokumentácii vzhľadu](VZHLAD.md).
+
+## Ponuky s ikonami 16. novembra 2026
+
+Jazyková navigácia a výber vzhľadu používajú rozbaľovacie ponuky s textovými názvami, dekoratívnymi SVG ikonami a zreteľným označením výberu. Funguje Tab, Enter, medzerník, šípky, Home, End a Escape. Mobilné ponuky neprekrývajú susedné ovládanie. Panel pohodlného čítania dostal pomenovanú oblasť pre asistenčné technológie. Rozsah overenia otvorených ponúk a jeho limity sú v [dokumentácii vzhľadu](VZHLAD.md).

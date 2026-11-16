@@ -11,6 +11,7 @@ import json
 import re
 import hashlib
 import experience_pages as experiences
+import ui_controls
 
 ROOT = Path(__file__).resolve().parent.parent
 I18N = ROOT / 'i18n'
@@ -132,14 +133,11 @@ class LocalizedPage(HTMLParser):
             self.out.append('<link rel="stylesheet" href="/languages.css?v=1"><script src="/language-switch.js?v=1" defer></script>')
             self.out.append('<link rel="stylesheet" href="/experiences.css?v=4"><script src="/reading-init.js?v=2"></script><script type="module" src="/experiences.js?v=4"></script>')
             self.out.append('<link rel="stylesheet" href="/theme.css?v=1">')
+            self.out.append('<link rel="stylesheet" href="/dropdowns.css?v=1"><script src="/dropdowns.js?v=1" defer></script>')
             self.out.append('<script id="experience-data" type="application/json">'+json.dumps(experiences.runtime_data(self.experience,self.index),ensure_ascii=False).replace('<','\\u003c')+'</script>')
         self.out.append('</'+tag+'>')
         if tag == 'header':
-            self.out.append('<nav class="language-bar" aria-label="'+html.escape(self.strings['t0670'],quote=True)+'"><span class="language-label">'+html.escape(self.strings['t0677'])+'</span><div class="language-switch">')
-            for lang, name in LANGUAGES.items():
-                current = ' aria-current="page"' if lang == self.lang else ''
-                self.out.append('<a href="'+page_url(lang,self.index)+'" lang="'+lang+'" hreflang="'+lang+'" data-language="'+lang+'"'+current+'>'+name+'</a>')
-            self.out.append('</div></nav>')
+            self.out.append(ui_controls.language_picker(self.lang,LANGUAGES,self.index,page_url,self.strings['t0677'],self.strings['t0670']))
             self.out.append(experiences.controls(self.experience,self.lang,self.index,page_url))
         if tag == 'script': self.script=None
         if tag in self.stack:

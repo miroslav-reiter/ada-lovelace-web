@@ -77,11 +77,17 @@ for lang in build.LANGUAGES:
         assert not re.search(r'\{\d+\}', ''.join(page.visible_text)), url
         assert '/experiences.js' in page.scripts and '/reading-init.js' in page.scripts, url
         assert '/theme.js' in page.scripts and '/theme.css?v=1' in text, url
+        assert '/dropdowns.js' in page.scripts and '/dropdowns.css?v=1' in text, url
+        assert text.count('class="language-flag"') == 6, url
+        assert 'class="salon-dropdown language-dropdown"' in text, url
+        assert 'aria-labelledby="language-label language-current-name"' in text, url
+        assert 'aria-labelledby="theme-label theme-current-label"' in text, url
         assert text.index('/theme.js') < text.index('rel="stylesheet"'), url
         assert text.count('id="theme-select"') == 1 and 'for="theme-select"' in text, url
         assert 'id="theme-status"' in text, url
         for value in ('system', 'light', 'dark'):
             assert '<option value="'+value+'"' in text, (url, value)
+            assert 'data-theme-option="'+value+'"' in text, (url, value)
 
 for file in (ROOT/'dist').rglob('*'):
     if file.suffix not in ('.html','.js','.css','.json'): continue

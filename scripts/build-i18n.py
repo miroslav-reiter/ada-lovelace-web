@@ -94,6 +94,8 @@ class LocalizedPage(HTMLParser):
     def handle_comment(self, comment): self.out.append('<!--'+comment+'-->')
     def handle_starttag(self, tag, attrs):
         d = dict(attrs)
+        if tag == 'nav' and d.get('id') == 'site-nav':
+            self.out.append('<div class="header-preferences">'+ui_controls.language_picker(self.lang,LANGUAGES,self.index,page_url,self.strings['t0677'],self.strings['t0670'])+ui_controls.theme_picker(self.experience)+'</div>')
         if tag=='section' and d.get('id')=='o-ade' and self.index==0:
             self.out.append(experiences.home(self.experience,self.lang,page_url))
         if tag == 'link' and d.get('rel') == 'canonical': return
@@ -133,11 +135,10 @@ class LocalizedPage(HTMLParser):
             self.out.append('<link rel="stylesheet" href="/languages.css?v=1"><script src="/language-switch.js?v=1" defer></script>')
             self.out.append('<link rel="stylesheet" href="/experiences.css?v=4"><script src="/reading-init.js?v=2"></script><script type="module" src="/experiences.js?v=4"></script>')
             self.out.append('<link rel="stylesheet" href="/theme.css?v=1">')
-            self.out.append('<link rel="stylesheet" href="/dropdowns.css?v=1"><script src="/dropdowns.js?v=1" defer></script>')
+            self.out.append('<link rel="stylesheet" href="/dropdowns.css?v=2"><script src="/dropdowns.js?v=2" defer></script>')
             self.out.append('<script id="experience-data" type="application/json">'+json.dumps(experiences.runtime_data(self.experience,self.index),ensure_ascii=False).replace('<','\\u003c')+'</script>')
         self.out.append('</'+tag+'>')
         if tag == 'header':
-            self.out.append(ui_controls.language_picker(self.lang,LANGUAGES,self.index,page_url,self.strings['t0677'],self.strings['t0670']))
             self.out.append(experiences.controls(self.experience,self.lang,self.index,page_url))
         if tag == 'script': self.script=None
         if tag in self.stack:

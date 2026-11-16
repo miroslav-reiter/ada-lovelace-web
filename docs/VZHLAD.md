@@ -40,3 +40,11 @@ Ponuky používajú natívne `details` a `summary`, odkazy pre jazyky a tlačidl
 Na úzkych obrazovkách sa ponuka rozbalí do toku stránky, aby neprekrývala iné ovládanie. Pri vypnutom JavaScripte zostáva jazyková navigácia funkčná. Pri nenačítanom doplnku ponúk sa zachová pôvodný natívny výber vzhľadu. Súbory `dist/dropdowns.css`, `dist/dropdowns.js` a `scripts/ui_controls.py` tvoria spoločnú úpravu pre všetkých 55 strán.
 
 Overené boli otvorené ponuky v piatich jazykoch, svetlý aj tmavý vzhľad pri šírke 1280 CSS px a mobilné rozloženie pri 320 CSS px. Slovenská a nemecká verzia boli overené aj pri 200 % texte. Po opravách boli kontrolované stavy bez automatických porušení axe-core 4.14.0 a bez horizontálneho presahu stránky. Overené bolo ovládanie klávesnicou, zatvorenie mimo ponuky, zachovanie podstránky pri zmene jazyka a uloženie vzhľadu po obnovení. Statická kontrola pokrýva 55 strán a 2120 miestnych odkazov či súborov. Limity auditu uvedené vyššie naďalej platia.
+
+## Kompaktná hlavička 16. novembra 2026
+
+Oba prepínače sú vedľa seba priamo v hlavičke. Samostatný jazykový riadok bol odstránený a panel pohodlného čítania zostal pri doplnkovej navigácii. Pri šírke 1280 CSS px sa začiatok obsahu posunul z približne 360 na 248 px od vrchu stránky.
+
+Na mobile sa zobrazí vlajka so skratkou jazyka a ikonka s krátkym názvom vzhľadu. Otvorené ponuky majú celú šírku dvojice prepínačov a rozbalia sa do toku stránky. Celé názvy zostávajú v ponukách aj v prístupných názvoch ovládania. Pri zväčšenom texte sa krátky názov vzhľadu skryje, aby oba prepínače zostali vedľa seba; aktuálny režim naďalej označuje ikonka a celý prístupný názov.
+
+Overenie zahŕňalo otvorené ponuky vo všetkých piatich jazykoch pri 1280 a 320 CSS px, svetlý a tmavý režim, vybrané jazykové verzie pri 768 CSS px, mobilné menu a klávesnicové prepnutie na českú verziu aktuálneho CV. Slovenčina, nemčina a španielčina boli pri 320 CSS px overené aj s textom zväčšeným na 200 %. Po opravách boli kontrolované stavy bez horizontálneho presahu a automaticky zistených porušení axe-core. Statická kontrola potvrdzuje umiestnenie oboch prepínačov v hlavičke všetkých 55 strán. Nejde o úplnú certifikáciu WCAG; predchádzajúce limity overenia platia aj naďalej.

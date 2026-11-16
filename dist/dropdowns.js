@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const selected = buttons.find(button => button.dataset.themeOption === select.value);
     if (!selected) return;
     document.querySelector('#theme-current-label').textContent = selected.querySelector('.option-name').textContent;
+    document.querySelector('#theme-current-short').textContent = selected.dataset.shortLabel;
     document.querySelector('#theme-current-icon').replaceChildren(selected.querySelector('.ui-icon').cloneNode(true));
     buttons.forEach(button => button.setAttribute('aria-pressed', String(button === selected)));
   };

@@ -2,7 +2,6 @@
 from html import escape as esc
 import json
 import re
-import ui_controls
 
 KINDS = ['timeline', 'workshop', 'advice', 'news']
 EXTRA_ROUTES = {
@@ -42,7 +41,7 @@ def load(root, lang):
 def controls(t, lang, index, page_url):
     links=''.join(f'<a href="{page_url(lang,7+i)}"'+(' aria-current="page"' if index==7+i else '')+f'>{esc(t["nav."+kind])}</a>' for i,kind in enumerate(KINDS))
     return f'''<div class="salon-tools"><nav class="explore-nav" aria-label="{esc(t['nav.label'])}">{links}</nav>
-<div class="salon-preferences">{ui_controls.theme_picker(t)}
+<div class="salon-preferences">
 <details class="reading-tools"><summary>{esc(t['read.title'])}</summary><div class="reading-panel" role="region" aria-label="{esc(t['read.title'])}">
 <label for="reading-size">{esc(t['read.size'])}</label><select id="reading-size"><option value="100">{esc(t['read.default'])}</option><option value="125">125 %</option><option value="150">150 %</option><option value="200">200 %</option></select>
 <label class="check-label"><input id="reading-calm" type="checkbox">{esc(t['read.calm'])}</label>

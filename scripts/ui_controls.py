@@ -26,15 +26,16 @@ def language_picker(lang, languages, index, page_url, label, nav_label):
     for code, name in languages.items():
         active = ' aria-current="page"' if code == lang else ''
         options.append(f'<li><a href="{page_url(code,index)}" lang="{code}" hreflang="{code}" data-language="{code}"{active}>{flag(code)}<span class="option-name">{name}</span><span class="option-check">{icon("check")}</span></a></li>')
-    return f'''<nav class="language-bar" aria-label="{esc(nav_label)}"><span id="language-label" class="language-label">{esc(label)}</span>
-<details class="salon-dropdown language-dropdown"><summary aria-labelledby="language-label language-current-name">{flag(lang)}<span id="language-current-name" lang="{lang}">{languages[lang]}</span>{icon('chevron')}</summary>
+    code = 'CZ' if lang == 'cs' else lang.upper()
+    return f'''<nav class="language-bar" aria-label="{esc(nav_label)}"><span id="language-label" class="sr-only">{esc(nav_label)}</span>
+<details class="salon-dropdown language-dropdown"><summary aria-labelledby="language-label language-current-name language-current-code">{flag(lang)}<span id="language-current-name" lang="{lang}">{languages[lang]}</span><span id="language-current-code" class="compact-label" aria-hidden="true">{code}</span>{icon('chevron')}</summary>
 <ul class="language-switch dropdown-panel">{''.join(options)}</ul></details></nav>'''
 
 def theme_picker(t):
     modes = [('system','monitor'),('light','sun'),('dark','moon')]
-    options = ''.join(f'<li><button type="button" data-theme-option="{value}" aria-pressed="{str(value=="system").lower()}">{icon(symbol)}<span class="option-name">{esc(t["theme."+value])}</span><span class="option-check">{icon("check")}</span></button></li>' for value,symbol in modes)
+    options = ''.join(f'<li><button type="button" data-theme-option="{value}" data-short-label="{esc(t["theme.short."+value])}" aria-pressed="{str(value=="system").lower()}">{icon(symbol)}<span class="option-name">{esc(t["theme."+value])}</span><span class="option-check">{icon("check")}</span></button></li>' for value,symbol in modes)
     native = ''.join(f'<option value="{value}"'+(' selected' if value=='system' else '')+f'>{esc(t["theme."+value])}</option>' for value,_ in modes)
-    return f'''<div class="theme-picker" role="region" aria-label="{esc(t['theme.label'])}"><label id="theme-label" for="theme-select">{esc(t['theme.label'])}</label>
+    return f'''<div class="theme-picker" role="region" aria-label="{esc(t['theme.label'])}"><label id="theme-label" class="sr-only" for="theme-select">{esc(t['theme.label'])}</label>
 <select id="theme-select" disabled data-system-status="{esc(t['theme.systemStatus'])}" data-storage-notice="{esc(t['theme.storage'])}">{native}</select>
-<details class="salon-dropdown theme-dropdown" hidden><summary aria-labelledby="theme-label theme-current-label"><span id="theme-current-icon">{icon('monitor')}</span><span id="theme-current-label">{esc(t['theme.system'])}</span>{icon('chevron')}</summary><ul class="dropdown-panel">{options}</ul></details>
+<details class="salon-dropdown theme-dropdown" hidden><summary aria-labelledby="theme-label theme-current-label"><span id="theme-current-icon">{icon('monitor')}</span><span id="theme-current-label">{esc(t['theme.system'])}</span><span id="theme-current-short" class="compact-label" aria-hidden="true">{esc(t['theme.short.system'])}</span>{icon('chevron')}</summary><ul class="dropdown-panel">{options}</ul></details>
 <p id="theme-status" class="sr-only" role="status" aria-live="polite"></p><noscript>{esc(t['theme.noScript'])}</noscript></div>'''

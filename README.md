@@ -129,3 +129,5 @@ Zväčšené písmo, upravené kontrasty a ovládanie klávesnicou. Rozsah techn
 Na všetkých 55 stránkach môžete vybrať svetlý, tmavý alebo systémový režim. Predvolený systémový režim sleduje nastavenie prehliadača alebo počítača. Voľba sa pamätá pri prechode medzi stránkami aj jazykmi; ukladá sa iba v prehliadači. Prepínač je preložený do všetkých piatich jazykov. Podrobnosti a výsledky kontrol nájdete v [dokumentácii vzhľadu](docs/VZHLAD.md).
 
 Jazyky sa vyberajú v rozbaľovacej ponuke s vlajkami a názvami. Ponuka vzhľadu má ikonky monitora, slnka a mesiaca. Obe podporujú klávesnicu, označujú aktuálnu voľbu fajkou a prispôsobujú sa mobilnému zobrazeniu.
+
+Oba prepínače sú vedľa seba v kompaktnej hlavičke. Na mobile používajú skratku jazyka a krátky názov vzhľadu; otvorené ponuky aj prístupné názvy obsahujú celé označenia.

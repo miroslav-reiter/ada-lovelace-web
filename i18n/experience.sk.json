@@ -215,5 +215,8 @@
   "theme.dark": "Tmavý režim",
   "theme.systemStatus": "Podľa systému: {0}",
   "theme.storage": "Voľba platí na tejto stránke. Prehliadač ju nedokáže uložiť.",
-  "theme.noScript": "Prepínanie vzhľadu vyžaduje JavaScript."
+  "theme.noScript": "Prepínanie vzhľadu vyžaduje JavaScript.",
+  "theme.short.system": "Systém",
+  "theme.short.light": "Svetlý",
+  "theme.short.dark": "Tmavý"
 }

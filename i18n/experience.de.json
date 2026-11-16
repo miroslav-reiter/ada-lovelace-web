@@ -215,5 +215,8 @@
   "theme.dark": "Dunkler Modus",
   "theme.systemStatus": "Systemeinstellung: {0}",
   "theme.storage": "Diese Auswahl gilt für diese Seite. Ihr Browser kann sie nicht speichern.",
-  "theme.noScript": "Zum Wechseln der Darstellung wird JavaScript benötigt."
+  "theme.noScript": "Zum Wechseln der Darstellung wird JavaScript benötigt.",
+  "theme.short.system": "System",
+  "theme.short.light": "Heller",
+  "theme.short.dark": "Dunkler"
 }

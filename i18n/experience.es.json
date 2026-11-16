@@ -215,5 +215,8 @@
   "theme.dark": "Modo oscuro",
   "theme.systemStatus": "Según el sistema: {0}",
   "theme.storage": "Esta opción se aplica a esta página. El navegador no puede guardarla.",
-  "theme.noScript": "Cambiar la apariencia requiere JavaScript."
+  "theme.noScript": "Cambiar la apariencia requiere JavaScript.",
+  "theme.short.system": "Sistema",
+  "theme.short.light": "Claro",
+  "theme.short.dark": "Oscuro"
 }

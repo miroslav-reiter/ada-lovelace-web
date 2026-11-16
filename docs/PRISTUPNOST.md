@@ -62,3 +62,5 @@ Všetkých 55 strán má preložený natívny prepínač svetlého, tmavého a s
 ## Ponuky s ikonami 16. novembra 2026
 
 Jazyková navigácia a výber vzhľadu používajú rozbaľovacie ponuky s textovými názvami, dekoratívnymi SVG ikonami a zreteľným označením výberu. Funguje Tab, Enter, medzerník, šípky, Home, End a Escape. Mobilné ponuky neprekrývajú susedné ovládanie. Panel pohodlného čítania dostal pomenovanú oblasť pre asistenčné technológie. Rozsah overenia otvorených ponúk a jeho limity sú v [dokumentácii vzhľadu](VZHLAD.md).
+
+Prepínače boli následne presunuté vedľa seba do hlavičky všetkých 55 strán. Mobilné skratky sú zahrnuté v prístupných názvoch, celé názvy zostávajú dostupné a zachovaná je dotyková plocha najmenej 44 px. Overenie zahŕňalo šírky 320, 768 a 1280 CSS px, oba farebné režimy, mobilné menu, klávesnicu a vybrané jazyky pri 200 % texte. Presný rozsah uvádza dokumentácia vzhľadu.

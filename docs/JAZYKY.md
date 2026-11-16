@@ -61,3 +61,5 @@ Web má 55 strán, 697 základných a 210 nových prekladových položiek pre ka
 Prepínač vzhľadu pridal ďalších 7 položiek, spolu je teda 217 položiek v každom slovníku `experience.*.json`. Zdieľané `dist/theme.js` a `dist/theme.css` sa upravujú priamo. Všetky tri režimy a stavové oznámenia sú preložené do všetkých piatich jazykov. Podrobnosti sú v [dokumentácii vzhľadu](VZHLAD.md).
 
 Od 16. novembra 2026 je výber jazykov rozbaľovací zoznam s vlajkami a názvami jazykov. Názvy zostávajú v príslušnom jazyku a aktívny jazyk označuje fajka aj `aria-current="page"`. Odkazy stále vedú na rovnakú podstránku vo vybranom jazyku a zachovávajú fragment adresy. Vlajky sa vykresľujú lokálne ako SVG, bez závislosti od podpory emoji v systéme. Spoločnú šablónu ponúk obsahuje `scripts/ui_controls.py`.
+
+Kompaktná hlavička používa na mobile skratky SK, CZ, EN, DE a ES a preložené krátke názvy režimov vzhľadu. Pribudli tri položky `theme.short.*`, spolu má každý slovník `experience.*.json` 220 položiek. Celé názvy zostávajú dostupné v ponukách a pre asistenčné technológie.

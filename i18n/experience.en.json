@@ -215,5 +215,8 @@
   "theme.dark": "Dark mode",
   "theme.systemStatus": "System setting: {0}",
   "theme.storage": "This choice applies to this page. Your browser cannot save it.",
-  "theme.noScript": "Switching appearance requires JavaScript."
+  "theme.noScript": "Switching appearance requires JavaScript.",
+  "theme.short.system": "System",
+  "theme.short.light": "Light",
+  "theme.short.dark": "Dark"
 }

@@ -115,6 +115,6 @@ def document(template, t, kind):
 
 def runtime_data(t,index):
     prefixes=['read.','common.']
-    if index>=7:prefixes.append(KINDS[index-7]+'.')
+    if 7<=index<7+len(KINDS):prefixes.append(KINDS[index-7]+'.')
     if index==2:prefixes.append('diploma.')
     return {k:v for k,v in t.items() if any(k.startswith(p) for p in prefixes)}

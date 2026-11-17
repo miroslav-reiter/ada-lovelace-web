@@ -64,6 +64,11 @@
       "path": "/noviny/"
     },
     {
+      "lang": "sk",
+      "page": 11,
+      "path": "/o-stranke-ada/"
+    },
+    {
       "lang": "cs",
       "page": 0,
       "path": "/cs/"
@@ -117,6 +122,11 @@
       "lang": "cs",
       "page": 10,
       "path": "/cs/noviny/"
+    },
+    {
+      "lang": "cs",
+      "page": 11,
+      "path": "/cs/o-strance-ada/"
     },
     {
       "lang": "en",
@@ -174,6 +184,11 @@
       "path": "/en/newspaper/"
     },
     {
+      "lang": "en",
+      "page": 11,
+      "path": "/en/about-ada/"
+    },
+    {
       "lang": "de",
       "page": 0,
       "path": "/de/"
@@ -229,6 +244,11 @@
       "path": "/de/zeitung/"
     },
     {
+      "lang": "de",
+      "page": 11,
+      "path": "/de/ueber-ada/"
+    },
+    {
       "lang": "es",
       "page": 0,
       "path": "/es/"
@@ -282,6 +302,11 @@
       "lang": "es",
       "page": 10,
       "path": "/es/periodico/"
+    },
+    {
+      "lang": "es",
+      "page": 11,
+      "path": "/es/sobre-ada/"
     }
   ]
 }

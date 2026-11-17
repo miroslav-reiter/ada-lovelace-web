@@ -10,7 +10,7 @@ Slovenčina je hlavný a predvolený jazyk. Hlavná adresa zostáva slovenská b
 | Deutsch | `/de/` |
 | Español | `/es/` |
 
-Každý jazyk má jedenásť strán: úvod, portfólio, kvíz, CV, zdroje a knihy, jazyk Ada, fotografie, stroj času, dielňa diernych štítkov, poradňa a noviny. Preložené sú texty stránok, navigácia, titulky a popisy pre vyhľadávače, alternatívne texty obrázkov, názvy ovládacích prvkov aj dynamické výsledky kvízu, oba varianty CV a galéria. Názvy kníh, mená, originálne zdroje a samotné ukážky programového kódu zostávajú v pôvodnom znení.
+Každý jazyk má dvanásť strán: úvod, portfólio, kvíz, CV, zdroje a knihy, jazyk Ada, fotografie, stroj času, dielňa diernych štítkov, poradňa, noviny a O stránke Ada. Preložené sú texty stránok, navigácia, titulky a popisy pre vyhľadávače, alternatívne texty obrázkov, názvy ovládacích prvkov aj dynamické výsledky kvízu, oba varianty CV a galéria. Názvy kníh, mená, originálne zdroje a samotné ukážky programového kódu zostávajú v pôvodnom znení.
 
 ## Úprava prekladov
 
@@ -19,8 +19,9 @@ Každý jazyk má jedenásť strán: úvod, portfólio, kvíz, CV, zdroje a knih
 - `i18n/templates/` obsahuje zdrojové HTML stránky a JavaScript pred lokalizáciou.
 - `i18n/experience.sk.json`, `experience.cs.json`, `experience.en.json`, `experience.de.json`, `experience.es.json` obsahujú ďalších 210 textov nových sekcií, diplomu a nastavení čítania.
 - `scripts/experience_pages.py` vytvára ich spoločné šablóny.
+- `i18n/about.*.json` obsahuje texty stránky o autorovi a výrobe webu; jej šablónu a odkazy spravuje `scripts/about_pages.py`.
 - `i18n/photos.sk.json` obsahuje zdrojové metadáta galérie.
-- `scripts/build-i18n.py` vytvorí všetkých 55 strán a lokalizovaný JavaScript do `dist/`.
+- `scripts/build-i18n.py` vytvorí všetkých 60 strán a lokalizovaný JavaScript do `dist/`.
 
 Pri zmene textu uprav príslušný preklad a spusti:
 

@@ -12,6 +12,7 @@ import re
 import hashlib
 import experience_pages as experiences
 import ui_controls
+import about_pages as about
 
 ROOT = Path(__file__).resolve().parent.parent
 I18N = ROOT / 'i18n'
@@ -28,6 +29,7 @@ ROUTES = {
 SOURCE_PATHS = ['index.html'] + [x + '/index.html' for x in ROUTES['sk'][1:]]
 for lang in LANGUAGES:
     ROUTES[lang] += experiences.EXTRA_ROUTES[lang]
+    ROUTES[lang].append(about.ROUTES[lang])
 OG_LOCALES = {'sk':'sk_SK','cs':'cs_CZ','en':'en_GB','de':'de_DE','es':'es_ES'}
 CATALOG = json.loads((I18N / 'catalog.json').read_text(encoding='utf-8'))
 SOURCE_IDS = {row['source']: row['id'] for row in CATALOG}
@@ -88,6 +90,7 @@ class LocalizedPage(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.lang, self.index, self.strings = lang, index, strings
         self.experience = experiences.load(I18N,lang)
+        self.about = about.load(I18N,lang)
         self.out, self.stack = [], []
         self.script = None
         self.in_site_nav = False
@@ -138,8 +141,11 @@ class LocalizedPage(HTMLParser):
             self.out.append('<link rel="stylesheet" href="/experiences.css?v=4"><script src="/reading-init.js?v=2"></script><script type="module" src="/experiences.js?v=4"></script>')
             self.out.append('<link rel="stylesheet" href="/theme.css?v=1">')
             self.out.append('<link rel="stylesheet" href="/dropdowns.css?v=3"><script src="/dropdowns.js?v=2" defer></script>')
+            if self.index == about.INDEX:
+                self.out.append('<link rel="stylesheet" href="/about.css?v=1">')
             self.out.append('<script id="experience-data" type="application/json">'+json.dumps(experiences.runtime_data(self.experience,self.index),ensure_ascii=False).replace('<','\\u003c')+'</script>')
         if tag == 'nav' and self.in_site_nav:
+            self.out.append(about.navigation(self.about,self.lang,self.index,page_url))
             self.out.append('<div class="mobile-explore-links">'+experiences.navigation_links(self.experience,self.lang,self.index,page_url)+'</div>')
             self.in_site_nav = False
         self.out.append('</'+tag+'>')
@@ -192,6 +198,15 @@ def localized_js(file, lang, strings):
     # Only quoted internal page URLs are rewritten. Asset paths and external sources stay intact.
     return re.sub(r'''(['"])(/(?:portfolio/|kviz/|cv/|zdroje/|jazyk-ada/|fotografie/|\#laboratorium))\1''',lambda m:m[1]+local_url(m[2],lang)+m[1],result)
 
+def rendered_page(page):
+    result=''.join(page.out)
+    link=about.navigation(page.about,page.lang,page.index,page_url,footer=True)
+    if 'class="footer-source"' in result:
+        result=re.sub(r'<a class="footer-source"[^>]*>.*?</a>',lambda _:link,result,flags=re.S)
+    else:
+        result=result.replace('</footer>',link+'</footer>')
+    return result
+
 def build():
     paths=[]
     for lang in LANGUAGES:
@@ -200,7 +215,7 @@ def build():
             page=LocalizedPage(lang,index,strings)
             page.feed((I18N/'templates'/source).read_text(encoding='utf-8'))
             url=page_url(lang,index)
-            write(DIST/url.lstrip('/')/'index.html',''.join(page.out))
+            write(DIST/url.lstrip('/')/'index.html',rendered_page(page))
             paths.append({'lang':lang,'page':index,'path':url})
         for offset,kind in enumerate(experiences.KINDS):
             index=7+offset
@@ -208,8 +223,13 @@ def build():
             raw=experiences.document((I18N/'templates/kviz/index.html').read_text(encoding='utf-8'),page.experience,kind)
             page.feed(raw)
             url=page_url(lang,index)
-            write(DIST/url.lstrip('/')/'index.html',''.join(page.out))
+            write(DIST/url.lstrip('/')/'index.html',rendered_page(page))
             paths.append({'lang':lang,'page':index,'path':url})
+        page=LocalizedPage(lang,about.INDEX,strings)
+        page.feed(about.document((I18N/'templates/kviz/index.html').read_text(encoding='utf-8'),page.about,lang,page_url))
+        url=page_url(lang,about.INDEX)
+        write(DIST/url.lstrip('/')/'index.html',rendered_page(page))
+        paths.append({'lang':lang,'page':about.INDEX,'path':url})
         for file in SEGMENTS:
             folder=DIST if lang=='sk' else DIST/'locales'/lang
             write(folder/file,localized_js(file,lang,strings))

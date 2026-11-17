@@ -48,11 +48,12 @@ manifest = json.loads((ROOT/'dist/languages.json').read_text(encoding='utf-8'))
 assert manifest['default'] == 'sk'
 assert set(manifest['languages']) == {'sk', 'cs', 'en', 'de', 'es'}
 page_count=len(build.ROUTES['sk'])
-assert len(manifest['pages']) == page_count*5 == 55
+assert len(manifest['pages']) == page_count*5 == 60
 assert len(list((ROOT/'dist').rglob('*.html'))) == page_count*5
 for lang in build.LANGUAGES:
     build.load_translations(lang)
     build.experiences.load(ROOT/'i18n',lang)
+    build.about.load(ROOT/'i18n',lang)
     for index in range(page_count):
         url = build.page_url(lang, index)
         text = (ROOT/'dist'/url.lstrip('/')/'index.html').read_text(encoding='utf-8')
@@ -79,6 +80,14 @@ for lang in build.LANGUAGES:
         assert '/theme.js' in page.scripts and '/theme.css?v=1' in text, url
         assert '/dropdowns.js' in page.scripts and '/dropdowns.css?v=3' in text, url
         header = text[text.index('<header'):text.index('</header>')]
+        about_url = build.page_url(lang,build.about.INDEX)
+        assert f'href="{about_url}"' in header, url
+        assert f'href="{about_url}"' in text[text.index('<footer'):], url
+        if index == build.about.INDEX:
+            assert '/about.css?v=1' in text and 'Miroslav' in text and 'Reiter' in text, url
+            for _, _, profile_url, _ in build.about.PROFILES:
+                assert f'href="{profile_url}"' in text, (url,profile_url)
+            assert 'aria-current="page"' in header.split('id="site-nav"',1)[1], url
         assert 'class="header-preferences"' in header and 'id="theme-select"' in header and 'id="language-current-name"' in header, url
         assert text.count('class="language-flag"') == 6, url
         assert 'class="salon-dropdown language-dropdown"' in text, url
@@ -96,4 +105,4 @@ for file in (ROOT/'dist').rglob('*'):
     text=file.read_text(encoding='utf-8')
     assert chr(8212) not in text, file
     assert not re.search(r'&(?:mdash|#8212|#x2014);|\\u2014',text,re.I), file
-print('PASS: 55 pages, 5 complete catalogs, experience translations, localized navigation, canonical URLs, hreflang and default Slovak edition.')
+print('PASS: 60 pages, 5 complete catalogs, author profiles, localized navigation, canonical URLs, hreflang and default Slovak edition.')

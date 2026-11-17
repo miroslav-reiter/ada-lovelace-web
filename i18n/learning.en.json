@@ -45,10 +45,10 @@
   "teachers.goalTitle": "What learners should take away",
   "teachers.goals": "Explain an algorithm in their own words, follow a short sequence of instructions, distinguish fact from fiction and cite a source for a historical claim.",
   "teachers.downloadTitle": "Ready for your school bag",
-  "teachers.downloadText": "Standalone HTML files in the current language: a student worksheet and teaching notes with solutions. They contain no external scripts or images.",
+  "teachers.downloadText": "The student worksheet and teacher solutions are available as PDF and HTML in the current language. Choose the format that suits you.",
   "teachers.download": "Download the worksheet",
   "teachers.solutions": "Download teacher solutions",
-  "teachers.printHelp": "Open the downloaded file in a browser. Use its Print button to print it or choose Save as PDF in the print dialog.",
+  "teachers.printHelp": "Download the PDFs and print them straight away. The HTML version opens in a browser and also works offline.",
   "teachers.planTitle": "Lesson plan",
   "teachers.lesson1Title": "A question to get started",
   "teachers.lesson1": "Can you write a program for a machine that has not yet been completed? Let learners predict the answer before introducing Ada.",
@@ -164,5 +164,10 @@
   "making.author": "About the author and website",
   "teachers.openWorksheet": "Open the printable worksheet",
   "teachers.worksheetTitle": "Worksheet: Ada and algorithms",
-  "teachers.solutionsTitle": "Teacher solutions: Ada and algorithms"
+  "teachers.solutionsTitle": "Teacher solutions: Ada and algorithms",
+  "teachers.downloadPdf": "Worksheet (PDF)",
+  "teachers.solutionsPdf": "Teacher solutions (PDF)",
+  "teachers.pdfDetails": "A4 format · 2 pages per PDF · ready to print",
+  "teachers.pdfWorksheetLabel": "Worksheet",
+  "teachers.pdfSolutionsLabel": "Teacher solutions"
 }

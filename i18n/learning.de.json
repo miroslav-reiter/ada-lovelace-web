@@ -45,10 +45,10 @@
   "teachers.goalTitle": "Was die Lernenden mitnehmen sollen",
   "teachers.goals": "Einen Algorithmus mit eigenen Worten erklären, eine kurze Befehlsfolge ausführen, Fakten von Fiktion unterscheiden und eine Quelle für eine historische Behauptung angeben.",
   "teachers.downloadTitle": "Bereit für die Schultasche",
-  "teachers.downloadText": "Eigenständige HTML-Dateien in der gewählten Sprache: ein Arbeitsblatt und Lösungshinweise für Lehrkräfte. Sie enthalten keine externen Skripte oder Bilder.",
+  "teachers.downloadText": "Das Arbeitsblatt und die Lösungen für Lehrkräfte sind in der gewählten Sprache als PDF und HTML verfügbar. Wählen Sie das passende Format.",
   "teachers.download": "Arbeitsblatt herunterladen",
   "teachers.solutions": "Lösungen für Lehrkräfte herunterladen",
-  "teachers.printHelp": "Öffnen Sie die heruntergeladene Datei im Browser. Mit der Schaltfläche Drucken können Sie sie ausdrucken oder im Druckdialog als PDF speichern.",
+  "teachers.printHelp": "Die PDFs können Sie direkt herunterladen und ausdrucken. Die HTML-Version lässt sich im Browser öffnen und auch offline verwenden.",
   "teachers.planTitle": "Stundenplan",
   "teachers.lesson1Title": "Eine Frage zum Einstieg",
   "teachers.lesson1": "Kann man ein Programm für eine noch nicht fertiggestellte Maschine schreiben? Lassen Sie die Lernenden zunächst vermuten und stellen Sie dann Ada vor.",
@@ -164,5 +164,10 @@
   "making.author": "Über den Autor und die Website",
   "teachers.openWorksheet": "Arbeitsblatt zum Drucken öffnen",
   "teachers.worksheetTitle": "Arbeitsblatt: Ada und Algorithmen",
-  "teachers.solutionsTitle": "Lösungen für Lehrkräfte: Ada und Algorithmen"
+  "teachers.solutionsTitle": "Lösungen für Lehrkräfte: Ada und Algorithmen",
+  "teachers.downloadPdf": "Arbeitsblatt (PDF)",
+  "teachers.solutionsPdf": "Lösungen für Lehrkräfte (PDF)",
+  "teachers.pdfDetails": "Format A4 · 2 Seiten pro PDF · druckfertig",
+  "teachers.pdfWorksheetLabel": "Arbeitsblatt",
+  "teachers.pdfSolutionsLabel": "Lösungen für Lehrkräfte"
 }

@@ -49,7 +49,18 @@ Galéria obsahuje filtre, zväčšovanie, ovládanie šípkami, zatvorenie kláv
 - Fakt alebo mýtus?: päť tvrdení, vysvetlenia a rozlíšenie citátu od fikcie.
 - Zákulisie tvorby s AI: skutočné zadania, zmeny a snímky pred úpravou a po nej.
 
-Všetko je preložené do piatich jazykov. Stránky nájdete v menu Objavovať aj na úvode. Pracovné listy sú samostatné HTML súbory, fungujú offline a umožňujú tlač či uloženie ako PDF cez prehliadač. [Podrobný opis a zdroje](docs/VZDELAVACIE-STRANKY.md).
+Všetko je preložené do piatich jazykov. Stránky nájdete v menu Objavovať aj na úvode. Pracovné listy a riešenia sú priamo na stiahnutie ako PDF aj samostatné HTML, spolu 20 súborov. Každé PDF má dve strany A4 a základný text veľkosti 12 bodov. Obe verzie fungujú offline. [Podrobný opis a zdroje](docs/VZDELAVACIE-STRANKY.md).
+
+PDF vznikajú z rovnakých prekladov ako web. Na ich obnovenie po zmene obsahu:
+
+```sh
+python -m pip install -r scripts/requirements-pdf.txt
+python scripts/build-pdfs.py
+python scripts/build-i18n.py
+python scripts/check-pdfs.py
+```
+
+Generátor, kontroly, vložené písmo aj jeho licencia sú súčasťou repozitára. Hotový web tieto vývojové závislosti nepotrebuje.
 
 ## Spustenie lokálne
 

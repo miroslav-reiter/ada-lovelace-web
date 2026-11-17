@@ -45,10 +45,10 @@
   "teachers.goalTitle": "Qué deberían aprender",
   "teachers.goals": "Explicar un algoritmo con sus propias palabras, ejecutar una secuencia breve de instrucciones, distinguir hechos de ficción y citar una fuente para una afirmación histórica.",
   "teachers.downloadTitle": "Listo para la mochila",
-  "teachers.downloadText": "Archivos HTML independientes en el idioma actual: una ficha para estudiantes y orientaciones con soluciones para docentes. No contienen scripts ni imágenes externos.",
+  "teachers.downloadText": "La ficha para estudiantes y las soluciones para docentes están disponibles en PDF y HTML en el idioma actual. Elige el formato que prefieras.",
   "teachers.download": "Descargar la ficha",
   "teachers.solutions": "Descargar soluciones para docentes",
-  "teachers.printHelp": "Abre el archivo descargado en el navegador. Con su botón Imprimir puedes imprimirlo o elegir Guardar como PDF en el cuadro de impresión.",
+  "teachers.printHelp": "Descarga los PDF e imprímelos directamente. La versión HTML se abre en el navegador y también funciona sin conexión.",
   "teachers.planTitle": "Plan de clase",
   "teachers.lesson1Title": "Una pregunta para empezar",
   "teachers.lesson1": "¿Se puede escribir un programa para una máquina que todavía no se ha terminado? Deja que el alumnado proponga una respuesta antes de presentar a Ada.",
@@ -164,5 +164,10 @@
   "making.author": "Sobre el autor y la web",
   "teachers.openWorksheet": "Abrir la ficha para imprimir",
   "teachers.worksheetTitle": "Ficha: Ada y los algoritmos",
-  "teachers.solutionsTitle": "Soluciones docentes: Ada y los algoritmos"
+  "teachers.solutionsTitle": "Soluciones docentes: Ada y los algoritmos",
+  "teachers.downloadPdf": "Ficha de actividades (PDF)",
+  "teachers.solutionsPdf": "Soluciones para docentes (PDF)",
+  "teachers.pdfDetails": "Formato A4 · 2 páginas por PDF · listo para imprimir",
+  "teachers.pdfWorksheetLabel": "Ficha de actividades",
+  "teachers.pdfSolutionsLabel": "Soluciones para docentes"
 }

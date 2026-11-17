@@ -1,0 +1,82 @@
+[
+  {
+    "file": "ada-worksheet-sk.pdf",
+    "lang": "sk",
+    "kind": "worksheet",
+    "pages": 2,
+    "bytes": 27261,
+    "sha256": "b37f68ea36decd76beb06903419c48cf3cccc12f6371ffbede713891c466f9db"
+  },
+  {
+    "file": "ada-solutions-sk.pdf",
+    "lang": "sk",
+    "kind": "solutions",
+    "pages": 2,
+    "bytes": 28268,
+    "sha256": "2642befc12730002efc8d211dc2a5f82faad468de099e0dcaec3820a66b827f9"
+  },
+  {
+    "file": "ada-worksheet-cs.pdf",
+    "lang": "cs",
+    "kind": "worksheet",
+    "pages": 2,
+    "bytes": 27334,
+    "sha256": "1d83f96f2c74af08efa9f69ddb042f186cbe97de9ddf596c2c6a9de666c01394"
+  },
+  {
+    "file": "ada-solutions-cs.pdf",
+    "lang": "cs",
+    "kind": "solutions",
+    "pages": 2,
+    "bytes": 28326,
+    "sha256": "8736e01978ee63dda290c76ffd7a84a08ffbfa90241e1073707bc202756aa304"
+  },
+  {
+    "file": "ada-worksheet-en.pdf",
+    "lang": "en",
+    "kind": "worksheet",
+    "pages": 2,
+    "bytes": 26257,
+    "sha256": "aefe58a5abc84e93e81d3b28ec2de240088cbeaca64e56b481afce63cbaf8e95"
+  },
+  {
+    "file": "ada-solutions-en.pdf",
+    "lang": "en",
+    "kind": "solutions",
+    "pages": 2,
+    "bytes": 26905,
+    "sha256": "640e0c3d459f01a224e6d35c91e1d563b4e816a9109a83df3d34b527882bde47"
+  },
+  {
+    "file": "ada-worksheet-de.pdf",
+    "lang": "de",
+    "kind": "worksheet",
+    "pages": 2,
+    "bytes": 26872,
+    "sha256": "013ce8ccc90ce80c99f86b9284e312a9e5f0dacc100427d5412b431d06766091"
+  },
+  {
+    "file": "ada-solutions-de.pdf",
+    "lang": "de",
+    "kind": "solutions",
+    "pages": 2,
+    "bytes": 27715,
+    "sha256": "66e39c2c399c771a341ff045c6f613c620e4afb36f258e16d31ca35e7d3674ba"
+  },
+  {
+    "file": "ada-worksheet-es.pdf",
+    "lang": "es",
+    "kind": "worksheet",
+    "pages": 2,
+    "bytes": 26820,
+    "sha256": "8ca4b5b1ec081900cdbd0c721c2231d6a8be6585d72e97800eb8c1e2ca919d55"
+  },
+  {
+    "file": "ada-solutions-es.pdf",
+    "lang": "es",
+    "kind": "solutions",
+    "pages": 2,
+    "bytes": 27506,
+    "sha256": "62495009bcd058070a39810375f0e0aa316a0dbedca6257a9b75a64362b5fda7"
+  }
+]

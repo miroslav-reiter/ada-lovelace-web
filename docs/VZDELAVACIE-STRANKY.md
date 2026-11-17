@@ -3,7 +3,7 @@
 Päť sekcií je dostupných v slovenčine, češtine, angličtine, nemčine a španielčine. Spoločný generátor `scripts/learning_pages.py` používa úplné katalógy `i18n/learning.*.json`. Navigácia Objavovať a karty na úvodnej stránke vedú na lokálnu jazykovú verziu. Prepínač jazyka zachováva typ podstránky.
 
 - Adin algoritmus: moderná vzdelávacia rekurencia s presnými zlomkami, hodnotami B2, B4, B6 a B8, predchádzajúcim a ďalším krokom a resetom. Nejde o vernú emuláciu kariet poznámky G. Historické B7 je moderné B8. Použitá konvencia B1 = -1/2.
-- Učiteľský kútik: plán na 45 minút, štyri úlohy, diferenciácia a desať samostatných súborov HTML na stiahnutie (päť pracovných listov a päť riešení). Súbory nemajú externé závislosti, fungujú offline, umožňujú tlač alebo uloženie PDF cez prehliadač.
+- Učiteľský kútik: plán na 45 minút, štyri úlohy, diferenciácia a desať materiálov (päť pracovných listov a päť riešení), každý priamo vo formáte PDF aj HTML. Spolu ide o 20 súborov na stiahnutie. Súbory nemajú externé závislosti a fungujú offline.
 - Priekopníčky: Grace Hopper, Margaret Hamilton, Jean Bartik a Frances Allen s odkazmi na múzejné alebo inštitucionálne zdroje. Súvislosti s Adou sú tematické paralely, nie tvrdenia o dokázanom osobnom vplyve.
 - Fakty a mýty: päť rozbaliteľných tvrdení, vysvetlenia, zdroje, autentický citát a samostatne označená fiktívna replika.
 - Zákulisie: skutočné úryvky zo zadaní autora, vysvetlené výsledky, skutočné snímky pred doplnením autorovej fotografie a po ňom. Snímky majú slovenský text, preložené popisy a alt text. Nejde o vymyslenú históriu tvorby.
@@ -21,6 +21,25 @@ Päť sekcií je dostupných v slovenčine, češtine, angličtine, nemčine a �
 
 ## Kontroly
 
-Spustenie: `python scripts/build-i18n.py`, `python scripts/check-i18n.py`, `python scripts/check-links.py`, `node scripts/test-bernoulli.mjs`. Celý web má 85 jazykových stránok a 10 samostatných materiálov na stiahnutie. Existujúce kontroly vzhľadu a interaktívnych sekcií sa zachovávajú. Interaktívna vizualizácia oznamuje kroky cez živú oblasť, neprehráva sa automaticky a má statický príklad dostupný bez JavaScriptu.
+Spustenie: `python scripts/build-i18n.py`, `python scripts/check-i18n.py`, `python scripts/check-links.py`, `node scripts/test-bernoulli.mjs`. Celý web má 85 jazykových stránok a 10 samostatných materiálov, každý v PDF aj HTML. Existujúce kontroly vzhľadu a interaktívnych sekcií sa zachovávajú. Interaktívna vizualizácia oznamuje kroky cez živú oblasť, neprehráva sa automaticky a má statický príklad dostupný bez JavaScriptu.
 
 Overené v prehliadači: všetkých 25 nových jazykových stránok vo svetlom režime (axe-core 4.14.0, bez nálezov a nedokončených kontrol), päť slovenských typov stránok v tmavom režime pri šírke 320 px (bez nálezov), jazykové prepínanie a výsledok B2 vo všetkých jazykoch, postup B8, návrat a reset, ovládanie menu šípkami a Escape, text na 200 % a otvorenie samostatného pracovného listu. Automatický audit nie je úplnou certifikáciou WCAG.
+
+## Priame PDF na stiahnutie
+
+Každý z desiatich PDF súborov má dve strany A4, základný text 12 bodov, vložené písmo DejaVu Sans, označenie jazyka, názov a autora v metadátach. Text možno vyberať a vyhľadávať. Pracovné listy majú priestor na ručné odpovede; riešenia obsahujú odpovede, ciele a diferenciáciu. Súbory nie sú interaktívnymi formulármi ani certifikovanými PDF/UA. Samostatné HTML verzie zostávajú dostupné aj pre asistenčné technológie.
+
+PDF vznikajú z rovnakých katalógov `i18n/learning.*.json` ako web. Po zmene ich obsahu spusti:
+
+```sh
+python -m pip install -r scripts/requirements-pdf.txt
+python scripts/build-pdfs.py
+python scripts/build-i18n.py
+python scripts/check-pdfs.py
+python scripts/check-i18n.py
+python scripts/check-links.py
+```
+
+Závislosti sú potrebné iba na generovanie a kontrolu PDF. Hotové súbory sú uložené v `dist/downloads/`; ich kontrolné súčty a veľkosti sú v `pdf-manifest.json`. Licencia a pôvod písma sú v `assets-originals/fonts/`.
+
+Overené 17. novembra 2026: úplnosť úloh a riešení, diakritika, vložené písmo, jazyk, metadáta a odkazy všetkých desiatich PDF. Vizuálne bolo skontrolovaných všetkých 20 strán. Päť jazykových verzií učiteľského kútika prešlo kontrolou pri šírke 320 px bez vodorovného pretekania a bez nálezov axe-core.

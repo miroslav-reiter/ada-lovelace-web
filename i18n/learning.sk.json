@@ -45,10 +45,10 @@
   "teachers.goalTitle": "Čo si majú žiaci odniesť",
   "teachers.goals": "Vysvetliť algoritmus vlastnými slovami, vykonať krátku postupnosť pokynov, odlíšiť fakt od fikcie a uviesť zdroj historického tvrdenia.",
   "teachers.downloadTitle": "Pripravené do tašky",
-  "teachers.downloadText": "Samostatné súbory HTML v aktuálnom jazyku: pracovný list pre žiakov a metodické riešenia pre učiteľa. Neobsahujú externé skripty ani obrázky.",
+  "teachers.downloadText": "Pracovný list pre žiakov a riešenia pre učiteľov sú pripravené ako PDF aj HTML v aktuálnom jazyku. Vyberte si formát, ktorý vám vyhovuje.",
   "teachers.download": "Stiahnuť pracovný list",
   "teachers.solutions": "Stiahnuť riešenia pre učiteľa",
-  "teachers.printHelp": "Stiahnutý súbor otvorte v prehliadači. Tlačidlom Tlačiť ho vytlačíte alebo v dialógu tlače uložíte ako PDF.",
+  "teachers.printHelp": "PDF môžete hneď stiahnuť a vytlačiť. HTML verziu otvoríte v prehliadači a môžete ju používať aj bez internetu.",
   "teachers.planTitle": "Plán hodiny",
   "teachers.lesson1Title": "Otázka na rozbeh",
   "teachers.lesson1": "Môže vzniknúť program pre stroj, ktorý ešte nebol dokončený? Nech žiaci najprv odhadnú odpoveď a až potom spoznajú Adu.",
@@ -164,5 +164,10 @@
   "making.author": "O autorovi a stránke",
   "teachers.openWorksheet": "Otvoriť pracovný list na tlač",
   "teachers.worksheetTitle": "Pracovný list: Ada a algoritmy",
-  "teachers.solutionsTitle": "Riešenia pre učiteľa: Ada a algoritmy"
+  "teachers.solutionsTitle": "Riešenia pre učiteľa: Ada a algoritmy",
+  "teachers.downloadPdf": "Pracovný list (PDF)",
+  "teachers.solutionsPdf": "Riešenia pre učiteľa (PDF)",
+  "teachers.pdfDetails": "Formát A4 · 2 strany v každom PDF · pripravené na tlač",
+  "teachers.pdfWorksheetLabel": "Pracovný list",
+  "teachers.pdfSolutionsLabel": "Riešenia pre učiteľa"
 }

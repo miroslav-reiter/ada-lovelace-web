@@ -172,5 +172,8 @@
   "teachers.pdfSolutionsLabel": "Soluciones para docentes",
   "teachers.downloadDocx": "Ficha de actividades (DOCX)",
   "teachers.solutionsDocx": "Soluciones para docentes (DOCX)",
-  "teachers.docxDetails": "Documento Word editable · adapta los textos, las actividades y el espacio para responder a tu clase."
+  "teachers.docxDetails": "Documento Word editable · adapta los textos, las actividades y el espacio para responder a tu clase.",
+  "teachers.zipTitle": "Paquete completo",
+  "teachers.downloadZip": "Descargar el paquete completo (ZIP)",
+  "teachers.zipDetails": "4 archivos en español: la ficha de actividades y las soluciones para docentes en PDF y DOCX. Descomprime el ZIP después de descargarlo."
 }

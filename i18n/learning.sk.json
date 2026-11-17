@@ -172,5 +172,8 @@
   "teachers.pdfSolutionsLabel": "Riešenia pre učiteľa",
   "teachers.downloadDocx": "Pracovný list (DOCX)",
   "teachers.solutionsDocx": "Riešenia pre učiteľa (DOCX)",
-  "teachers.docxDetails": "Upraviteľný dokument Word · texty, zadania aj priestor na odpovede si môžete prispôsobiť."
+  "teachers.docxDetails": "Upraviteľný dokument Word · texty, zadania aj priestor na odpovede si môžete prispôsobiť.",
+  "teachers.zipTitle": "Celý balík",
+  "teachers.downloadZip": "Stiahnuť celý balík (ZIP)",
+  "teachers.zipDetails": "4 súbory v slovenčine: pracovný list a riešenia pre učiteľov vo formátoch PDF aj DOCX. Po stiahnutí ZIP rozbaľte."
 }

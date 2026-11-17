@@ -172,5 +172,8 @@
   "teachers.pdfSolutionsLabel": "Lösungen für Lehrkräfte",
   "teachers.downloadDocx": "Arbeitsblatt (DOCX)",
   "teachers.solutionsDocx": "Lösungen für Lehrkräfte (DOCX)",
-  "teachers.docxDetails": "Bearbeitbares Word-Dokument · passen Sie Texte, Aufgaben und den Platz für Antworten an Ihre Klasse an."
+  "teachers.docxDetails": "Bearbeitbares Word-Dokument · passen Sie Texte, Aufgaben und den Platz für Antworten an Ihre Klasse an.",
+  "teachers.zipTitle": "Gesamtes Paket",
+  "teachers.downloadZip": "Gesamtes Paket herunterladen (ZIP)",
+  "teachers.zipDetails": "4 Dateien auf Deutsch: das Arbeitsblatt und die Lösungen für Lehrkräfte jeweils als PDF und DOCX. Entpacken Sie die ZIP-Datei nach dem Herunterladen."
 }

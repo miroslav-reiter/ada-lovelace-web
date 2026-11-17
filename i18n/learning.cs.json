@@ -172,5 +172,8 @@
   "teachers.pdfSolutionsLabel": "Řešení pro učitele",
   "teachers.downloadDocx": "Pracovní list (DOCX)",
   "teachers.solutionsDocx": "Řešení pro učitele (DOCX)",
-  "teachers.docxDetails": "Upravitelný dokument Word · texty, zadání i prostor pro odpovědi si můžete přizpůsobit."
+  "teachers.docxDetails": "Upravitelný dokument Word · texty, zadání i prostor pro odpovědi si můžete přizpůsobit.",
+  "teachers.zipTitle": "Celý balíček",
+  "teachers.downloadZip": "Stáhnout celý balíček (ZIP)",
+  "teachers.zipDetails": "4 soubory v češtině: pracovní list a řešení pro učitele ve formátech PDF i DOCX. Po stažení ZIP rozbalte."
 }

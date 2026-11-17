@@ -14,6 +14,7 @@ import experience_pages as experiences
 import ui_controls
 import about_pages as about
 import learning_pages as learning
+import download_bundles
 
 ROOT = Path(__file__).resolve().parent.parent
 I18N = ROOT / 'i18n'
@@ -218,6 +219,7 @@ def rendered_page(page):
     return result
 
 def build():
+    download_bundles.build(DIST/'downloads')
     paths=[]
     for lang in LANGUAGES:
         strings=load_translations(lang)

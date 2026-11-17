@@ -51,6 +51,8 @@ Galéria obsahuje filtre, zväčšovanie, ovládanie šípkami, zatvorenie kláv
 
 Všetko je preložené do piatich jazykov. Stránky nájdete v menu Objavovať aj na úvode. Pracovné listy a riešenia sú priamo na stiahnutie ako PDF, upraviteľný Word (DOCX) aj samostatné HTML, spolu 30 súborov. Každé PDF má dve strany A4 a základný text veľkosti 12 bodov. Word dokumenty obsahujú bežné upraviteľné odseky a nadpisy, bez makier alebo ochrany proti úpravám. Všetky formáty fungujú offline. [Podrobný opis a zdroje](docs/VZDELAVACIE-STRANKY.md).
 
+V každom jazyku je navyše tlačidlo na stiahnutie celého ZIP balíka. Jeden balík obsahuje štyri dokumenty v danom jazyku: pracovný list a riešenia vo formátoch PDF aj DOCX. ZIP balíky sa automaticky obnovujú pri `python scripts/build-i18n.py`; spusti ho po zmene PDF alebo DOCX. Kontrola obsahu: `python scripts/download_bundles.py --check`.
+
 PDF vznikajú z rovnakých prekladov ako web. Na ich obnovenie po zmene obsahu:
 
 ```sh

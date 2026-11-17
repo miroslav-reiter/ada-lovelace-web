@@ -13,6 +13,7 @@ import hashlib
 import experience_pages as experiences
 import ui_controls
 import about_pages as about
+import learning_pages as learning
 
 ROOT = Path(__file__).resolve().parent.parent
 I18N = ROOT / 'i18n'
@@ -30,6 +31,7 @@ SOURCE_PATHS = ['index.html'] + [x + '/index.html' for x in ROUTES['sk'][1:]]
 for lang in LANGUAGES:
     ROUTES[lang] += experiences.EXTRA_ROUTES[lang]
     ROUTES[lang].append(about.ROUTES[lang])
+    ROUTES[lang] += learning.ROUTES[lang]
 OG_LOCALES = {'sk':'sk_SK','cs':'cs_CZ','en':'en_GB','de':'de_DE','es':'es_ES'}
 CATALOG = json.loads((I18N / 'catalog.json').read_text(encoding='utf-8'))
 SOURCE_IDS = {row['source']: row['id'] for row in CATALOG}
@@ -91,6 +93,7 @@ class LocalizedPage(HTMLParser):
         self.lang, self.index, self.strings = lang, index, strings
         self.experience = experiences.load(I18N,lang)
         self.about = about.load(I18N,lang)
+        self.learning = learning.load(I18N,lang)
         self.out, self.stack = [], []
         self.script = None
         self.in_site_nav = False
@@ -103,6 +106,7 @@ class LocalizedPage(HTMLParser):
             self.out.append('<div class="header-preferences">'+ui_controls.language_picker(self.lang,LANGUAGES,self.index,page_url,self.strings['t0677'],self.strings['t0670'])+ui_controls.theme_picker(self.experience)+'</div>')
         if tag=='section' and d.get('id')=='o-ade' and self.index==0:
             self.out.append(experiences.home(self.experience,self.lang,page_url))
+            self.out.append(learning.home(self.learning,self.lang,page_url))
         if tag == 'link' and d.get('rel') == 'canonical': return
         if tag == 'html': d['lang'] = self.lang
         for key in ('alt','title','aria-label','placeholder'):
@@ -143,9 +147,15 @@ class LocalizedPage(HTMLParser):
             self.out.append('<link rel="stylesheet" href="/dropdowns.css?v=3"><script src="/dropdowns.js?v=2" defer></script>')
             if self.index == about.INDEX:
                 self.out.append('<link rel="stylesheet" href="/about.css?v=2">')
+            self.out.append('<link rel="stylesheet" href="/learning.css?v=2">')
+            if self.index == learning.START:
+                self.out.append('<script type="module" src="/learning.js?v=1"></script>')
+                data={k:v for k,v in self.learning.items() if k.startswith('algorithm.')}
+                self.out.append('<script id="learning-data" type="application/json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>')
             self.out.append('<script id="experience-data" type="application/json">'+json.dumps(experiences.runtime_data(self.experience,self.index),ensure_ascii=False).replace('<','\\u003c')+'</script>')
         if tag == 'nav' and self.in_site_nav:
             self.out.append(about.navigation(self.about,self.lang,self.index,page_url))
+            self.out.append(learning.navigation(self.learning,self.lang,self.index,page_url))
             self.out.append('<div class="mobile-explore-links">'+experiences.navigation_links(self.experience,self.lang,self.index,page_url)+'</div>')
             self.in_site_nav = False
         self.out.append('</'+tag+'>')
@@ -230,6 +240,15 @@ def build():
         url=page_url(lang,about.INDEX)
         write(DIST/url.lstrip('/')/'index.html',rendered_page(page))
         paths.append({'lang':lang,'page':about.INDEX,'path':url})
+        for offset,kind in enumerate(learning.KINDS):
+            index=learning.START+offset
+            page=LocalizedPage(lang,index,strings)
+            page.feed(learning.document((I18N/'templates/kviz/index.html').read_text(encoding='utf-8'),page.learning,lang,kind,page_url))
+            url=page_url(lang,index)
+            write(DIST/url.lstrip('/')/'index.html',rendered_page(page))
+            paths.append({'lang':lang,'page':index,'path':url})
+        for solutions,label in [(False,'worksheet'),(True,'solutions')]:
+            write(DIST/'downloads'/f'ada-{label}-{lang}.html',learning.worksheet(page.learning,lang,solutions))
         for file in SEGMENTS:
             folder=DIST if lang=='sk' else DIST/'locales'/lang
             write(folder/file,localized_js(file,lang,strings))

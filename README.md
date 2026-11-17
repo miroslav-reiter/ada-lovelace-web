@@ -8,7 +8,7 @@ Prístup na web sa riadi jeho nastaveniami v Sites. Tento repozitár obsahuje ko
 
 ## Jazyky
 
-Slovenčina je predvolená. Každý jazyk obsahuje všetkých dvanásť strán vrátane interaktívneho kvízu, životopisu, galérie a stránky o autorovi. Prepínač zachová rovnakú podstránku a sekciu.
+Slovenčina je predvolená. Každý jazyk obsahuje všetkých sedemnásť strán vrátane interaktívneho kvízu, životopisu, galérie a stránky o autorovi. Prepínač zachová rovnakú podstránku a sekciu.
 
 Na mobile sú odkazy Stroj času, Dierne štítky, Adina poradňa a Salónne noviny v hlavnom rozbaľovacom menu, aby hlavička zaberala menej miesta. Na počítači zostávajú v samostatnej navigácii.
 
@@ -37,9 +37,19 @@ Na mobile sú odkazy Stroj času, Dierne štítky, Adina poradňa a Salónne nov
 | Salónne noviny | `/noviny/` | Šesť fiktívnych článkov s kategóriami a filtrami |
 | O stránke Ada | `/o-stranke-ada/` | Vznik webu, autor Miroslav Reiter, IT Academy, VITA a profesijné profily |
 
-Galéria obsahuje filtre, zväčšovanie, ovládanie šípkami, zatvorenie klávesom Escape a odkazy na stiahnutie obrázkov. Web má responzívny dizajn a mobilné menu. Na každej stránke je pohodlné čítanie: veľkosť textu až 200 %, pokojnejšie rozloženie a obmedzenie pohybu. Celkovo ide o 60 strán v piatich jazykoch. [Podrobnosti o stránke autora a zdrojoch](docs/O-STRANKE.md).
+Galéria obsahuje filtre, zväčšovanie, ovládanie šípkami, zatvorenie klávesom Escape a odkazy na stiahnutie obrázkov. Web má responzívny dizajn a mobilné menu. Na každej stránke je pohodlné čítanie: veľkosť textu až 200 %, pokojnejšie rozloženie a obmedzenie pohybu. Celkovo ide o 85 strán v piatich jazykoch. [Podrobnosti o stránke autora a zdrojoch](docs/O-STRANKE.md).
 
 [Popis nových funkcií a overenia](docs/INTERAKTIVNE-SEKCIE.md)
+
+## Nové vzdelávacie sekcie
+
+- Adin algoritmus krok za krokom: interaktívny výpočet Bernoulliho čísel s presnými zlomkami.
+- Učiteľský kútik: 45-minútová hodina, štyri úlohy a 10 samostatných materiálov na stiahnutie.
+- Ženy v dejinách informatiky: štyri priekopníčky s overiteľnými zdrojmi.
+- Fakt alebo mýtus?: päť tvrdení, vysvetlenia a rozlíšenie citátu od fikcie.
+- Zákulisie tvorby s AI: skutočné zadania, zmeny a snímky pred úpravou a po nej.
+
+Všetko je preložené do piatich jazykov. Stránky nájdete v menu Objavovať aj na úvode. Pracovné listy sú samostatné HTML súbory, fungujú offline a umožňujú tlač či uloženie ako PDF cez prehliadač. [Podrobný opis a zdroje](docs/VZDELAVACIE-STRANKY.md).
 
 ## Spustenie lokálne
 
@@ -61,7 +71,7 @@ Web spúšťaj cez HTTP server. Odkazy a obrázky používajú absolútne cesty 
 dist/                 Kompletný statický web a jeho zdrojové súbory
   assets/             Historické obrázky, favicon a optimalizované AI obrázky
   assets/gallery/     Galéria a metadáta obrázkov
-  cs/, en/, de/, es/   Jazykové verzie s jedenástimi stránkami
+  cs/, en/, de/, es/   Jazykové verzie s sedemnástimi stránkami
   locales/            Lokalizované skripty a metadáta galérie
   portfolio/          Slovenské samostatné podstránky
   kviz/
@@ -74,6 +84,12 @@ dist/                 Kompletný statický web a jeho zdrojové súbory
   poradna/
   noviny/
   o-stranke-ada/
+  adin-algoritmus/
+  ucitelsky-kutik/
+  priekopnicky/
+  fakty-a-myty/
+  tvorba-s-ai/
+  downloads/          Pracovné listy a riešenia v piatich jazykoch
 assets-originals/ai/   Pôvodné AI obrázky v PNG a presné zadania generátoru
 docs/                 Pôvod obrázkov a poznámky k úpravám
 i18n/                 Prekladové slovníky a zdrojové šablóny
@@ -96,6 +112,7 @@ node --check dist/gallery.js
 node --check dist/experiences.js
 node scripts/test-experiences.mjs
 node scripts/test-theme.mjs
+node scripts/test-bernoulli.mjs
 ```
 
 Kontrola odkazov používa iba štandardnú knižnicu Pythonu. Node.js je potrebný len na uvedenú syntaktickú kontrolu JavaScriptu, nie na prevádzku webu. Kvíz, galéria a mobilné menu boli overené aj v prehliadači.
@@ -130,7 +147,7 @@ Zväčšené písmo, upravené kontrasty a ovládanie klávesnicou. Rozsah techn
 
 ## Vzhľad
 
-Na všetkých 60 stránkach môžete vybrať svetlý, tmavý alebo systémový režim. Predvolený systémový režim sleduje nastavenie prehliadača alebo počítača. Voľba sa pamätá pri prechode medzi stránkami aj jazykmi; ukladá sa iba v prehliadači. Prepínač je preložený do všetkých piatich jazykov. Podrobnosti a výsledky kontrol nájdete v [dokumentácii vzhľadu](docs/VZHLAD.md).
+Na všetkých 85 stránkach môžete vybrať svetlý, tmavý alebo systémový režim. Predvolený systémový režim sleduje nastavenie prehliadača alebo počítača. Voľba sa pamätá pri prechode medzi stránkami aj jazykmi; ukladá sa iba v prehliadači. Prepínač je preložený do všetkých piatich jazykov. Podrobnosti a výsledky kontrol nájdete v [dokumentácii vzhľadu](docs/VZHLAD.md).
 
 Jazyky sa vyberajú v rozbaľovacej ponuke s vlajkami a názvami. Ponuka vzhľadu má ikonky monitora, slnka a mesiaca. Obe podporujú klávesnicu, označujú aktuálnu voľbu fajkou a prispôsobujú sa mobilnému zobrazeniu.
 

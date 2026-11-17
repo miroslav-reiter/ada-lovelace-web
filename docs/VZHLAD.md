@@ -1,6 +1,6 @@
 # Svetlý, tmavý a systémový režim
 
-Na všetkých 60 stránkach je pri navigácii dostupný prepínač Vzhľad. Ovládanie je preložené do slovenčiny, češtiny, angličtiny, nemčiny a španielčiny.
+Na všetkých 85 stránkach je pri navigácii dostupný prepínač Vzhľad. Ovládanie je preložené do slovenčiny, češtiny, angličtiny, nemčiny a španielčiny.
 
 - **Podľa systému** je predvolená voľba. Vzhľad sleduje nastavenie prehliadača alebo počítača a reaguje aj na jeho zmenu počas návštevy.
 - **Svetlý režim** zachováva pôvodný papierový salón.

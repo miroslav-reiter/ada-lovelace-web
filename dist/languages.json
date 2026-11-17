@@ -69,6 +69,31 @@
       "path": "/o-stranke-ada/"
     },
     {
+      "lang": "sk",
+      "page": 12,
+      "path": "/adin-algoritmus/"
+    },
+    {
+      "lang": "sk",
+      "page": 13,
+      "path": "/ucitelsky-kutik/"
+    },
+    {
+      "lang": "sk",
+      "page": 14,
+      "path": "/priekopnicky/"
+    },
+    {
+      "lang": "sk",
+      "page": 15,
+      "path": "/fakty-a-myty/"
+    },
+    {
+      "lang": "sk",
+      "page": 16,
+      "path": "/tvorba-s-ai/"
+    },
+    {
       "lang": "cs",
       "page": 0,
       "path": "/cs/"
@@ -127,6 +152,31 @@
       "lang": "cs",
       "page": 11,
       "path": "/cs/o-strance-ada/"
+    },
+    {
+      "lang": "cs",
+      "page": 12,
+      "path": "/cs/adin-algoritmus/"
+    },
+    {
+      "lang": "cs",
+      "page": 13,
+      "path": "/cs/ucitelsky-koutek/"
+    },
+    {
+      "lang": "cs",
+      "page": 14,
+      "path": "/cs/prukopnice/"
+    },
+    {
+      "lang": "cs",
+      "page": 15,
+      "path": "/cs/fakta-a-myty/"
+    },
+    {
+      "lang": "cs",
+      "page": 16,
+      "path": "/cs/tvorba-s-ai/"
     },
     {
       "lang": "en",
@@ -189,6 +239,31 @@
       "path": "/en/about-ada/"
     },
     {
+      "lang": "en",
+      "page": 12,
+      "path": "/en/adas-algorithm/"
+    },
+    {
+      "lang": "en",
+      "page": 13,
+      "path": "/en/teachers-corner/"
+    },
+    {
+      "lang": "en",
+      "page": 14,
+      "path": "/en/pioneers/"
+    },
+    {
+      "lang": "en",
+      "page": 15,
+      "path": "/en/facts-and-myths/"
+    },
+    {
+      "lang": "en",
+      "page": 16,
+      "path": "/en/making-with-ai/"
+    },
+    {
       "lang": "de",
       "page": 0,
       "path": "/de/"
@@ -249,6 +324,31 @@
       "path": "/de/ueber-ada/"
     },
     {
+      "lang": "de",
+      "page": 12,
+      "path": "/de/adas-algorithmus/"
+    },
+    {
+      "lang": "de",
+      "page": 13,
+      "path": "/de/lehrerecke/"
+    },
+    {
+      "lang": "de",
+      "page": 14,
+      "path": "/de/pionierinnen/"
+    },
+    {
+      "lang": "de",
+      "page": 15,
+      "path": "/de/fakten-und-mythen/"
+    },
+    {
+      "lang": "de",
+      "page": 16,
+      "path": "/de/gestaltung-mit-ki/"
+    },
+    {
       "lang": "es",
       "page": 0,
       "path": "/es/"
@@ -307,6 +407,31 @@
       "lang": "es",
       "page": 11,
       "path": "/es/sobre-ada/"
+    },
+    {
+      "lang": "es",
+      "page": 12,
+      "path": "/es/algoritmo-de-ada/"
+    },
+    {
+      "lang": "es",
+      "page": 13,
+      "path": "/es/rincon-docente/"
+    },
+    {
+      "lang": "es",
+      "page": 14,
+      "path": "/es/pioneras/"
+    },
+    {
+      "lang": "es",
+      "page": 15,
+      "path": "/es/hechos-y-mitos/"
+    },
+    {
+      "lang": "es",
+      "page": 16,
+      "path": "/es/creacion-con-ia/"
     }
   ]
 }

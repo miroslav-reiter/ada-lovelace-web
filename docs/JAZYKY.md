@@ -10,7 +10,7 @@ Slovenčina je hlavný a predvolený jazyk. Hlavná adresa zostáva slovenská b
 | Deutsch | `/de/` |
 | Español | `/es/` |
 
-Každý jazyk má dvanásť strán: úvod, portfólio, kvíz, CV, zdroje a knihy, jazyk Ada, fotografie, stroj času, dielňa diernych štítkov, poradňa, noviny a O stránke Ada. Preložené sú texty stránok, navigácia, titulky a popisy pre vyhľadávače, alternatívne texty obrázkov, názvy ovládacích prvkov aj dynamické výsledky kvízu, oba varianty CV a galéria. Názvy kníh, mená, originálne zdroje a samotné ukážky programového kódu zostávajú v pôvodnom znení.
+Každý jazyk má sedemnásť strán: úvod, portfólio, kvíz, CV, zdroje a knihy, jazyk Ada, fotografie, stroj času, dielňa diernych štítkov, poradňa, noviny, O stránke Ada, Adin algoritmus, učiteľský kútik, priekopníčky, fakty a mýty a zákulisie tvorby s AI. Preložené sú texty stránok, navigácia, titulky a popisy pre vyhľadávače, alternatívne texty obrázkov, názvy ovládacích prvkov aj dynamické výsledky kvízu, oba varianty CV a galéria. Názvy kníh, mená, originálne zdroje a samotné ukážky programového kódu zostávajú v pôvodnom znení.
 
 ## Úprava prekladov
 
@@ -21,7 +21,7 @@ Každý jazyk má dvanásť strán: úvod, portfólio, kvíz, CV, zdroje a knihy
 - `scripts/experience_pages.py` vytvára ich spoločné šablóny.
 - `i18n/about.*.json` obsahuje texty stránky o autorovi a výrobe webu; jej šablónu a odkazy spravuje `scripts/about_pages.py`.
 - `i18n/photos.sk.json` obsahuje zdrojové metadáta galérie.
-- `scripts/build-i18n.py` vytvorí všetkých 60 strán a lokalizovaný JavaScript do `dist/`.
+- `scripts/build-i18n.py` vytvorí všetkých 85 strán a lokalizovaný JavaScript do `dist/`.
 
 Pri zmene textu uprav príslušný preklad a spusti:
 
@@ -64,3 +64,5 @@ Prepínač vzhľadu pridal ďalších 7 položiek, spolu je teda 217 položiek v
 Od 16. novembra 2026 je výber jazykov rozbaľovací zoznam s vlajkami a názvami jazykov. Názvy zostávajú v príslušnom jazyku a aktívny jazyk označuje fajka aj `aria-current="page"`. Odkazy stále vedú na rovnakú podstránku vo vybranom jazyku a zachovávajú fragment adresy. Vlajky sa vykresľujú lokálne ako SVG, bez závislosti od podpory emoji v systéme. Spoločnú šablónu ponúk obsahuje `scripts/ui_controls.py`.
 
 Kompaktná hlavička používa na mobile skratky SK, CZ, EN, DE a ES a preložené krátke názvy režimov vzhľadu. Pribudli tri položky `theme.short.*`, spolu má každý slovník `experience.*.json` 220 položiek. Celé názvy zostávajú dostupné v ponukách a pre asistenčné technológie.
+
+Vzdelávacie sekcie používajú katalógy `i18n/learning.*.json` a generátor `scripts/learning_pages.py`. Z nich vzniká aj desať samostatných pracovných listov a riešení v `dist/downloads/`. Podrobnosti: [Vzdelávacie stránky](VZDELAVACIE-STRANKY.md).

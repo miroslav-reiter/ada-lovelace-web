@@ -175,5 +175,8 @@
   "teachers.docxDetails": "Editable Word document · adapt the text, activities and space for answers to your class.",
   "teachers.zipTitle": "Complete pack",
   "teachers.downloadZip": "Download the complete pack (ZIP)",
-  "teachers.zipDetails": "4 files in English: the worksheet and teacher solutions in both PDF and DOCX. Extract the ZIP after downloading."
+  "teachers.zipDetails": "4 files in English: the worksheet and teacher solutions in both PDF and DOCX. Extract the ZIP after downloading.",
+  "teachers.allZipTitle": "All languages together",
+  "teachers.downloadAllZip": "Download all languages (ZIP)",
+  "teachers.allZipDetails": "20 files: worksheets and teacher solutions in PDF and DOCX in Slovak, Czech, English, German and Spanish. The ZIP contains language folders named sk, cs, en, de and es."
 }

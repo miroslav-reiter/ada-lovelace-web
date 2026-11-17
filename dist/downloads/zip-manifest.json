@@ -58,5 +58,33 @@
     ],
     "bytes": 122213,
     "sha256": "f5ed1ac761d1ccc6a2da6be2228d1f94e8e9fc19e6cdeba3425e915c661eba30"
+  },
+  {
+    "file": "ada-materials-all.zip",
+    "lang": "all",
+    "files": [
+      "sk/ada-worksheet-sk.pdf",
+      "sk/ada-worksheet-sk.docx",
+      "sk/ada-solutions-sk.pdf",
+      "sk/ada-solutions-sk.docx",
+      "cs/ada-worksheet-cs.pdf",
+      "cs/ada-worksheet-cs.docx",
+      "cs/ada-solutions-cs.pdf",
+      "cs/ada-solutions-cs.docx",
+      "en/ada-worksheet-en.pdf",
+      "en/ada-worksheet-en.docx",
+      "en/ada-solutions-en.pdf",
+      "en/ada-solutions-en.docx",
+      "de/ada-worksheet-de.pdf",
+      "de/ada-worksheet-de.docx",
+      "de/ada-solutions-de.pdf",
+      "de/ada-solutions-de.docx",
+      "es/ada-worksheet-es.pdf",
+      "es/ada-worksheet-es.docx",
+      "es/ada-solutions-es.pdf",
+      "es/ada-solutions-es.docx"
+    ],
+    "bytes": 613104,
+    "sha256": "92936c98b8f426e3fd34e4cdeade8e5414f0e109dcd800159ff78615ecf6b976"
   }
 ]

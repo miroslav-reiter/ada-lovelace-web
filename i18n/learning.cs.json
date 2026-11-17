@@ -175,5 +175,8 @@
   "teachers.docxDetails": "Upravitelný dokument Word · texty, zadání i prostor pro odpovědi si můžete přizpůsobit.",
   "teachers.zipTitle": "Celý balíček",
   "teachers.downloadZip": "Stáhnout celý balíček (ZIP)",
-  "teachers.zipDetails": "4 soubory v češtině: pracovní list a řešení pro učitele ve formátech PDF i DOCX. Po stažení ZIP rozbalte."
+  "teachers.zipDetails": "4 soubory v češtině: pracovní list a řešení pro učitele ve formátech PDF i DOCX. Po stažení ZIP rozbalte.",
+  "teachers.allZipTitle": "Všechny jazyky najednou",
+  "teachers.downloadAllZip": "Stáhnout všechny jazyky (ZIP)",
+  "teachers.allZipDetails": "20 souborů: pracovní listy a řešení v PDF i DOCX ve slovenštině, češtině, angličtině, němčině a španělštině. V ZIP jsou rozděleny do složek sk, cs, en, de a es."
 }

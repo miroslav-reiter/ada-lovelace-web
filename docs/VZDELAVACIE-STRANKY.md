@@ -3,7 +3,7 @@
 Päť sekcií je dostupných v slovenčine, češtine, angličtine, nemčine a španielčine. Spoločný generátor `scripts/learning_pages.py` používa úplné katalógy `i18n/learning.*.json`. Navigácia Objavovať a karty na úvodnej stránke vedú na lokálnu jazykovú verziu. Prepínač jazyka zachováva typ podstránky.
 
 - Adin algoritmus: moderná vzdelávacia rekurencia s presnými zlomkami, hodnotami B2, B4, B6 a B8, predchádzajúcim a ďalším krokom a resetom. Nejde o vernú emuláciu kariet poznámky G. Historické B7 je moderné B8. Použitá konvencia B1 = -1/2.
-- Učiteľský kútik: plán na 45 minút, štyri úlohy, diferenciácia a desať materiálov (päť pracovných listov a päť riešení), každý priamo vo formáte PDF, Word (DOCX) aj HTML. Spolu ide o 30 samostatných súborov a päť jazykových ZIP balíkov. Každý ZIP obsahuje pracovný list a riešenia v PDF aj DOCX. Súbory nemajú externé závislosti a fungujú offline.
+- Učiteľský kútik: plán na 45 minút, štyri úlohy, diferenciácia a desať materiálov (päť pracovných listov a päť riešení), každý priamo vo formáte PDF, Word (DOCX) aj HTML. Spolu ide o 30 samostatných súborov, päť jazykových ZIP balíkov a jeden spoločný ZIP pre všetky jazyky. Jazykový ZIP obsahuje štyri dokumenty v PDF a DOCX, spoločný ZIP všetkých 20 dokumentov. Súbory nemajú externé závislosti a fungujú offline.
 - Priekopníčky: Grace Hopper, Margaret Hamilton, Jean Bartik a Frances Allen s odkazmi na múzejné alebo inštitucionálne zdroje. Súvislosti s Adou sú tematické paralely, nie tvrdenia o dokázanom osobnom vplyve.
 - Fakty a mýty: päť rozbaliteľných tvrdení, vysvetlenia, zdroje, autentický citát a samostatne označená fiktívna replika.
 - Zákulisie: skutočné úryvky zo zadaní autora, vysvetlené výsledky, skutočné snímky pred doplnením autorovej fotografie a po ňom. Snímky majú slovenský text, preložené popisy a alt text. Nejde o vymyslenú históriu tvorby.
@@ -65,13 +65,17 @@ Overené 17. novembra 2026: všetkých desať DOCX bolo vykreslených cez LibreO
 
 Na začiatku sekcie na stiahnutie je v každom jazyku tlačidlo na celý balík. Päť súborov `ada-materials-sk.zip`, `ada-materials-cs.zip`, `ada-materials-en.zip`, `ada-materials-de.zip` a `ada-materials-es.zip` obsahuje po štyri súbory v príslušnom jazyku: pracovný list PDF, pracovný list DOCX, riešenia PDF a riešenia DOCX. Archívy majú súbory priamo v koreňovom priečinku a nevyžadujú heslo.
 
-`python scripts/build-i18n.py` automaticky obnoví všetkých päť ZIP balíkov zo súčasných PDF a DOCX. Preto ho po zmene dokumentov spusti až po ich generátoroch. Samostatné zostavenie a kontrola:
+Spoločný `ada-materials-all.zip` je dostupný z každej jazykovej verzie cez samostatné preložené tlačidlo. Obsahuje všetkých 20 PDF a DOCX dokumentov v piatich priečinkoch `sk/`, `cs/`, `en/`, `de/` a `es/`. V každom priečinku sú pracovný list a riešenia v oboch formátoch.
+
+`python scripts/build-i18n.py` automaticky obnoví všetkých šesť ZIP balíkov zo súčasných PDF a DOCX. Preto ho po zmene dokumentov spusti až po ich generátoroch. Samostatné zostavenie a kontrola:
 
 ```sh
 python scripts/download_bundles.py
 python scripts/download_bundles.py --check
 ```
 
-Používa sa iba štandardná knižnica Pythonu. Kontrola overuje úplnosť, jazyk podľa názvov, CRC, kontrolné súčty, zhodu každej položky s pôvodným dokumentom a odkazy na webových stránkach. Veľkosti a kontrolné súčty sú uložené v `dist/downloads/zip-manifest.json`.
+Používa sa iba štandardná knižnica Pythonu. Kontrola overuje úplnosť, jazyk podľa názvov, CRC, kontrolné súčty, zhodu každej položky s pôvodným dokumentom a odkazy na webových stránkach. Pri spoločnom ZIP overuje všetkých päť jazykových priečinkov so štyrmi dokumentmi a odkaz v každej jazykovej verzii. Veľkosti a kontrolné súčty sú uložené v `dist/downloads/zip-manifest.json`.
 
 Overené 17. novembra 2026: päť kompletných balíkov s presne štyrmi súbormi, všetkých 4320 lokálnych odkazov a súborov webu, päť lokalizovaných ZIP odkazov pri šírke 320 px bez vodorovného pretekania a bez nálezov alebo nedokončených kontrol axe-core.
+
+Rozšírenie spoločného balíka 17. novembra 2026: overených všetkých 20 položiek, päť priečinkov a odkazy na spoločný ZIP vo všetkých jazykoch. Celý web má 4325 lokálnych odkazov a súborov. Päť učiteľských stránok pri šírke 320 px prešlo kontrolou bez vodorovného pretekania a bez nálezov alebo nedokončených kontrol axe-core.

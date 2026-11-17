@@ -175,5 +175,8 @@
   "teachers.docxDetails": "Bearbeitbares Word-Dokument · passen Sie Texte, Aufgaben und den Platz für Antworten an Ihre Klasse an.",
   "teachers.zipTitle": "Gesamtes Paket",
   "teachers.downloadZip": "Gesamtes Paket herunterladen (ZIP)",
-  "teachers.zipDetails": "4 Dateien auf Deutsch: das Arbeitsblatt und die Lösungen für Lehrkräfte jeweils als PDF und DOCX. Entpacken Sie die ZIP-Datei nach dem Herunterladen."
+  "teachers.zipDetails": "4 Dateien auf Deutsch: das Arbeitsblatt und die Lösungen für Lehrkräfte jeweils als PDF und DOCX. Entpacken Sie die ZIP-Datei nach dem Herunterladen.",
+  "teachers.allZipTitle": "Alle Sprachen zusammen",
+  "teachers.downloadAllZip": "Alle Sprachen herunterladen (ZIP)",
+  "teachers.allZipDetails": "20 Dateien: Arbeitsblätter und Lösungen für Lehrkräfte als PDF und DOCX auf Slowakisch, Tschechisch, Englisch, Deutsch und Spanisch. Die ZIP-Datei enthält die Sprachordner sk, cs, en, de und es."
 }

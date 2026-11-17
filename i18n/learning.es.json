@@ -175,5 +175,8 @@
   "teachers.docxDetails": "Documento Word editable · adapta los textos, las actividades y el espacio para responder a tu clase.",
   "teachers.zipTitle": "Paquete completo",
   "teachers.downloadZip": "Descargar el paquete completo (ZIP)",
-  "teachers.zipDetails": "4 archivos en español: la ficha de actividades y las soluciones para docentes en PDF y DOCX. Descomprime el ZIP después de descargarlo."
+  "teachers.zipDetails": "4 archivos en español: la ficha de actividades y las soluciones para docentes en PDF y DOCX. Descomprime el ZIP después de descargarlo.",
+  "teachers.allZipTitle": "Todos los idiomas juntos",
+  "teachers.downloadAllZip": "Descargar todos los idiomas (ZIP)",
+  "teachers.allZipDetails": "20 archivos: fichas de actividades y soluciones para docentes en PDF y DOCX en eslovaco, checo, inglés, alemán y español. El ZIP contiene las carpetas de idiomas sk, cs, en, de y es."
 }

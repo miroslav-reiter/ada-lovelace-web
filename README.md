@@ -53,6 +53,8 @@ Všetko je preložené do piatich jazykov. Stránky nájdete v menu Objavovať a
 
 V každom jazyku je navyše tlačidlo na stiahnutie celého ZIP balíka. Jeden balík obsahuje štyri dokumenty v danom jazyku: pracovný list a riešenia vo formátoch PDF aj DOCX. ZIP balíky sa automaticky obnovujú pri `python scripts/build-i18n.py`; spusti ho po zmene PDF alebo DOCX. Kontrola obsahu: `python scripts/download_bundles.py --check`.
 
+Tlačidlo na všetky jazyky stiahne spoločný `ada-materials-all.zip`: 20 dokumentov v priečinkoch `sk`, `cs`, `en`, `de` a `es`. V každom sú pracovný list a riešenia v PDF aj DOCX. Spoločný balík je dostupný na všetkých piatich jazykových stránkach a obnovuje sa automaticky spolu s ostatnými ZIP súbormi.
+
 PDF vznikajú z rovnakých prekladov ako web. Na ich obnovenie po zmene obsahu:
 
 ```sh

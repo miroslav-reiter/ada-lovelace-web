@@ -45,7 +45,7 @@
   "teachers.goalTitle": "Qué deberían aprender",
   "teachers.goals": "Explicar un algoritmo con sus propias palabras, ejecutar una secuencia breve de instrucciones, distinguir hechos de ficción y citar una fuente para una afirmación histórica.",
   "teachers.downloadTitle": "Listo para la mochila",
-  "teachers.downloadText": "La ficha para estudiantes y las soluciones para docentes están disponibles en PDF y HTML en el idioma actual. Elige el formato que prefieras.",
+  "teachers.downloadText": "La ficha de actividades y las soluciones para docentes están disponibles en PDF, Word (DOCX) y HTML en el idioma actual. Elige el formato que prefieras.",
   "teachers.download": "Descargar la ficha",
   "teachers.solutions": "Descargar soluciones para docentes",
   "teachers.printHelp": "Descarga los PDF e imprímelos directamente. La versión HTML se abre en el navegador y también funciona sin conexión.",
@@ -169,5 +169,8 @@
   "teachers.solutionsPdf": "Soluciones para docentes (PDF)",
   "teachers.pdfDetails": "Formato A4 · 2 páginas por PDF · listo para imprimir",
   "teachers.pdfWorksheetLabel": "Ficha de actividades",
-  "teachers.pdfSolutionsLabel": "Soluciones para docentes"
+  "teachers.pdfSolutionsLabel": "Soluciones para docentes",
+  "teachers.downloadDocx": "Ficha de actividades (DOCX)",
+  "teachers.solutionsDocx": "Soluciones para docentes (DOCX)",
+  "teachers.docxDetails": "Documento Word editable · adapta los textos, las actividades y el espacio para responder a tu clase."
 }

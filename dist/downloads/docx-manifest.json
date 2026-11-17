@@ -1,0 +1,72 @@
+[
+  {
+    "file": "ada-worksheet-sk.docx",
+    "lang": "sk",
+    "kind": "worksheet",
+    "bytes": 38600,
+    "sha256": "6905693a860467b15a701e87062d2b0c60ae5947e2e3d7da23667559075eb26d"
+  },
+  {
+    "file": "ada-solutions-sk.docx",
+    "lang": "sk",
+    "kind": "solutions",
+    "bytes": 38922,
+    "sha256": "9e0e8ef8bd08886df4e86cf39f7872e48e2ec183c269cc268d7926696b405134"
+  },
+  {
+    "file": "ada-worksheet-cs.docx",
+    "lang": "cs",
+    "kind": "worksheet",
+    "bytes": 38619,
+    "sha256": "f568a79028e76edf38812ec20909816d1c89097a6226f65a72c26b7c40499902"
+  },
+  {
+    "file": "ada-solutions-cs.docx",
+    "lang": "cs",
+    "kind": "solutions",
+    "bytes": 38910,
+    "sha256": "3805b0a2f94637f484bf2db70e23519930e2ab019d398e6c3fc6c9a1031a7d8c"
+  },
+  {
+    "file": "ada-worksheet-en.docx",
+    "lang": "en",
+    "kind": "worksheet",
+    "bytes": 38494,
+    "sha256": "b30688af6dcd4f80843fa3714548305a15ef5001c04dec5f2abeab863ad27f71"
+  },
+  {
+    "file": "ada-solutions-en.docx",
+    "lang": "en",
+    "kind": "solutions",
+    "bytes": 38744,
+    "sha256": "0b58e4b117ba3ee2769957417d751f81f89995ffea156d55c680e5a6b1132eae"
+  },
+  {
+    "file": "ada-worksheet-de.docx",
+    "lang": "de",
+    "kind": "worksheet",
+    "bytes": 38581,
+    "sha256": "b5049693cc1e71d96d5f834c541da0e1deb7e285a0fec84e79dc2a75cd4924b4"
+  },
+  {
+    "file": "ada-solutions-de.docx",
+    "lang": "de",
+    "kind": "solutions",
+    "bytes": 38938,
+    "sha256": "d16303e7e1f128256152d4f5112df31c9febd068fddeb4c659c164ef213e4e6a"
+  },
+  {
+    "file": "ada-worksheet-es.docx",
+    "lang": "es",
+    "kind": "worksheet",
+    "bytes": 38518,
+    "sha256": "8c77c3e738604b5d14d0b388943a1ae8bc80f3f8a5f22b4f5f21f00e75ed76bd"
+  },
+  {
+    "file": "ada-solutions-es.docx",
+    "lang": "es",
+    "kind": "solutions",
+    "bytes": 38824,
+    "sha256": "81368ffd5230c2f0fd2209f1a72bd63df57604cdadcf34983ecb13ce6706c4af"
+  }
+]

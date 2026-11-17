@@ -107,4 +107,5 @@ for file in (ROOT/'dist').rglob('*'):
     assert chr(8212) not in text, file
     assert not re.search(r'&(?:mdash|#8212|#x2014);|\\u2014',text,re.I), file
 assert len(list((ROOT/'dist'/'downloads').glob('*.pdf'))) == 10
-print('PASS: 85 pages, 10 HTML and 10 PDF downloads, 5 complete catalogs, author profiles, localized navigation, canonical URLs, hreflang and default Slovak edition.')
+assert len(list((ROOT/'dist'/'downloads').glob('*.docx'))) == 10
+print('PASS: 85 pages, 10 HTML, 10 PDF and 10 DOCX downloads, 5 complete catalogs, author profiles, localized navigation, canonical URLs, hreflang and default Slovak edition.')

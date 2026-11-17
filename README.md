@@ -49,7 +49,7 @@ Galéria obsahuje filtre, zväčšovanie, ovládanie šípkami, zatvorenie kláv
 - Fakt alebo mýtus?: päť tvrdení, vysvetlenia a rozlíšenie citátu od fikcie.
 - Zákulisie tvorby s AI: skutočné zadania, zmeny a snímky pred úpravou a po nej.
 
-Všetko je preložené do piatich jazykov. Stránky nájdete v menu Objavovať aj na úvode. Pracovné listy a riešenia sú priamo na stiahnutie ako PDF aj samostatné HTML, spolu 20 súborov. Každé PDF má dve strany A4 a základný text veľkosti 12 bodov. Obe verzie fungujú offline. [Podrobný opis a zdroje](docs/VZDELAVACIE-STRANKY.md).
+Všetko je preložené do piatich jazykov. Stránky nájdete v menu Objavovať aj na úvode. Pracovné listy a riešenia sú priamo na stiahnutie ako PDF, upraviteľný Word (DOCX) aj samostatné HTML, spolu 30 súborov. Každé PDF má dve strany A4 a základný text veľkosti 12 bodov. Word dokumenty obsahujú bežné upraviteľné odseky a nadpisy, bez makier alebo ochrany proti úpravám. Všetky formáty fungujú offline. [Podrobný opis a zdroje](docs/VZDELAVACIE-STRANKY.md).
 
 PDF vznikajú z rovnakých prekladov ako web. Na ich obnovenie po zmene obsahu:
 
@@ -61,6 +61,15 @@ python scripts/check-pdfs.py
 ```
 
 Generátor, kontroly, vložené písmo aj jeho licencia sú súčasťou repozitára. Hotový web tieto vývojové závislosti nepotrebuje.
+
+Word dokumenty sa obnovujú z rovnakých prekladov:
+
+```sh
+python -m pip install -r scripts/requirements-docx.txt
+python scripts/build-docx.py
+python scripts/build-i18n.py
+python scripts/check-docx.py
+```
 
 ## Spustenie lokálne
 

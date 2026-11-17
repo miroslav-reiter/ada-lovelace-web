@@ -45,7 +45,7 @@
   "teachers.goalTitle": "Co si mají žáci odnést",
   "teachers.goals": "Vysvětlit algoritmus vlastními slovy, provést krátkou posloupnost pokynů, odlišit fakt od fikce a uvést zdroj historického tvrzení.",
   "teachers.downloadTitle": "Připraveno do tašky",
-  "teachers.downloadText": "Pracovní list pro žáky a řešení pro učitele jsou připravené jako PDF i HTML v aktuálním jazyce. Vyberte si formát, který vám vyhovuje.",
+  "teachers.downloadText": "Pracovní list pro žáky a řešení pro učitele jsou připraveny jako PDF, Word (DOCX) i HTML v aktuálním jazyce. Vyberte si formát, který vám vyhovuje.",
   "teachers.download": "Stáhnout pracovní list",
   "teachers.solutions": "Stáhnout řešení pro učitele",
   "teachers.printHelp": "PDF můžete rovnou stáhnout a vytisknout. HTML verzi otevřete v prohlížeči a můžete ji používat i bez internetu.",
@@ -169,5 +169,8 @@
   "teachers.solutionsPdf": "Řešení pro učitele (PDF)",
   "teachers.pdfDetails": "Formát A4 · 2 strany v každém PDF · připraveno k tisku",
   "teachers.pdfWorksheetLabel": "Pracovní list",
-  "teachers.pdfSolutionsLabel": "Řešení pro učitele"
+  "teachers.pdfSolutionsLabel": "Řešení pro učitele",
+  "teachers.downloadDocx": "Pracovní list (DOCX)",
+  "teachers.solutionsDocx": "Řešení pro učitele (DOCX)",
+  "teachers.docxDetails": "Upravitelný dokument Word · texty, zadání i prostor pro odpovědi si můžete přizpůsobit."
 }

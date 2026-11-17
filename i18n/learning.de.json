@@ -45,7 +45,7 @@
   "teachers.goalTitle": "Was die Lernenden mitnehmen sollen",
   "teachers.goals": "Einen Algorithmus mit eigenen Worten erklären, eine kurze Befehlsfolge ausführen, Fakten von Fiktion unterscheiden und eine Quelle für eine historische Behauptung angeben.",
   "teachers.downloadTitle": "Bereit für die Schultasche",
-  "teachers.downloadText": "Das Arbeitsblatt und die Lösungen für Lehrkräfte sind in der gewählten Sprache als PDF und HTML verfügbar. Wählen Sie das passende Format.",
+  "teachers.downloadText": "Das Arbeitsblatt und die Lösungen für Lehrkräfte stehen in der aktuellen Sprache als PDF, Word (DOCX) und HTML bereit. Wählen Sie das passende Format.",
   "teachers.download": "Arbeitsblatt herunterladen",
   "teachers.solutions": "Lösungen für Lehrkräfte herunterladen",
   "teachers.printHelp": "Die PDFs können Sie direkt herunterladen und ausdrucken. Die HTML-Version lässt sich im Browser öffnen und auch offline verwenden.",
@@ -169,5 +169,8 @@
   "teachers.solutionsPdf": "Lösungen für Lehrkräfte (PDF)",
   "teachers.pdfDetails": "Format A4 · 2 Seiten pro PDF · druckfertig",
   "teachers.pdfWorksheetLabel": "Arbeitsblatt",
-  "teachers.pdfSolutionsLabel": "Lösungen für Lehrkräfte"
+  "teachers.pdfSolutionsLabel": "Lösungen für Lehrkräfte",
+  "teachers.downloadDocx": "Arbeitsblatt (DOCX)",
+  "teachers.solutionsDocx": "Lösungen für Lehrkräfte (DOCX)",
+  "teachers.docxDetails": "Bearbeitbares Word-Dokument · passen Sie Texte, Aufgaben und den Platz für Antworten an Ihre Klasse an."
 }

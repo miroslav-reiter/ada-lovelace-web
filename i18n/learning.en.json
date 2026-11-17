@@ -45,7 +45,7 @@
   "teachers.goalTitle": "What learners should take away",
   "teachers.goals": "Explain an algorithm in their own words, follow a short sequence of instructions, distinguish fact from fiction and cite a source for a historical claim.",
   "teachers.downloadTitle": "Ready for your school bag",
-  "teachers.downloadText": "The student worksheet and teacher solutions are available as PDF and HTML in the current language. Choose the format that suits you.",
+  "teachers.downloadText": "The student worksheet and teacher solutions are available as PDF, Word (DOCX) and HTML in the current language. Choose the format that suits you.",
   "teachers.download": "Download the worksheet",
   "teachers.solutions": "Download teacher solutions",
   "teachers.printHelp": "Download the PDFs and print them straight away. The HTML version opens in a browser and also works offline.",
@@ -169,5 +169,8 @@
   "teachers.solutionsPdf": "Teacher solutions (PDF)",
   "teachers.pdfDetails": "A4 format · 2 pages per PDF · ready to print",
   "teachers.pdfWorksheetLabel": "Worksheet",
-  "teachers.pdfSolutionsLabel": "Teacher solutions"
+  "teachers.pdfSolutionsLabel": "Teacher solutions",
+  "teachers.downloadDocx": "Worksheet (DOCX)",
+  "teachers.solutionsDocx": "Teacher solutions (DOCX)",
+  "teachers.docxDetails": "Editable Word document · adapt the text, activities and space for answers to your class."
 }

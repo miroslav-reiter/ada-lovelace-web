@@ -6,10 +6,12 @@
 .about-lead { font-size: 1.3rem; line-height: 1.7; max-width: 35ch; }
 .about-tagline { margin-top: 34px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 1rem; max-width: 35ch; }
 .about-author { padding: 32px; border: 1px solid var(--ink); background: #e2e7d0; box-shadow: 8px 8px 0 #25282018; min-width: 0; }
-.about-author-top { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-.about-monogram { flex: 0 0 auto; width: 74px; height: 74px; border: 1px solid currentColor; border-radius: 50%; display: flex; align-items: center; justify-content: center; font: 1.8rem var(--serif); transform: rotate(8deg); }
-.about-monogram span { color: var(--accent); margin-left: 2px; font: 1.35rem var(--sans); }
+.about-author-identity { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; margin-block: 22px 18px; }
+.about-author-portrait { flex: 0 1 150px; min-width: 0; max-width: 100%; }
+.about-author-portrait img { display: block; width: 100%; height: auto; border: 1px solid var(--ink); border-radius: 4px; }
+.about-photo-source { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding-block: 8px; font-size: 1rem; line-height: 1.5; text-decoration: underline; text-underline-offset: .2em; }
 .about-author h2 { font-size: clamp(2.5rem,4vw,3.6rem); letter-spacing: -.04em; margin: 20px 0 12px; }
+.about-author-identity h2 { flex: 1 1 190px; margin: 0; min-width: 0; }
 .about-role { font: .875rem/1.7 var(--mono); }
 .about-author p:not(.about-role) { font-size: 1rem; line-height: 1.75; margin-top: 22px; }
 .about-author .text-link { display: inline-block; font-size: 1rem; min-height: 44px; padding-block: 10px; margin-top: 2px; text-decoration: underline; text-underline-offset: .2em; }

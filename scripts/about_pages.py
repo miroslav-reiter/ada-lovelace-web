@@ -13,6 +13,7 @@ PROFILES = [
     ('researchgate', 'ResearchGate', 'https://www.researchgate.net/profile/Miroslav_Reiter', 'Rɢ'),
 ]
 BIO_SOURCE = 'https://www.vita.sk/faq/kto-je-miroslav-reiter-a-co-robi/'
+PHOTO_SOURCE = 'https://www.vita.sk/lektori/'
 RESEARCH_SOURCE = PROFILES[-1][2]
 REPOSITORY = 'https://github.com/miroslav-reiter/ada-lovelace-web'
 
@@ -39,7 +40,7 @@ def content(t, lang, page_url):
     steps = ''.join(f'<li><span class="about-step-number" aria-hidden="true">0{i}</span><div><h3>{s(f"step{i}.title")}</h3><p>{s(f"step{i}.text")}</p></div></li>' for i in range(1,5))
     principles = ''.join(f'<article><span class="eyebrow">0{i+1}</span><h3>{s(kind+".title")}</h3><p>{s(kind+".text")}</p></article>' for i,kind in enumerate(['facts','fiction','images']))
     return f'''<section class="section about-hero" aria-labelledby="about-title"><div class="about-intro"><span class="eyebrow">11 / {s('eyebrow')}</span><h1 id="about-title">{s('title')}</h1><p class="about-lead">{s('intro')}</p><p class="about-tagline">{s('tagline')}</p></div>
-<aside class="about-author" aria-labelledby="author-name"><div class="about-author-top"><span class="eyebrow">{s('author.label')}</span><span class="about-monogram" aria-hidden="true">MR<span>✳</span></span></div><h2 id="author-name">Miroslav<br>Reiter</h2><p class="about-role">{s('author.role')}</p><p>{s('author.bio')}</p>{external(BIO_SOURCE,t['author.source'])}<p>{s('author.research')}</p>{external(RESEARCH_SOURCE,t['author.researchSource'])}</aside></section>
+<aside class="about-author" aria-labelledby="author-name"><span class="eyebrow">{s('author.label')}</span><div class="about-author-identity"><figure class="about-author-portrait"><img src="/assets/miroslav-reiter-vita.jpg" alt="{s('author.photoAlt')}" width="394" height="391" decoding="async"><figcaption>{external(PHOTO_SOURCE,t['author.photoSource'],'about-photo-source')}</figcaption></figure><h2 id="author-name">Miroslav<br>Reiter</h2></div><p class="about-role">{s('author.role')}</p><p>{s('author.bio')}</p>{external(BIO_SOURCE,t['author.source'])}<p>{s('author.research')}</p>{external(RESEARCH_SOURCE,t['author.researchSource'])}</aside></section>
 <section class="section about-links" aria-labelledby="profiles-title"><div class="about-section-heading"><span class="eyebrow">01 / {s('profiles.eyebrow')}</span><h2 id="profiles-title">{s('profiles.title')}</h2><p>{s('profiles.intro')}</p></div><div class="about-profiles">{profiles}</div></section>
 <section class="section about-production" aria-labelledby="production-title"><div class="about-section-heading"><span class="eyebrow">02 / {s('production.eyebrow')}</span><h2 id="production-title">{s('production.title')}</h2><p>{s('production.intro')}</p></div><ol class="about-steps">{steps}</ol>
 <div class="about-build-note"><div><h3>{s('technology.title')}</h3><p>{s('technology.text')}</p><div class="about-stack" aria-label="{s('technology.title')}"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Sites</span><span>GitHub</span></div></div>{external(REPOSITORY,t['repository'],'button')}</div></section>

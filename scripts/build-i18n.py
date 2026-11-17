@@ -142,7 +142,7 @@ class LocalizedPage(HTMLParser):
             self.out.append('<link rel="stylesheet" href="/theme.css?v=1">')
             self.out.append('<link rel="stylesheet" href="/dropdowns.css?v=3"><script src="/dropdowns.js?v=2" defer></script>')
             if self.index == about.INDEX:
-                self.out.append('<link rel="stylesheet" href="/about.css?v=1">')
+                self.out.append('<link rel="stylesheet" href="/about.css?v=2">')
             self.out.append('<script id="experience-data" type="application/json">'+json.dumps(experiences.runtime_data(self.experience,self.index),ensure_ascii=False).replace('<','\\u003c')+'</script>')
         if tag == 'nav' and self.in_site_nav:
             self.out.append(about.navigation(self.about,self.lang,self.index,page_url))

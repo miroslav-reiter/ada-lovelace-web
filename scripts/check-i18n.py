@@ -84,7 +84,7 @@ for lang in build.LANGUAGES:
         assert f'href="{about_url}"' in header, url
         assert f'href="{about_url}"' in text[text.index('<footer'):], url
         if index == build.about.INDEX:
-            assert '/about.css?v=1' in text and 'Miroslav' in text and 'Reiter' in text, url
+            assert '/about.css?v=2' in text and 'Miroslav' in text and 'Reiter' in text, url
             for _, _, profile_url, _ in build.about.PROFILES:
                 assert f'href="{profile_url}"' in text, (url,profile_url)
             assert 'aria-current="page"' in header.split('id="site-nav"',1)[1], url

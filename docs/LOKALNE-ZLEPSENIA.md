@@ -1,6 +1,6 @@
-# Lokálne vzdelávacie rozšírenie
+# Vzdelávacie rozšírenie Ada
 
-Dátum: 18. november 2026. Táto verzia je určená na lokálne skúšanie. Nebola publikovaná do Sites. GitHub vetva: `local-improvements`.
+Pripravené a lokálne overené: 18. november 2026. Schválená lokálna ukážka zostáva vo vetve `local-improvements`. Aktuálna verzia sa udržiava vo vetve `main`. Tento dokument opisuje funkcie aj spôsob lokálneho spustenia.
 
 ## Osem zlepšení
 

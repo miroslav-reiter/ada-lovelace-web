@@ -4,17 +4,17 @@ Recesistický viacjazyčný web o Ade Lovelace: overené historické informácie
 
 **Web:** [Ada Lovelace - Kód, čaj a chaos](https://ada-lovelace.vita-academy-7121.chatgpt.site/)
 
-Prístup na web sa riadi jeho nastaveniami v Sites. Táto vetva obsahuje kompletnú lokálnu verziu vrátane všetkých obrázkov. Nové rozšírenia z 18. novembra 2026 zatiaľ nie sú na živom webe; publikovaný stav zostáva vo vetve `main`. Pôvodná história troch úprav zo Sites je zachovaná v obnoviteľnom Git archíve `docs/source-history.bundle`.
+Prístup na web sa riadi jeho nastaveniami v Sites. Repozitár obsahuje kompletné súbory webu vrátane všetkých obrázkov. Aktuálna verzia sa udržiava vo vetve `main`; schválená lokálna ukážka z 18. novembra 2026 zostáva zachovaná vo vetve `local-improvements`. Pôvodná história troch úprav zo Sites je zachovaná v obnoviteľnom Git archíve `docs/source-history.bundle`.
 
-## Lokálne rozšírenie bez nasadenia
+## Vzdelávacie rozšírenie
 
-Vetva `local-improvements` pridáva všetkých osem zlepšení v SK, CS, EN, DE a ES: tri návštevnícke trasy, centrum sťahovania, vyhľadávanie, trojúrovňový kvíz, detektívnu hru, zostavovač hodiny, offline balíky a pomoc so slovníkom a auditom.
+Vzdelávacie rozšírenie pridáva všetkých osem zlepšení v SK, CS, EN, DE a ES: tri návštevnícke trasy, centrum sťahovania, vyhľadávanie, trojúrovňový kvíz, detektívnu hru, zostavovač hodiny, offline balíky a pomoc so slovníkom a auditom.
 
 Spustenie: `python scripts/preview.py`, potom otvorte `http://127.0.0.1:8743/zacnite-tu/`. Server ukončíte pomocou Ctrl+C.
 
 [Podrobný návod a rozsah](docs/LOKALNE-ZLEPSENIA.md) · [Výsledky overenia a limity](docs/KONTROLA-STUDIO.md)
 
-![Lokálna ukážka](docs/studio-preview.jpg)
+![Ukážka nových funkcií](docs/studio-preview.jpg)
 
 ## Jazyky
 

@@ -1,6 +1,7 @@
 /* Explicitly saved, same-origin educational content only. Never cache authentication or APIs. */
 const VERSION='__VERSION__',PACKS=__PACKS__,PREFIX='ada-studio-offline-',BUSY=new Set();
 const name=lang=>PREFIX+lang+'-'+VERSION;
+const matchesPath=(requested,actual)=>actual===requested||(requested.endsWith('.html')&&actual===requested.slice(0,-5));
 self.addEventListener('install',()=>self.skipWaiting());
 self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
 self.addEventListener('message',event=>{
@@ -16,7 +17,7 @@ self.addEventListener('message',event=>{
         for(const url of urls){
           const response=await fetch(new Request(url,{cache:'reload',credentials:'same-origin'}));
           const finalURL=new URL(response.url);
-          if(!response.ok||response.type==='opaque'||finalURL.origin!==location.origin||finalURL.pathname!==new URL(url,location.origin).pathname)throw Error('Incomplete pack');
+          if(!response.ok||response.type==='opaque'||finalURL.origin!==location.origin||!matchesPath(new URL(url,location.origin).pathname,finalURL.pathname))throw Error('Incomplete pack: '+url+' ('+response.status+', '+finalURL.pathname+')');
           await cache.put(url,response);port.postMessage({type:'progress',done:++done,total:urls.length});
         }
         // An intact previous version remains available until every response is fetched.
@@ -43,8 +44,10 @@ self.addEventListener('message',event=>{
 self.addEventListener('fetch',event=>{
   const request=event.request,url=new URL(request.url);
   if(request.method!=='GET'||url.origin!==location.origin||url.pathname.startsWith('/api/')||url.pathname.startsWith('/__'))return;
-  const path=url.pathname,allowed=Object.values(PACKS).some(urls=>urls.includes(path));
-  if(!allowed)return;
+  // The hosting service canonicalizes HTML downloads to extensionless addresses.
+  // Resolve only aliases of explicitly listed pack files, never arbitrary routes.
+  const path=Object.values(PACKS).flat().find(path=>matchesPath(path,url.pathname));
+  if(!path)return;
   event.respondWith((async()=>{
     try{return await fetch(request);}catch(error){
       const keys=(await caches.keys()).filter(key=>key.startsWith(PREFIX)&&!key.includes('-pending-'));

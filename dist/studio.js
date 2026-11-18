@@ -145,7 +145,7 @@ async function init(){
           clearTimeout(timeout);channel.port1.close();$('offline-progress').hidden=true;
           if(m.type==='error'){reject(Error(m.error));return;}say(t['offline.'+m.status]);resolve();};
         target.postMessage({type,lang},[channel.port2]);
-      });}catch{say(t['offline.error']);}finally{['save','check','remove'].forEach(x=>$('offline-'+x).disabled=false);}
+      });}catch(error){$('studio-status').setAttribute('data-offline-error',String(error?.message||error));say(t['offline.error']);}finally{['save','check','remove'].forEach(x=>$('offline-'+x).disabled=false);}
     }
     $('offline-save').addEventListener('click',()=>send('SAVE'));$('offline-check').addEventListener('click',()=>send('CHECK'));$('offline-remove').addEventListener('click',()=>send('REMOVE'));
     const existing=await navigator.serviceWorker.getRegistration('/');

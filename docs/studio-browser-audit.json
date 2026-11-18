@@ -1,0 +1,326 @@
+{
+  "date": "2026-11-18",
+  "scope": "40 new localized pages, desktop light mode",
+  "reports": [
+    {
+      "version": "4.14.0",
+      "url": "/zacnite-tu/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/stiahnut/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 42
+    },
+    {
+      "version": "4.14.0",
+      "url": "/hladat/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/kvizova-akademia/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/stratena-poznamka/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/zostavit-hodinu/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/offline/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/pomoc/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "version": "4.14.0",
+      "url": "/cs/zacnete-zde/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/cs/stahnout/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 42
+    },
+    {
+      "version": "4.14.0",
+      "url": "/cs/hledat/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/cs/kvizova-akademie/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/cs/ztracena-poznamka/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/cs/sestavit-hodinu/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/cs/offline/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/cs/napoveda/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "version": "4.14.0",
+      "url": "/en/start-here/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/en/downloads/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 42
+    },
+    {
+      "version": "4.14.0",
+      "url": "/en/search/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/en/quiz-academy/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/en/missing-note/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/en/lesson-builder/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/en/offline/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/en/help/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "version": "4.14.0",
+      "url": "/de/hier-starten/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/de/downloads/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 42
+    },
+    {
+      "version": "4.14.0",
+      "url": "/de/suche/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/de/quiz-akademie/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/de/verschwundene-notiz/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/de/unterricht-planen/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/de/offline/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/de/hilfe/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "version": "4.14.0",
+      "url": "/es/empieza-aqui/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/es/descargas/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 42
+    },
+    {
+      "version": "4.14.0",
+      "url": "/es/buscar/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "version": "4.14.0",
+      "url": "/es/academia-quiz/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/es/nota-perdida/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/es/crear-clase/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 43
+    },
+    {
+      "version": "4.14.0",
+      "url": "/es/sin-conexion/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "version": "4.14.0",
+      "url": "/es/ayuda/",
+      "width": 962,
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    }
+  ]
+}

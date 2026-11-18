@@ -15,6 +15,7 @@ import ui_controls
 import about_pages as about
 import learning_pages as learning
 import download_bundles
+import studio_pages as studio
 
 ROOT = Path(__file__).resolve().parent.parent
 I18N = ROOT / 'i18n'
@@ -33,6 +34,7 @@ for lang in LANGUAGES:
     ROUTES[lang] += experiences.EXTRA_ROUTES[lang]
     ROUTES[lang].append(about.ROUTES[lang])
     ROUTES[lang] += learning.ROUTES[lang]
+    ROUTES[lang] += studio.ROUTES[lang]
 OG_LOCALES = {'sk':'sk_SK','cs':'cs_CZ','en':'en_GB','de':'de_DE','es':'es_ES'}
 CATALOG = json.loads((I18N / 'catalog.json').read_text(encoding='utf-8'))
 SOURCE_IDS = {row['source']: row['id'] for row in CATALOG}
@@ -95,6 +97,7 @@ class LocalizedPage(HTMLParser):
         self.experience = experiences.load(I18N,lang)
         self.about = about.load(I18N,lang)
         self.learning = learning.load(I18N,lang)
+        self.studio = studio.load(I18N,lang)
         self.out, self.stack = [], []
         self.script = None
         self.in_site_nav = False
@@ -106,6 +109,7 @@ class LocalizedPage(HTMLParser):
             self.in_site_nav = True
             self.out.append('<div class="header-preferences">'+ui_controls.language_picker(self.lang,LANGUAGES,self.index,page_url,self.strings['t0677'],self.strings['t0670'])+ui_controls.theme_picker(self.experience)+'</div>')
         if tag=='section' and d.get('id')=='o-ade' and self.index==0:
+            self.out.append(studio.home(self.studio,self.lang,page_url))
             self.out.append(experiences.home(self.experience,self.lang,page_url))
             self.out.append(learning.home(self.learning,self.lang,page_url))
         if tag == 'link' and d.get('rel') == 'canonical': return
@@ -149,12 +153,17 @@ class LocalizedPage(HTMLParser):
             if self.index == about.INDEX:
                 self.out.append('<link rel="stylesheet" href="/about.css?v=2">')
             self.out.append('<link rel="stylesheet" href="/learning.css?v=2">')
+            self.out.append('<link rel="stylesheet" href="/studio.css?v=1">')
+            if self.index >= studio.START:
+                self.out.append('<script type="module" src="/studio.js?v=1"></script>')
+                self.out.append('<script id="studio-data" type="application/json">'+json.dumps(studio.runtime(self.studio,self.lang,page_url),ensure_ascii=False).replace('<','\\u003c')+'</script>')
             if self.index == learning.START:
                 self.out.append('<script type="module" src="/learning.js?v=1"></script>')
                 data={k:v for k,v in self.learning.items() if k.startswith('algorithm.')}
                 self.out.append('<script id="learning-data" type="application/json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>')
             self.out.append('<script id="experience-data" type="application/json">'+json.dumps(experiences.runtime_data(self.experience,self.index),ensure_ascii=False).replace('<','\\u003c')+'</script>')
         if tag == 'nav' and self.in_site_nav:
+            self.out.append(studio.navigation(self.studio,self.lang,self.index,page_url))
             self.out.append(about.navigation(self.about,self.lang,self.index,page_url))
             self.out.append(learning.navigation(self.learning,self.lang,self.index,page_url))
             self.out.append('<div class="mobile-explore-links">'+experiences.navigation_links(self.experience,self.lang,self.index,page_url)+'</div>')
@@ -211,6 +220,14 @@ def localized_js(file, lang, strings):
 
 def rendered_page(page):
     result=''.join(page.out)
+    if page.index == 2:
+        promo='<section class="section studio-promo"><div><h2>'+html.escape(page.studio['practice.title'])+'</h2><p>'+html.escape(page.studio['practice.deck'])+'</p></div>'+studio.link(page.studio,page.lang,'practice',page_url)+'</section>'
+        result=result.replace('<section class="section quiz-page-layout">',promo+'<section class="section quiz-page-layout">')
+    if page.index == 13:
+        def compact_download(match):
+            old=match[0].removeprefix('<aside class="learn-card">').removesuffix('</aside>')
+            return '<aside class="learn-card"><h2>'+html.escape(page.studio['downloads.title'])+'</h2><p>'+html.escape(page.studio['downloads.deck'])+'</p>'+studio.link(page.studio,page.lang,'downloads',page_url)+'<details class="learn-disclosure"><summary>'+html.escape(page.studio['download.fallback'])+'</summary>'+old+'</details></aside>'
+        result=re.sub(r'<aside class="learn-card">.*?</aside>',compact_download,result,count=1,flags=re.S)
     link=about.navigation(page.about,page.lang,page.index,page_url,footer=True)
     if 'class="footer-source"' in result:
         result=re.sub(r'<a class="footer-source"[^>]*>.*?</a>',lambda _:link,result,flags=re.S)
@@ -251,11 +268,19 @@ def build():
             paths.append({'lang':lang,'page':index,'path':url})
         for solutions,label in [(False,'worksheet'),(True,'solutions')]:
             write(DIST/'downloads'/f'ada-{label}-{lang}.html',learning.worksheet(page.learning,lang,solutions))
+        for offset,kind in enumerate(studio.KINDS):
+            index=studio.START+offset
+            page=LocalizedPage(lang,index,strings)
+            page.feed(studio.document((I18N/'templates/kviz/index.html').read_text(encoding='utf-8'),page.studio,lang,kind,page_url))
+            url=page_url(lang,index)
+            write(DIST/url.lstrip('/')/'index.html',rendered_page(page))
+            paths.append({'lang':lang,'page':index,'path':url})
         for file in SEGMENTS:
             folder=DIST if lang=='sk' else DIST/'locales'/lang
             write(folder/file,localized_js(file,lang,strings))
         write(DIST/'locales'/lang/'photos.json',json.dumps(local_photos(strings),ensure_ascii=False,indent=2))
     write(DIST/'languages.json',json.dumps({'default':'sk','languages':LANGUAGES,'pages':paths},ensure_ascii=False,indent=2))
+    studio.finish(DIST,paths)
     print(f'Generated {len(paths)} pages in {len(LANGUAGES)} languages, {len(CATALOG)} translations per language.')
 
 if __name__=='__main__':build()

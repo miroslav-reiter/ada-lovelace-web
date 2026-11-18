@@ -48,13 +48,14 @@ manifest = json.loads((ROOT/'dist/languages.json').read_text(encoding='utf-8'))
 assert manifest['default'] == 'sk'
 assert set(manifest['languages']) == {'sk', 'cs', 'en', 'de', 'es'}
 page_count=len(build.ROUTES['sk'])
-assert len(manifest['pages']) == page_count*5 == 85
+assert len(manifest['pages']) == page_count*5 == 125
 assert len(list((ROOT/'dist').rglob('*.html'))) == page_count*5+10
 for lang in build.LANGUAGES:
     build.load_translations(lang)
     build.experiences.load(ROOT/'i18n',lang)
     build.about.load(ROOT/'i18n',lang)
     build.learning.load(ROOT/'i18n',lang)
+    build.studio.load(ROOT/'i18n',lang)
     for index in range(page_count):
         url = build.page_url(lang, index)
         text = (ROOT/'dist'/url.lstrip('/')/'index.html').read_text(encoding='utf-8')
@@ -109,4 +110,4 @@ for file in (ROOT/'dist').rglob('*'):
 assert len(list((ROOT/'dist'/'downloads').glob('*.pdf'))) == 10
 assert len(list((ROOT/'dist'/'downloads').glob('*.docx'))) == 10
 assert len(list((ROOT/'dist'/'downloads').glob('*.zip'))) == 6
-print('PASS: 85 pages, 10 HTML, 10 PDF, 10 DOCX and 6 ZIP downloads, 5 complete catalogs, author profiles, localized navigation, canonical URLs, hreflang and default Slovak edition.')
+print('PASS: 125 pages, 10 HTML, 10 PDF, 10 DOCX and 6 ZIP downloads, 5 complete catalogs, author profiles, localized navigation, canonical URLs, hreflang and default Slovak edition.')

@@ -4,11 +4,21 @@ Recesistický viacjazyčný web o Ade Lovelace: overené historické informácie
 
 **Web:** [Ada Lovelace - Kód, čaj a chaos](https://ada-lovelace.vita-academy-7121.chatgpt.site/)
 
-Prístup na web sa riadi jeho nastaveniami v Sites. Tento repozitár obsahuje kompletné súbory poslednej publikovanej verzie vrátane všetkých obrázkov. Pôvodná história troch úprav zo Sites je zachovaná v obnoviteľnom Git archíve `docs/source-history.bundle`.
+Prístup na web sa riadi jeho nastaveniami v Sites. Táto vetva obsahuje kompletnú lokálnu verziu vrátane všetkých obrázkov. Nové rozšírenia z 18. novembra 2026 zatiaľ nie sú na živom webe; publikovaný stav zostáva vo vetve `main`. Pôvodná história troch úprav zo Sites je zachovaná v obnoviteľnom Git archíve `docs/source-history.bundle`.
+
+## Lokálne rozšírenie bez nasadenia
+
+Vetva `local-improvements` pridáva všetkých osem zlepšení v SK, CS, EN, DE a ES: tri návštevnícke trasy, centrum sťahovania, vyhľadávanie, trojúrovňový kvíz, detektívnu hru, zostavovač hodiny, offline balíky a pomoc so slovníkom a auditom.
+
+Spustenie: `python scripts/preview.py`, potom otvorte `http://127.0.0.1:8743/zacnite-tu/`. Server ukončíte pomocou Ctrl+C.
+
+[Podrobný návod a rozsah](docs/LOKALNE-ZLEPSENIA.md) · [Výsledky overenia a limity](docs/KONTROLA-STUDIO.md)
+
+![Lokálna ukážka](docs/studio-preview.jpg)
 
 ## Jazyky
 
-Slovenčina je predvolená. Každý jazyk obsahuje všetkých sedemnásť strán vrátane interaktívneho kvízu, životopisu, galérie a stránky o autorovi. Prepínač zachová rovnakú podstránku a sekciu.
+Slovenčina je predvolená. Každý jazyk obsahuje všetkých dvadsaťpäť strán vrátane interaktívneho kvízu, životopisu, galérie a stránky o autorovi. Prepínač zachová rovnakú podstránku a sekciu.
 
 Na mobile sú odkazy Stroj času, Dierne štítky, Adina poradňa a Salónne noviny v hlavnom rozbaľovacom menu, aby hlavička zaberala menej miesta. Na počítači zostávajú v samostatnej navigácii.
 
@@ -171,7 +181,7 @@ Zväčšené písmo, upravené kontrasty a ovládanie klávesnicou. Rozsah techn
 
 ## Vzhľad
 
-Na všetkých 85 stránkach môžete vybrať svetlý, tmavý alebo systémový režim. Predvolený systémový režim sleduje nastavenie prehliadača alebo počítača. Voľba sa pamätá pri prechode medzi stránkami aj jazykmi; ukladá sa iba v prehliadači. Prepínač je preložený do všetkých piatich jazykov. Podrobnosti a výsledky kontrol nájdete v [dokumentácii vzhľadu](docs/VZHLAD.md).
+Na všetkých 125 stránkach môžete vybrať svetlý, tmavý alebo systémový režim. Predvolený systémový režim sleduje nastavenie prehliadača alebo počítača. Voľba sa pamätá pri prechode medzi stránkami aj jazykmi; ukladá sa iba v prehliadači. Prepínač je preložený do všetkých piatich jazykov. Podrobnosti a výsledky kontrol nájdete v [dokumentácii vzhľadu](docs/VZHLAD.md).
 
 Jazyky sa vyberajú v rozbaľovacej ponuke s vlajkami a názvami. Ponuka vzhľadu má ikonky monitora, slnka a mesiaca. Obe podporujú klávesnicu, označujú aktuálnu voľbu fajkou a prispôsobujú sa mobilnému zobrazeniu.
 

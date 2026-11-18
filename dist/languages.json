@@ -94,6 +94,46 @@
       "path": "/tvorba-s-ai/"
     },
     {
+      "lang": "sk",
+      "page": 17,
+      "path": "/zacnite-tu/"
+    },
+    {
+      "lang": "sk",
+      "page": 18,
+      "path": "/stiahnut/"
+    },
+    {
+      "lang": "sk",
+      "page": 19,
+      "path": "/hladat/"
+    },
+    {
+      "lang": "sk",
+      "page": 20,
+      "path": "/kvizova-akademia/"
+    },
+    {
+      "lang": "sk",
+      "page": 21,
+      "path": "/stratena-poznamka/"
+    },
+    {
+      "lang": "sk",
+      "page": 22,
+      "path": "/zostavit-hodinu/"
+    },
+    {
+      "lang": "sk",
+      "page": 23,
+      "path": "/offline/"
+    },
+    {
+      "lang": "sk",
+      "page": 24,
+      "path": "/pomoc/"
+    },
+    {
       "lang": "cs",
       "page": 0,
       "path": "/cs/"
@@ -177,6 +217,46 @@
       "lang": "cs",
       "page": 16,
       "path": "/cs/tvorba-s-ai/"
+    },
+    {
+      "lang": "cs",
+      "page": 17,
+      "path": "/cs/zacnete-zde/"
+    },
+    {
+      "lang": "cs",
+      "page": 18,
+      "path": "/cs/stahnout/"
+    },
+    {
+      "lang": "cs",
+      "page": 19,
+      "path": "/cs/hledat/"
+    },
+    {
+      "lang": "cs",
+      "page": 20,
+      "path": "/cs/kvizova-akademie/"
+    },
+    {
+      "lang": "cs",
+      "page": 21,
+      "path": "/cs/ztracena-poznamka/"
+    },
+    {
+      "lang": "cs",
+      "page": 22,
+      "path": "/cs/sestavit-hodinu/"
+    },
+    {
+      "lang": "cs",
+      "page": 23,
+      "path": "/cs/offline/"
+    },
+    {
+      "lang": "cs",
+      "page": 24,
+      "path": "/cs/napoveda/"
     },
     {
       "lang": "en",
@@ -264,6 +344,46 @@
       "path": "/en/making-with-ai/"
     },
     {
+      "lang": "en",
+      "page": 17,
+      "path": "/en/start-here/"
+    },
+    {
+      "lang": "en",
+      "page": 18,
+      "path": "/en/downloads/"
+    },
+    {
+      "lang": "en",
+      "page": 19,
+      "path": "/en/search/"
+    },
+    {
+      "lang": "en",
+      "page": 20,
+      "path": "/en/quiz-academy/"
+    },
+    {
+      "lang": "en",
+      "page": 21,
+      "path": "/en/missing-note/"
+    },
+    {
+      "lang": "en",
+      "page": 22,
+      "path": "/en/lesson-builder/"
+    },
+    {
+      "lang": "en",
+      "page": 23,
+      "path": "/en/offline/"
+    },
+    {
+      "lang": "en",
+      "page": 24,
+      "path": "/en/help/"
+    },
+    {
       "lang": "de",
       "page": 0,
       "path": "/de/"
@@ -349,6 +469,46 @@
       "path": "/de/gestaltung-mit-ki/"
     },
     {
+      "lang": "de",
+      "page": 17,
+      "path": "/de/hier-starten/"
+    },
+    {
+      "lang": "de",
+      "page": 18,
+      "path": "/de/downloads/"
+    },
+    {
+      "lang": "de",
+      "page": 19,
+      "path": "/de/suche/"
+    },
+    {
+      "lang": "de",
+      "page": 20,
+      "path": "/de/quiz-akademie/"
+    },
+    {
+      "lang": "de",
+      "page": 21,
+      "path": "/de/verschwundene-notiz/"
+    },
+    {
+      "lang": "de",
+      "page": 22,
+      "path": "/de/unterricht-planen/"
+    },
+    {
+      "lang": "de",
+      "page": 23,
+      "path": "/de/offline/"
+    },
+    {
+      "lang": "de",
+      "page": 24,
+      "path": "/de/hilfe/"
+    },
+    {
       "lang": "es",
       "page": 0,
       "path": "/es/"
@@ -432,6 +592,46 @@
       "lang": "es",
       "page": 16,
       "path": "/es/creacion-con-ia/"
+    },
+    {
+      "lang": "es",
+      "page": 17,
+      "path": "/es/empieza-aqui/"
+    },
+    {
+      "lang": "es",
+      "page": 18,
+      "path": "/es/descargas/"
+    },
+    {
+      "lang": "es",
+      "page": 19,
+      "path": "/es/buscar/"
+    },
+    {
+      "lang": "es",
+      "page": 20,
+      "path": "/es/academia-quiz/"
+    },
+    {
+      "lang": "es",
+      "page": 21,
+      "path": "/es/nota-perdida/"
+    },
+    {
+      "lang": "es",
+      "page": 22,
+      "path": "/es/crear-clase/"
+    },
+    {
+      "lang": "es",
+      "page": 23,
+      "path": "/es/sin-conexion/"
+    },
+    {
+      "lang": "es",
+      "page": 24,
+      "path": "/es/ayuda/"
     }
   ]
 }

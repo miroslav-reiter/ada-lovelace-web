@@ -1,0 +1,39 @@
+/* Learning tools inherit the salon's light, dark and reading preferences. */
+.studio-hero {border-bottom:1px solid var(--line);padding-block:3rem}
+.studio-hero h1 {font:500 clamp(2.5rem,6vw,5rem)/1.1 var(--serif);max-width:18ch;margin:1rem 0}
+.studio-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr));gap:1.25rem}
+.studio-card {padding:clamp(1rem,3vw,2rem);border:1px solid var(--ink);background:var(--paper);border-radius:8px;min-width:0}
+.studio-card:nth-child(3n+1) {background:color-mix(in srgb,var(--green) 35%,var(--paper))}
+.studio-card h3 {margin-top:0}
+.studio-route {padding-left:1.4rem}
+.studio-route li {padding:.75rem 0;border-bottom:1px solid var(--line)}
+.studio-route label {display:flex;align-items:center;gap:.6rem;min-height:44px}
+.page-studio input[type=checkbox] {width:1.3rem;height:1.3rem;accent-color:var(--ink)}
+.page-studio :is(input[type=search],select) {width:100%;min-height:48px;background:var(--paper);color:var(--ink);border:1px solid var(--ink);border-radius:4px;padding:.7rem;font:inherit;min-width:0}
+.studio-fields {display:grid;grid-template-columns:minmax(0,1fr);gap:.5rem;margin-bottom:1.5rem;max-width:42rem}
+.studio-fields label {font-weight:600;margin-top:.65rem}
+.studio-primary {background:var(--ink);color:var(--paper)}
+.page-studio .studio-primary:hover {background:var(--ink);color:var(--paper);text-decoration-thickness:2px}
+.studio-search {display:flex;gap:.75rem;margin-top:.75rem;max-width:52rem}
+.studio-results {list-style:none;padding:0;max-width:60rem}
+.studio-results li {padding:1.25rem 0;border-bottom:1px solid var(--line)}
+.studio-results h2 {font-size:1.6rem!important;margin-bottom:.5rem!important}
+.studio-results a,.studio-card-link {text-decoration:underline;text-underline-offset:.2em}
+.studio-answers {display:grid;gap:.75rem;margin-block:1.25rem}
+.studio-answers button {text-align:left;white-space:normal}
+.studio-answers button[aria-disabled=true] {cursor:default}
+.studio-answers button[data-answer=correct] {border-width:3px;border-style:double}
+.studio-answers button[data-answer=wrong] {border-style:dashed;border-width:3px}
+.studio-feedback {border-left:4px solid var(--ink);padding:1rem;background:var(--green)}
+.page-studio [hidden] {display:none!important}
+.studio-glossary {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:1rem}
+.studio-glossary>div {border-top:1px solid var(--line);padding:1rem 0}
+.studio-glossary dt {font-weight:700;font-size:1.25rem}.studio-glossary dd {margin:.6rem 0;line-height:1.7}
+.studio-promo {display:flex;gap:2rem;align-items:center;border-block:1px solid var(--ink);background:var(--green)}
+.studio-promo>div {flex:1;min-width:0}.studio-promo h2 {font:500 2.5rem/1.1 var(--serif);margin:1rem 0}
+.studio-related {border-top:1px solid var(--line)}
+#lesson-plan [contenteditable=true] {border:1px dashed var(--line);padding:.5rem;min-height:44px}
+#lesson-plan li {margin-bottom:1rem}#offline-progress {width:100%;height:1.5rem}
+.studio-card :is(button,a):focus-visible,.page-studio :focus-visible {outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:600px) {.studio-search,.studio-promo {flex-direction:column}.studio-search button {width:100%}.page-studio .section {padding-inline:1rem}}
+@media print {body:has(#lesson-output:not([hidden]))> :not(main) {display:none!important}body:has(#lesson-output:not([hidden])) main> :not(.section:has(#lesson-output)) {display:none!important}body:has(#lesson-output:not([hidden])) #lesson-form,body:has(#lesson-output:not([hidden])) #studio-status,#lesson-output>p,#lesson-output>.learn-actions {display:none!important}#lesson-plan {border:0;background:white;color:black;padding:0;font:12pt/1.5 system-ui}#lesson-plan [contenteditable=true] {border:0;padding:0}#lesson-plan h2 {font-size:20pt!important}#lesson-plan h3 {font-size:14pt!important}#lesson-plan a {color:black}.studio-related {display:none}}
